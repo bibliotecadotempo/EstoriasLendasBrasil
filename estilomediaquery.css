@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* celulare*/
+@media  screen and (min-width: 600px) and (max-width: 768 px) {
+    main {
+    padding: 50px 50px;
+}
+}
+
+/* Tablets*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    main {
+    padding: 100px 200px;
+}
+}
+
+/* Computadores */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    main {
+    padding: 150px 250px;
+}
+}
+
+/* Grandes Telas*/
+@media screen and (min-width: 1200px) {
+    main {
+    padding: 200px 250px;
+}
+}

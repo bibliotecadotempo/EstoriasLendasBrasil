@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Decorative';
+    src: url(Fonts/Decorative\ Quality.ttf);
+}
+
+@font-face {
+    font-family: 'Foliar';
+    src: url(Fonts/Foliar\ Initials.ttf);
+}
+
+@font-face {
+    font-family: 'Antigua';
+    src: url(Fonts/Maximilian\ Antiqua\ Initialen.ttf);
+}
+
+@font-face {
+    font-family: 'Maxini';
+    src: url(Fonts/maxini.ttf);
+}
+
+@font-face {
+    font-family: 'Royal';
+    src: url(Fonts/RoyalInitialen.ttf);
+}
+
+@font-face {
+    font-family: 'Spiri';
+    src: url(Fonts/SPIRI___.TTF);
+}
+
+@font-face {
+    font-family: 'Victoria';
+    src: url(Fonts/VictorianInitials1.ttf);
+}
+
+@font-face {
+    font-family: 'EBGItalic';
+    src: url(Fonts/EBGaramond-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'EBGaramound';
+    src: url(Fonts/EBGaramond-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Christmas';
+    src: url(Fonts/LastChristmas_PERSONAL_USE_ONLY.otf);
+}

@@ -1,2 +1,115 @@
 @charset "UTF-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--chocolate-cosmos);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main header > h1 {
+    background-color: var(--engineering-orange);
+    padding: 15px 0px;
+    font-family: "Christmas", cursive;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(255, 166, 0, 0.733);
+    color: var(--orange-web);
+    border-radius: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#menu .opcao {
+    display: flex;
+}
+
+.opcao > a {
+    background-color: var(--persimmon);
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 1px 1px rgba(190, 172, 3, 0.747);
+    color: var(--chocolate-cosmos);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: var(--princeton-orange);
+    transition-duration: .5s;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* elementos ficam um abaixo do outro */
+    align-items: center;    /* centraliza tudo na horizontal */
+    text-align: center;     /* centraliza o texto dentro da div */
+    padding: 20px;
+}
+
+.container img {
+    width: 50%;     /* ocupa 50% da largura da tela */
+    height: auto;   /* mantém a proporção original da imagem */
+    max-width: 600px; /* limite opcional para não ficar grande demais em telas largas */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+}
+
+.texto {
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "EBGaramound", Arial, Helvetica, sans-serif;
+    color: var(--orange-web);
+    max-width: 1000px;
+}
+
+.texto > h3::first-letter {
+    font-family: "Maxini", cursive;
+    font-size: 2em;
+    background-color: rgb(77, 17, 17);
+    padding: 2px;
+}
+
+.texto > h3 {
+    text-align: center;
+}
+
+.texto > p {
+    text-indent: 20px;
+}
+
+a {
+    color: var(--engineering-orange);
+}
+
+footer {
+    font-family: "EBGItalic", Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+footer > h1 {
+    background-color: var(--orange-web);
+    text-align: center;
+    padding: 15px 0px;
+}
