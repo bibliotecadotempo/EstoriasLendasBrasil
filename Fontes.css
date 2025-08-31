@@ -49,3 +49,18 @@
     font-family: 'Christmas';
     src: url(Fonts/LastChristmas_PERSONAL_USE_ONLY.otf);
 }
+
+@font-face {
+    font-family: 'Doubice';
+    src: url(Fonts/MonsieurLaDoulaise-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Unifra';
+    src: url(Fonts/UnifrakturMaguntia-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Yesterday';
+    src: url(Fonts/Yesteryear-Regular.ttf);
+}
