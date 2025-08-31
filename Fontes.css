@@ -64,3 +64,8 @@
     font-family: 'Yesterday';
     src: url(Fonts/Yesteryear-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Love';
+    src: url(Fonts/LoveLight-Regular.ttf);
+}

@@ -4,7 +4,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: var(--chocolate-cosmos);
+    background-color: var(--chefchaouen-blue);
 }
 
 ::-webkit-scrollbar {
@@ -15,7 +15,7 @@
 html {
     width: 100vw;
     height: 100vh;
-    background-color: var(--princeton-orange);
+    background-color: var(--jordy-blue);
 }
 
 body {
@@ -29,18 +29,18 @@ main {
 }
 
 main header > h1 {
-    background-color: var(--engineering-orange);
-    padding: 15px 15px;
+    background-color: var(--chrysler-blue);
+    padding: 15px 0px;
     font-family: "Christmas", cursive;
     font-size: 3em;
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(255, 166, 0, 0.733);
-    color: var(--orange-web);
+    box-shadow: 2px 2px 2px rgba(127, 211, 152, 0.733);
+    color: var(--uranian-blue);
     border-radius: 20px;
 }
 
 header > h1 {
-    text-shadow: 2px 2px 2px rgb(110, 109, 101);
+    text-shadow: 2px 2px 2px rgb(131, 124, 70);
 }
 
 div {
@@ -53,26 +53,25 @@ div {
 }
 
 .opcao > a {
-    background-color: var(--persimmon);
+    background-color: var(--neon-blue);
     align-content: center;
     text-align: center;
     padding: 5px;
     margin: 10px;
-    box-shadow: 2px 1px 1px rgba(190, 172, 3, 0.747);
-    color: var(--chocolate-cosmos);
+    box-shadow: 2px 1px 1px rgba(10, 118, 126, 0.747);
+    color: var(--uranian-blue);
     text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
 }
 
 a:hover {
-    background-color: var(--princeton-orange);
+    background-color: var(--chrysler-blue);
     transition-duration: .5s;
     text-decoration: underline;
 }
 
 #autor > h1{
-    background-color: rgba(160, 81, 45, 0.363);
+    background-color: rgba(121, 182, 233, 0.644);
     border-radius: 10px;
     padding: 5px;
     text-decoration: underline;
@@ -81,10 +80,10 @@ a:hover {
 }
 
 #autor {
-    color: var(--princeton-orange);
+    color: var(--chrysler-blue);
     font-size: 1.5em;
     font-family: "Unifra";
-    text-shadow: 2px 2px 2px gray;
+    text-shadow: 2px 2px 2px rgba(184, 236, 240, 0.822);
 }
 
 .container {
@@ -98,16 +97,8 @@ a:hover {
 .container img {
     width: 50%;     /* ocupa 50% da largura da tela */
     height: auto;   /* mantém a proporção original da imagem */
-    max-width: 400px; /* limite opcional para não ficar grande demais em telas largas */
+    max-width: 600px; /* limite opcional para não ficar grande demais em telas largas */
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
-}
-
-.img-box {
-  width: 300px; /* tamanho da imagem */
-  border: 3px solid #333;   /* cor e espessura da borda */
-  border-radius: 10px;      /* cantos arredondados (opcional) */
-  padding: 5px;             /* espaço entre imagem e borda */
-  background-color: #f17979; /* cor de fundo atrás da imagem */
 }
 
 .texto {
@@ -116,7 +107,7 @@ a:hover {
     text-align: justify;
     font-size: 1.2em;
     font-family: "EBGaramound", Arial, Helvetica, sans-serif;
-    color: var(--orange-web);
+    color: var(--chrysler-blue);
     max-width: 1000px;
 }
 
@@ -135,8 +126,8 @@ a:hover {
     text-indent: 20px;
 }
 
-a {
-    color: var(--engineering-orange);
+a:hover {
+    color: var(--uranian-blue);
 }
 
 footer {
@@ -145,7 +136,8 @@ footer {
 }
 
 footer > h1 {
-    background-color: var(--orange-web);
+    background-color: var(--chrysler-blue);
+    color: var(--chefchaouen-blue);
     text-align: center;
     padding: 15px 0px;
 }
