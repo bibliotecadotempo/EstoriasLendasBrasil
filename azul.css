@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--chrysler-blue);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--jordy-blue);
+}
+
+body {
+    width: 95vw;
+    height: 100vh;
+    margin: auto;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main header > h1 {
+    background-color: var(--neon-blue);
+    padding: 15px 15px;
+    font-family: "Christmas", cursive;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(18, 23, 97, 0.733);
+    color: var(--chrysler-blue);
+    border-radius: 20px;
+}
+
+header > h1 {
+    text-shadow: 2px 2px 2px rgb(5, 25, 68);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#menu .opcao {
+    display: flex;
+}
+
+.opcao > a {
+    background-color: var(--blue);
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 1px 1px rgba(74, 82, 148, 0.747);
+    color: var(--uranian-blue);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: var(--chefchaouen-blue);
+    transition-duration: .5s;
+    text-decoration: underline;
+    color: var(--blue);
+    box-shadow: 2px 2px 2px rgb(67, 150, 58);
+}
+
+#autor {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'christmas', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#autor >h1 {
+    background-color: blue;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(5, 23, 61, 0.705);
+    text-shadow: 2px 2px 2px rgba(161, 161, 53, 0.685);
+}
+
+#autor >h2 {
+    background-color: blue;
+    margin: auto;
+    margin-top: 5px;
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(5, 23, 61, 0.705);
+    text-shadow: 2px 2px 2px rgba(161, 161, 53, 0.685);
+}
+
+.container {
+    padding: 10px 20px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+.texto {
+    background-color: rgba(70, 43, 226, 0.747);
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    color: white;
+}
+
+.texto p {
+    background-color: rgba(70, 43, 226, 0.747);
+}
+
+.texto >h4 {
+    background-color: rgba(70, 43, 226, 0.747);
+}
+
+.texto >p >strong {
+    background-color: rgba(70, 43, 226, 0.747);
+}
+
+footer {
+    font-family: "EBGItalic", Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+footer > h1 {
+    background-color: var(--celadon);
+    text-align: center;
+    padding: 15px 0px;
+}
