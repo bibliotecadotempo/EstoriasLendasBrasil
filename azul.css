@@ -112,6 +112,11 @@ a:hover {
     margin-top: 10px;
 }
 
+.container img {
+    display: block;
+    margin: 20px auto;
+}
+
 .texto {
     background-color: rgba(70, 43, 226, 0.747);
     padding: 5px;

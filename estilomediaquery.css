@@ -25,6 +25,12 @@
     width: 100%;
     height: auto;
   }
+
+  .texto {
+    margin: auto;
+    max-width: 800px;
+  }
+  
 }
 
 /* Computadores */
@@ -32,6 +38,11 @@
     main header > h1 {
         max-width: 850px;
         margin: auto;
+    }
+
+    .texto {
+      max-width: 1000;
+      margin: auto;
     }
 
     .container img,
@@ -55,6 +66,11 @@
     main header > h1 {
     max-width: 900px;
     margin: auto;
+    }
+
+    .texto {
+      margin: auto;
+      max-width: 1300px;
     }
 
     .container img,
