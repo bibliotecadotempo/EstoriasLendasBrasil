@@ -102,14 +102,6 @@ a:hover {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
 }
 
-.img-box {
-  width: 300px; /* tamanho da imagem */
-  border: 3px solid #333;   /* cor e espessura da borda */
-  border-radius: 10px;      /* cantos arredondados (opcional) */
-  padding: 5px;             /* espaço entre imagem e borda */
-  background-color: #f17979; /* cor de fundo atrás da imagem */
-}
-
 .texto {
     flex-direction: column;
     padding: 20px;
@@ -118,6 +110,7 @@ a:hover {
     font-family: "EBGaramound", Arial, Helvetica, sans-serif;
     color: var(--orange-web);
     max-width: 1000px;
+    display: flex;
 }
 
 .texto > h3::first-letter {
