@@ -34,13 +34,13 @@ main header > h1 {
     font-family: "Christmas", cursive;
     font-size: 3em;
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(255, 166, 0, 0.733);
+    box-shadow: 2px 2px 2px rgba(236, 206, 36, 0.733);
     color: var(--orange-web);
     border-radius: 20px;
 }
 
 header > h1 {
-    text-shadow: 2px 2px 2px rgb(110, 109, 101);
+    text-shadow: 2px 2px 2px rgba(49, 45, 10, 0.719);
 }
 
 div {
@@ -48,43 +48,47 @@ div {
     justify-content: center;
 }
 
-#menu .opcao {
-    display: flex;
+.menu {
+    display: flex;            /* coloca os filhos lado a lado   */
+    justify-content: center;  /* centraliza horizontalmente     */
+    align-items: center;      /* centraliza verticalmente       */
+    flex-wrap: wrap;          /* quebra linha em telas pequenas */
+    gap: 10px;                /* espaço entre itens             */
+    margin: 20px 0;
 }
 
-.opcao > a {
-    background-color: var(--persimmon);
-    align-content: center;
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-    box-shadow: 2px 1px 1px rgba(190, 172, 3, 0.747);
-    color: var(--chocolate-cosmos);
+.opcao a {
+    display: block; /* ocupa todo o bloco clicável */
+    padding: 8px 14px;
+    background: var(--engineering-orange);
+    color: var(--uranian-blue);
     text-decoration: none;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px rgba(225, 238, 39, 0.74);
 }
 
-a:hover {
-    background-color: var(--princeton-orange);
-    transition-duration: .5s;
-    text-decoration: underline;
+.opcao a:hover {
+    background: var(--persimmon);
+    color: var(--rose-wood);
+    transition: .3s;
 }
 
-#autor > h1{
-    background-color: rgba(160, 81, 45, 0.363);
+.personagens h2{
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 3em;
+    color: var(--orange-web);
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.836);
+    font-family: 'unifra', arial, sans-serif;
+    background-color: var(--penn-red);
     border-radius: 10px;
-    padding: 5px;
-    text-decoration: underline;
-    margin-top: 10px;
+    box-shadow: 2px 3px 2px rgba(172, 107, 33, 0.74);
     text-align: center;
 }
 
-#autor {
-    color: var(--princeton-orange);
-    font-size: 1.5em;
-    font-family: "Unifra";
-    text-shadow: 2px 2px 2px gray;
+#arrelia {
+    font-family: 'EBGItalic';
 }
 
 .container {
@@ -99,7 +103,14 @@ a:hover {
     width: 50%;     /* ocupa 50% da largura da tela */
     height: auto;   /* mantém a proporção original da imagem */
     max-width: 400px; /* limite opcional para não ficar grande demais em telas largas */
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+    display: block;
+    margin: 20px auto;
+}
+
+img {
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(255, 102, 0, 0.705);
 }
 
 .texto {
@@ -115,9 +126,9 @@ a:hover {
 
 .texto > h3::first-letter {
     font-family: "Maxini", cursive;
-    font-size: 2em;
-    background-color: rgb(77, 17, 17);
+    font-size: 4em;
     padding: 2px;
+    text-shadow: 2px 2px 2px rgba(10, 8, 8, 0.781);
 }
 
 .texto > h3 {
@@ -128,8 +139,33 @@ a:hover {
     text-indent: 20px;
 }
 
+.bloco {
+    display: flex;
+    flex-direction: column; /* padrão mobile */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.bloco img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.bloco .descricao {
+    text-align: justify;
+}
+
 a {
     color: var(--engineering-orange);
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+a:hover {
+    background-color: var(--engineering-orange);
+    color: black;
 }
 
 footer {

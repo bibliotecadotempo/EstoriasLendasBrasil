@@ -19,17 +19,29 @@
         margin: auto;        
     }
 
-    .container img,
-  .img-box {
-    max-width: 350px;
-    width: 100%;
-    height: auto;
-  }
-
   .texto {
     margin: auto;
     max-width: 800px;
   }
+
+  .bloco {
+        flex-direction: row;     /* imagem e texto lado a lado */
+        align-items: center; /* alinha pelo centro */
+        gap: 30px;
+    }
+
+    .bloco:nth-child(even) {
+        flex-direction: row-reverse; /* alterna lados se quiser variar */
+    }
+
+    .bloco img {
+        flex: 0 0 40%;   /* imagem ocupa 40% */
+        max-width: 450px;
+    }
+
+    .bloco .descricao {
+        flex: 1;         /* texto usa o restante */
+    }
   
 }
 
@@ -45,24 +57,26 @@
       margin: auto;
     }
 
-    .container img,
-  .img-box {
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-  }
-
-  .img-box {
-  width: 300px; /* tamanho da imagem */
-  border: 3px solid #333;   /* cor e espessura da borda */
-  border-radius: 10px;      /* cantos arredondados (opcional) */
-  padding: 5px;             /* espaço entre imagem e borda */
-  background-color: #f17979; /* cor de fundo atrás da imagem */
-}
-
   html {
     font-size: 1.3em;
   }
+
+  .bloco {
+        flex-direction: row;     /* imagem e texto lado a lado */
+        align-items: center; /* alinha pelo centro */
+        gap: 30px;
+        flex-direction: center;
+    }
+    .bloco:nth-child(even) {
+        flex-direction: row-reverse; /* alterna lados se quiser variar */
+    }
+    .bloco img {
+        flex: 0 0 40%;   /* imagem ocupa 40% */
+        max-width: 450px;
+    }
+    .bloco .descricao {
+        flex: 1;         /* texto usa o restante */
+    }
 }
 
 /* Grandes Telas*/
@@ -78,13 +92,22 @@
 
     .texto {
       margin: auto;
-      max-width: 1300px;
+      max-width: 1200px;
     }
 
-    .container img,
-  .img-box {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-  }
+    .bloco {
+        flex-direction: row;     /* imagem e texto lado a lado */
+        align-items: center; /* alinha pelo centro */
+        gap: 30px;
+    }
+    .bloco:nth-child(even) {
+        flex-direction: row-reverse; /* alterna lados se quiser variar */
+    }
+    .bloco img {
+        flex: 0 0 40%;   /* imagem ocupa 40% */
+        max-width: 450px;
+    }
+    .bloco .descricao {
+        flex: 1;         /* texto usa o restante */
+    }
 }
