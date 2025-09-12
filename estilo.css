@@ -172,6 +172,55 @@ a:hover {
     color: black;
 }
 
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .item {
+    flex-direction: column;
+    background-color: var(--penn-red);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item {
+    align-items: center;
+    display: auto;
+}
+
+.item > p {
+    box-shadow: 2px 2px 2px rgba(68, 68, 23, 0.795);
+    background-color: var(--engineering-orange);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.item > img {
+    width: 90%;
+    max-width: 800px;
+    margin: 10px 10px 20px 10px;
+}
+
+.item > p > a {
+    text-decoration: none;
+    color: var(--uranian-blue);
+    background-color: var(--engineering-orange);
+}
+
+ .item a:hover {
+    background: var(--persimmon);
+    color: var(--rose-wood);
+    transition: .3s;
+}
+
 footer {
     font-family: "EBGItalic", Arial, Helvetica, sans-serif;
     font-size: small;
