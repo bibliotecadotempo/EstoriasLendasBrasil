@@ -5,6 +5,19 @@
     main header > h1 {
         max-width: 768px;
     }
+
+    body, html {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        min-height: 100vh;
+    }
+
+    .container {
+        min-height: 100vh;
+    }
 }
 
 /* Tablets*/
@@ -19,12 +32,12 @@
         margin: auto;        
     }
 
-  .texto {
-    margin: auto;
-    max-width: 800px;
-  }
+    .texto {
+        margin: auto;
+        max-width: 800px;
+    }
 
-  .bloco {
+    .bloco {
         flex-direction: row;     /* imagem e texto lado a lado */
         align-items: center; /* alinha pelo centro */
         gap: 30px;
@@ -41,6 +54,10 @@
 
     .bloco .descricao {
         flex: 1;         /* texto usa o restante */
+    }
+
+    footer {
+        margin: 0;
     }
   
 }

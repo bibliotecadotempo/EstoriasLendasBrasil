@@ -99,6 +99,10 @@ div {
     padding: 20px;
 }
 
+.centro {
+    text-align: center;
+}
+
 .container img {
     width: 50%;     /* ocupa 50% da largura da tela */
     height: auto;   /* mantém a proporção original da imagem */
