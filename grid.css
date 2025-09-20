@@ -1,9 +1,27 @@
 @charset "UTF=8";
 
+@media screen and (min-width: 800px){
+    #primeiro, #secundario {
+        font-size: 1.5em;
+    }
+
+    .cabecalho {
+        font-size: 1.5em;
+    }
+
+    .subtitulo >h1 {
+        font-size: 3em;
+    }
+}
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+
+h2 {
+    color: var(--selective-yellow);
 }
 
 ::-webkit-scrollbar {
@@ -27,6 +45,7 @@
     text-align: center;
     grid-area: 1 / 1 / 2 / 4;
     justify-items: center;
+    font-size: 1.3em;
 }
 
 #titulo {
@@ -78,13 +97,13 @@
     grid-area: 3 / 1 / 4 / 4;
     background-color: var(--engineering-orange);
     padding: 15px 100px;
-    font-family: "Christmas", cursive;
-    font-size: 1.2em;
+    font-family: "Love", cursive;
+    font-size: 1.5em;
     text-align: center;
     box-shadow: 2px 2px 2px rgba(236, 206, 36, 0.733);
     color: var(--orange-web);
     border-radius: 20px;
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -124,6 +143,17 @@
     max-width: 350px;
     align-self: center;
  }
+
+ a {
+    color: var(--princeton-orange);
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+a:hover {
+    background-color: var(--engineering-orange);
+    color: black;
+}
 
  .rodape {
     grid-area: 6 / 1 / 7 / 4;

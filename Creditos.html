@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="grid.css" media="all"> <!-- mobile first -->
     <link rel="stylesheet" href="Cores.css">
-    <link rel="stylesheet" href="estilo.css" media="all"> <!-- Mobile First -->
-    <link rel="stylesheet" href="estilomediaquery.css"> <!-- Demais Telas -->
+    <link rel="stylesheet" href="Fontes.css">
     <title>Créditos</title>
 </head>
 <body>
-
-    <main>
-        <header>
-                <h1>Estórias e Lendas do Brasil</h1>
-        </header>
-    </main>
-
-    <div id="menu"></div>
-    <script src="menu.js"></script>
-
-    <div class="personagens">
-        <h2>Créditos</h2>
-    </div>
-
     <div class="container">
-        <div class="texto">
-            <h2 class="centro">EDITORA FORMAR LTDA</h2>
+        <div class="cabecalho">
+            <div id="titulo">Estórias e Lendas do Brasil</div>
+        </div>
+
+        <div class="menus">
+            <div id="menu"></div>
+            <script src="menu.js"></script>
+        </div>
+
+        <div class="subtitulo">
+            <h1>Créditos</h1>
+        </div>
+
+        <div class="principal">
+
+            <div id="primeiro">
+                <h2 class="centro">EDITORA FORMAR LTDA</h2>
             <p class="centro">Dinamismo a serviço da cultura</p>
             <br>
-            <p>Na elaboração de alguns contos desta coleção foram consultados ou adaptados trechos das seguintes obras:</p>
+            </div>
+
+        </div>
+
+        <div class="secundario">
+            <div id="primeiro">
+                <p>Na elaboração de alguns contos desta coleção foram consultados ou adaptados trechos das seguintes obras:</p>
             <br>
             <p>Antologia do Folclore Brasileiro - LUIZ DA CAMARA CASCUDO</p>
             <br>
@@ -44,13 +50,10 @@
             <p>Folclore nacional - ALCEU MAYNARD ARAÚJO</p>
             <br>
             <p>Mitos do Brasil - THEOBALDO MIRANDA SANTOS</p>
-        </div>
+            </div>
+
+        <div class="rodape">Desenvolvido por JF</div>
     </div>
     
-    <footer>
-        <h1>Desenvolvido por JF</h1>
-    </footer>
-    
 </body>
-
 </html>

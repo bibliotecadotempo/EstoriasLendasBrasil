@@ -6,16 +6,6 @@
 }
 
 @font-face {
-    font-family: 'Foliar';
-    src: url(Fonts/Foliar\ Initials.ttf);
-}
-
-@font-face {
-    font-family: 'Antigua';
-    src: url(Fonts/Maximilian\ Antiqua\ Initialen.ttf);
-}
-
-@font-face {
     font-family: 'Maxini';
     src: url(Fonts/maxini.ttf);
 }
@@ -26,11 +16,6 @@
 }
 
 @font-face {
-    font-family: 'Spiri';
-    src: url(Fonts/SPIRI___.TTF);
-}
-
-@font-face {
     font-family: 'Victoria';
     src: url(Fonts/VictorianInitials1.ttf);
 }
@@ -38,11 +23,6 @@
 @font-face {
     font-family: 'EBGItalic';
     src: url(Fonts/EBGaramond-Italic-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: 'EBGaramound';
-    src: url(Fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
 @font-face {
