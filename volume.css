@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: var(--azul-claro);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--azul-violeta);
+}
+
+body {
+    width: 95vw;
+    height: 100vh;
+    margin: auto;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main header > h1 {
+    background-color: var(--azul-celestial);
+    padding: 15px 15px;
+    font-family: "Christmas", cursive;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(5, 28, 43, 0.733);
+    color: var(--azul-marinho);
+    border-radius: 20px;
+}
+
+header > h1 {
+    text-shadow: 2px 2px 2px rgba(226, 226, 199, 0.719);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;            /* coloca os filhos lado a lado   */
+    justify-content: center;  /* centraliza horizontalmente     */
+    align-items: center;      /* centraliza verticalmente       */
+    flex-wrap: wrap;          /* quebra linha em telas pequenas */
+    gap: 10px;                /* espaço entre itens             */
+    margin: 20px 0;
+}
+
+.opcao a {
+    display: block; /* ocupa todo o bloco clicável */
+    padding: 8px 14px;
+    background: var(--azul-celestial);
+    color: var(--azul-marinho);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px rgba(42, 50, 172, 0.74);
+}
+
+.opcao a:hover {
+    background: var(--azul-marinho);
+    color: var(--azul-celeste);
+    transition: .3s;
+}
+
+.personagens h2{
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 3em;
+    color: var(--azul-marinho);
+    text-shadow: 2px 3px 2px rgba(236, 236, 232, 0.836);
+    font-family: 'unifra', arial, sans-serif;
+    background-color: var(--azul-celeste);
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px rgba(10, 32, 94, 0.74);
+    text-align: center;
+}
+
+@media screen and (min-width: 870px) {
+    main header > h1 {
+    font-size: 5em;
+    }
+
+    .personagens h2{
+        font-size: 3.5em;
+    }
+
+    .opcao a {
+        font-size: 1.2em;
+    }
+
+    .estoria > a {
+        font-size: 4em;
+    }
+}
+
+body {
+    margin: 10px;
+}
+
+.estoria > a {
+    background-color: var(--azul-celestial);
+    width: 70%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    text-align: center;
+    font-family: 'Christmas';
+    font-size: 2em;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+}
+
+.estoria >a:hover {
+    background-color: var(--azul-marinho);
+    color: var(--azul-celeste);
+    transition-duration: .5s;
+    text-shadow: 2px 2px 2px rgb(42, 92, 230);
+}
+
+footer > h3{
+    background-color: var(--azul-violeta);
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+    color: var(--azul-claro);
+    font-family: 'EBGItalic';
+}
