@@ -1,3 +1,5 @@
+@charset "UTF=8";
+
 @charset "UTF-8";
 
 * {
@@ -86,103 +88,117 @@ div {
     text-align: center;
 }
 
-picture >img {
-    display: flex;
-    width: 95%;
+.container {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    gap: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.a1 {
+    grid-area: 1 / 1 / 2 / 3 ;
+    padding: 10px;
+    width: 95vw;
     margin: auto;
-    max-width: 900px;
-    padding-top: 30px;
 }
 
-@media screen and (min-width: 870px) {
-    main header > h1 {
-    font-size: 5em;
-    }
-
-    .personagens h2{
-        font-size: 3.5em;
-    }
-
-    .opcao a {
-        font-size: 1.2em;
-    }
-
-    .estoria > a {
-        font-size: 4em;
-    }
-
-    p {
-        font-size: 1.5em;
-    }
-}
-
-.estoria > a {
-    background-color: var(--azul-celestial);
-    width: 70%;
-    max-width: 600px;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px;
-    text-align: center;
-    font-family: 'Christmas';
-    font-size: 2em;
-    text-decoration: none;
-    text-shadow: 2px 2px 2px white;
-    font-weight: bold;
-}
-
-.estoria >a:hover {
-    background-color: var(--azul-marinho);
-    color: var(--azul-celeste);
-    transition-duration: .5s;
-    text-shadow: 2px 2px 2px rgb(42, 92, 230);
-}
-
-#introducao {
-    background-color: var(--azul-celeste);
-    padding: 10px;
-    text-indent: 30px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
-    font-size: 1.3em;
-    text-align: justify;
-    flex-direction: column;
-    border-radius: 10px;
-    margin: 10px auto;
-    width: 95%;
+.a1 >img {
+    width: 80vw;
+    height: auto;
     max-width: 1200px;
+    align-self: center;
 }
 
-#introducao > img {
-    border-radius: 10px;
-}
-
-#amigo {
-    background-color: var(--azul-celeste);
-    margin: 10px auto;
-    width: 95%;
-    padding: 10px;
-    text-indent: 30px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.671);
-    font-size: 1.3em;
-    text-align: justify;
+.a2 {
+    grid-area: 2 / 1 / 3 / 2;
     flex-direction: column;
-    border-radius: 10px;
-    max-width: 1200px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+    width: 400px;
 }
 
-#livro {
-    font-family: 'christmas';
-}
-
-p {
-    background-color: var(--azul-celeste);
-}
-
-p:first-of-type::first-letter {
+.a2 >p:first-of-type::first-letter {
     font-size: 4em;
     font-family: 'maxini';
+    background-color: var(--azul-claro);
 }
+
+.a3 {
+    grid-area: 2 / 2 / 3 / 3;
+    margin: auto;
+}
+
+.a4 {
+    grid-area: 3 / 1 / 4 / 2;
+    margin: auto;
+    height: 800px;
+    padding: 10px;
+}
+
+.a5 {
+    grid-area: 3 / 2 / 4 / 3;
+    margin: auto;
+    flex-direction: column;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.a5 >p {
+    background-color: var(--azul-claro);
+}
+
+.a6 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.a7 {
+    grid-area: 4/ 2 / 5 / 3;
+}
+
+.a8 {
+    grid-area: 5 / 1 / 6/ 3;
+}
+
+.a9 {
+    grid-area: 6 / 1 / 7 / 3;
+}
+
+.a10 {
+    grid-area: 7 / 1 / 8 / 3;
+}
+
+.a11 {
+    grid-area: 8 / 1 / 9 / 2;
+}
+
+.a12 {
+    grid-area: 8 / 2 / 9 / 3;
+}
+
+.a13 {
+    grid-area: 9 / 1 / 11/ 2;
+}
+
+.a14 {
+    grid-area: 9 / 2 / 10 / 3;
+}
+
+.a15 {
+    grid-area: 10 / 2 / 11 / 3;
+}
+
+.a16 {
+    grid-area: 11 / 1 / 12 / 3;
+}
+
+/*rodapé*/
 
 footer > h3{
     background-color: var(--azul-violeta);
