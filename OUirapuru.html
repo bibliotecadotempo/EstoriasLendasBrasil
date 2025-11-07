@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>O Uirapuru</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(17, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 3;}
+        #a2 {grid-area: 2 / 1 / 3 / 3;}
+        #a3 {grid-area: 3 / 1 / 4 / 3;}
+        #a4 {grid-area: 4 / 1 / 5 / 3;}
+        #a5 {grid-area: 5 / 1 / 6 / 2;}
+        #a6 {grid-area: 5 / 2 / 6 / 3;}
+        #a7 {grid-area: 6 / 1 / 7 / 3;}
+        #a8 {grid-area: 7 / 1 / 8 / 3;}
+        #a9 {grid-area: 8 / 1 / 9 / 3;}
+        #a10 {grid-area: 9 / 1 / 10 / 3;}
+        #a11 {grid-area: 10 / 1 / 11 / 3;}
+        #a12 {grid-area: 11 / 1 / 12 / 3;}
+        #a13 {grid-area: 12 / 1 / 13 / 3;}
+        #a14 {grid-area: 13 / 1 / 14 / 3;}
+        #a15 {grid-area: 14 / 1 / 15 / 3;}
+        #a16 {grid-area: 15 / 1 / 16 / 3;}
+        #a17 {grid-area: 16 / 1 / 17 / 3;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a17 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">O Uirapuru</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Quando estavam dando um passeio pela floresta, Marisa fez sinal para que os outrosparassem e disse:</p>
+            <p>- Ouçam que canto bonito! De quem será? Quem está cantando?</p>
+            <p>O Arrelia escutou atentamente e dirigiu-se à menina.</p>
+            <p>- De fato, Marisa. É muito bonito. Vamos ver qual de vocês adivinha quem está cantando.</p>
+            <p>- Eu sei, Arrelia, eu sei! – disse Carlinhos com cara de medo.</p>
+            <p>- Sabe, Carlinhos? Pois “diuga”, vamos!</p>
+            <p>- É a iara! Vamos embora daqui! Senão estamos perdidos!</p>
+            <p>- Calma! Não é a iara, não! Os índios dizem que ela tem o canto mais bonito ainda!</p>
+            <p>- Mais bonito ainda! Então quem está cantando?</p>
+            <p>É o uirapuru. Falei nele na outra estória. Lembram-se? De qualquer forma, não deixa de ser uma iara para as aves.</p>
+            <p>- Por que?</p>
+            <p>- Porque quando ele cante atrai as outras aves. Elas ficam silenciosas em volta dele ouvindo-o cantar. Só que não costuma leva-las para o fundo das águas como faz a iara com a gente. Dizem que é tão mágico que depois de morto serve de talismã.</p>
+            <p>- Talismã? O que é talismã? – perguntou Sérgio.</p>
+            <p>- Qualquer objeto que uma pessoa traz consigo e acreditando que ele pode livrá-la do mal e dar-lhe sorte.</p>
+            <p>- Bem que eu queria um!</p>
+            <p>Por que, Sérgio?</p>
+            <p>- Estou precisando de sorte na escola. Preciso melhorar minhas notas.</p>
+            <p>- Para isso conheço um bom talismã. É “danaudo” de bom. Quer que eu diga?</p>
+            <p>- É claro! Diga, Arrelia!</p>
+            <p>- É o estudo. O estudo é o melhor talismã para a gente conseguir boas notas!</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/uirapuru.png" alt="Uirapuru">
+        </div>
+        <div class="texto" id="a3">
+            <p>- Ah! Arrelia! Pensei que era verdade!</p>
+            <p>- E não é? Você conhece outro modo?</p>
+            <p>Não, não conheço.</p>
+            <p>Pois então. Mas vamos ouvir o cando do uirapuru. Não é qualquer um que tem esta “felicidaude”! Vamos ver se conseguimos encontra-lo? Mas devagar senão ele foge!</p>
+            <p>Depois de alguma busca, o Arrelia conseguiu localizá-lo no alto de uma enorme árvore:</p>
+            <p>- Olhem! Lá está ele! Vejam! Veem como está rodeado de pássaros? Todos querem ouví-lo! E não é para menos! Ouçam que notas!</p>
+            <p>- Aquele é o uirapuru? – perguntou Jaci, surpresa. Eu estava imaginando um pássaro bem mais bonito!</p>
+            <p>- Está vendo, Jaci, como a gente pode enganar-se? – disse o Arrelia. Mas ele já foi uma índia muito bonita!</p>
+            <p>- O que? Aquele passarinho já foi uma índia? Como pode? – exclamou a menina completamente espantada.</p>
+            <p>- Lembre-se de que no mundo das lendas tudo é possível.</p>
+            <p>- E como foi que aconteceu?</p>
+            <p>- Foi assim: Duas moças índias eram muito amigas. Estavam sempre juntas. Uma não largava a outra. Se a primeira gostava de uma coisa, a outra gostava também. Eram admiradas pela tribo inteira. Que “amizaude”! Nunca ninguém tinha visto coisa igual. Se uma estava doente, a outra ficava perto dela. Não saía para divertir-se de jeito nenhum.</p>
+            <p>Um dia elas estavam passeando pela aldeia e encontraram o novo cacique, um homem muito bonitão. Jamais haviam notado como ele era atraente. E a partir daquele momento as duas começaram a gostar dele. Mas uma não disse nada à outra. Só mais tarde, porém não revelaram quem era o moço.</p>
+            <p>- Estou gostando de um jovem tão simpático que você nem faz ideia – disse uma.</p>
+            <p>- Eu também! Você precisava ver que aparência ele tem! – respondeu a outra.</p>
+            <p>Aí a primeira pediu:</p>
+            <p>- Diga-me que é! Estou ansiosa!</p>
+            <p>A segunda não quis dizer:</p>
+            <p>- Não. Não posso contar porque desejo saber primeiro se ele gosta de mim. Ainda não tenho certeza! Conte você!</p>
+        </div>
+        <div class="imagem" id="a4">
+            <img src="imagem/18.png" alt="Anões">
+        </div>
+        <div class="texto" id="a5">
+            <p>- Também não posso contar. Estou como você. Por enquanto não sei o que ele pensa de mim.</p>
+            <p>Uma respeitou o desejo da outra e não tocaram mais no assunto. Continuaram a andar sempre juntas e sempre amigas. Só que a preocupação com o cacique não deixava que elas se divertissem mais como antes. E o tempo foi passando.</p>
+            <p>Meses depois, estavam andando pela floresta e falando sobre tudo o que era possível. Menos sobre o moço misterioso. Tanto falaram que ficaram sem ter o que dizer. E como não podiam ficar sem dizer nada, começaram a falar sobre o moço misterioso.</p>
+            <p>- Não sei – disse uma – mas creio que ele nem sabe que existo. Pelo menos jamais olhou para mim!</p>
+            <p>- Comigo também está acontecendo a mesma coisa – disse a outra. Ele nem toma conhecimento da minha presença.</p>
+            <p>- Mas quem é esse jovem que nem percebe a sua presença?</p>
+            <p>- Não posso contar. Conte você.</p>
+            <p>Está bem, Mas só se você prometer que me contará também. Promete?</p>
+            <p>- Prometo. Pode contar.</p>
+            <p>Bem. Mas não vá dar risada.</p>
+            <p>- Não dou, não. Pode contar.</p>
+            <p>- É ... é o cacique!</p>
+            <p>- O cacique? Mas não é possível! Você está brincando!</p>
+            <p>- Por que brincando? Não posso gostar dele? Por que ficou tão assustada?</p>
+            <p>Porque ele é o mesmo moço de quem lhe falei!</p>
+            <p>E as duas ficaram ali, uma olhando para a outra, completamente “apalermaudas”.</p>
+            <p>- Não é verdade! Você está brincando comigo! Não acredito!</p>
+        </div>
+        <div class="imagem" id="a6">
+            <img src="imagem/índias.png" alt="Índias">
+        </div>
+        <div class="texto" id="a7">
+            <p>- Quem não acredita sou eu! Você quer brincar comigo, não quer?</p>
+            <p>Por fim acabaram vendo que ambas gostavam do mesmo moço. O que podiam fazer? Ficaram pensando, pensando, até que uma sugeriu:</p>
+            <p>- É muito simples. Vamos ficar como estamos. Um dia ele há de dizer se gosta de uma de nós. Esta se casará com ele. A outra se conformará. Se não gostar de nenhuma, paciência.</p>
+            <p>- Mas como vamos fazer para que ele saiba que gostamos dele? Parece que somente olhar não basta.</p>
+            <p>- Então o melhor é lhe falarmos diretamente.</p>
+            <p>- Isso mesmo. É o melhor. E quando iremos?</p>
+            <p>- Quando tivermos coragem</p>
+            <p>Como a coragem não veio, tudo continuou como estava. Mas um dia a coisa mudou. Encontravam-se as duas passeando pela aldeia quando surgiu o cacique todo “simpáutico”. Ao passar por elas deu-lhes um sorriso. Elas quase desmaiaram.</p>
+            <p>- Foi para mim!</p>
+            <p>- Não! Eu vi! Foi para mim que ele sorriu!</p>
+            <p>Encontraram-se outras vezes com ele e a dúvida continuou. Não conseguiam saber de quem ele estava gostando. Aí surgiu uma ideia. A primeira moça propôs:</p>
+            <p>- Vamos separar-nos. É o único modo de sabermos de qual ele gosta. Se sorrir para você, é de você. Se sorrir para mim, é de mim. Está certo?</p>
+            <p>A outra concordou a naquele dia não andaram juntas. Quando se encontraram no fim do dia, uma disse à outra:</p>
+            <p>- Está resolvido. É de mim que ele gosta pois quando nos encontramos, ele me sorriu.</p>
+            <p>- Acho que você se enganou – disse a outra – pois foi para mim que ele sorriu!</p>
+        </div>
+        <div class="imagem" id="a8">
+            <img src="imagem/pesca.png" alt="Pesca">
+        </div>
+        <div class="texto" id="a9">
+            <p>Só havia mesmo um modo de conseguir a certeza: perguntar ao cacique. Mas como para isto elas não sentiam coragem, continuaram na mesma. E guardaram segredo. Por ser segredo, logo a aldeia inteira sabia do caso. Aí os mais velhos resolveram interferir e perguntar ao cacique de qual ele realmente gostava.</p>
+            <p>Quando o cacique ouviu a pergunta, ficou meio envergonhado, sem jeito, e não queria dizer. Tanto insistiram, porém, que ele resolveu responder:</p>
+            <p>- Bem, a verdade é que, é que gosto das duas!</p>
+            <p>- Ah! ... – exclamaram todos.</p>
+            <p>- E como vai ser? – perguntou um.</p>
+            <p>- Não pode ficar assim – respondeu outro.</p>
+            <p>O cacique pensou, pensou, e disse:</p>
+            <p>- Já sei. Amanhã iremos todos à floresta. Cada uma das moças levará arco e flecha. A que acertar em pleno voo a ave que eu indicar será escolhida por mim.</p>
+            <p>Como ninguém apresentou outra solução, todos concordaram com o cacique. A aldeia em peso ficou alvoroçada.</p>
+            <p>No dia seguinte, todos os que podiam andar seguiram para a floresta. Numa clareira, as duas índias empunharam o arco e a flecha e ficaram prontas para atirar. Quando apareceu uma ave muito branca e voando bem alto, o cacique ordenou:</p>
+            <p>- Agora!</p>
+            <p>As duas setas partiram ao mesmo tempo em direção da ave que voava despreocupadamente, sem ter nada com a coisa. Não se ouvia nem um suspiro sair da multidão de índios. Após um breve momento de expectativa, a ave começou a cair e uma flecha também.</p>
+            <p>- Acertou! Olhem! Acertou! – gritaram alguns.</p>
+            <p>- Mas qual delas terá acertado? – perguntaram outros.</p>
+        </div>
+        <div class="imagem" id="a10">
+            <img src="imagem/25.png" alt="Tupã">
+        </div>
+        <div class="texto" id="a11">
+            <p>- Logo saberemos! – outros disseram.</p>
+            <p>Vários meninos índios saíram correndo para apanhar a ave. Como havia sido feito um sinal diferente em cada seta, seria fácil saber qual das moças acertara. Naturalmente se em vez de uma, as duas flechas houvessem acertado o alvo, elas fariam novas provas até conseguir-se a vencedora. Mas não seria preciso pois todos tinham visto uma das flechas cair.</p>
+            <p>Em grande algazarra as crianças voltaram com a ave. Todos gritavam. Somente as duas índias pareciam de pedra. Apenas uma seta estava espetada no corpo da ave, é claro. A marca foi verificada e a dona da flecha foi escolhida para casar-se com o cacique. A que perdeu parecia conformada embora um pouco aborrecida, desanimada.</p>
+            <p>O casamento foi realizado com grandes festas e o casal foi morar numa cabana muito bonita.</p>
+            <p>- Tudo acabou bem e foram muito felizes, não é, Arrelia? E o uirapuru? – interrompeu Jaci.</p>
+            <p>A moça que perdeu, aborrecida pela derrota e pela falta da amiga, foi ficando cada vez mais triste até que um dia, não suportando mais a tristeza, procurou um lugar distante e começou a chorar. E chorou tanto, mas tanto, que as suas lágrimas formaram um riacho.</p>
+            <p>Tupã, o deus dos índios, estranhou o novo córrego que havia surgido de repente e veio ver o que estava acontecendo. Encontrou a pobre moça que chorava sem parar e sentiu pena da “coitauda”.</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/tupã.png" alt="Tupã">
+        </div>
+        <div class="texto" id="a13">
+            <p>- Que aconteceu, minha filha? – perguntou.</p>
+            <p>A moça contou-lhe tudo. Tupã ouviu-a e lhe respondeu:></p>
+            <p>- Compreendo sua tristeza mas você perdeu e precisa aceitar a derrota. Saber perder é uma vitória. Precisa conformar-se.</p>
+            <p>- Estou quase conformada. O que me deixa mais triste é a saudade que seinto, tanto do cacique como de minha amiga. E não tenho coragem de encontra-los pois não quero que vejam como estou triste. Ah! Se o senhor me transformasse numa ave ... Eu poderia vê-los sem que me percebessem.</p>
+            <p>Compadecido, Tupã resolveu fazer-lhe a vontade. E no lugar da moça surgiu um passarinho de aparência tão simples que não chamava a atenção. Imediatamente o passarinho voou para a cabana do cacique. Assim que chegou, viu o cacique e a esposa tão felizes, mas tão felizes que a índia sentiu ciúme e ficou mais triste ainda. Agora sim. Era um pobre passarinho e mais triste do que nunca. Mais uma vez Tupã sentiu pena da índia e começou a pensar numa solução. Lembrou-se que estava aborrecido com o barulho que as aves andavam fazendo na floresta. Era demais. Todas queriam cantar e gritar ao mesmo tempo. Já era hora de encontrar uma solução. Precisava achar uma ave que conseguisse impor um pouco de ordem naquela algazarra. Ali estava a oportunidade. Duas soluções de uma vez só: daria um belo canto à índia-passarinho, mas tão bonito que ela esqueceria sua tristeza e faria os outros pássaros ficarem calados de admiração.</p>
+        </div>
+        <div class="imagem" id="a14">
+            <img src="imagem/28.png" alt="Festa">
+        </div>
+        <div class="texto" id="a15">
+            <p>- De agora em diante você será o uirapuru. Seu canto será tão bonito que a fará esquecer sua tristeza. Quando os pássaros ouvirem suas notas maravilhosas não poderão resistir. Ficarão em silêncio para ouvi-la cantar.</p>
+            <p>E assim foi. Até hoje a moça índia canta quando sente tristeza e toda a “passarauda” fica em silêncio para ouvir o seu canto mágico.</p>
+            <p>Realmente é um canto fascinante. Tem qualquer coisa que prende a gente, que empolga.</p>
+            <p>- Se eu pudesse pegar um! – exclamou Carlinhos.</p>
+            <p>- E para que você quer pegar um uirapuru? – estranhou o Arrelia.</p>
+            <p>O menino olhou para ele espantado como se não houvesse dúvida na sua pergunta:</p>
+            <p>- Para que? Para por na gaiola, ora. Já pensou o que é ter esse passarinho em casa?</p>
+            <p>- Duvido que ele se habituasse a viver na gaiola. E depois, você teria coragem de prender um pássaro? Na minha opinião, é uma das piores coisas que uma pessoa pode fazer. Ainda mais considerando que o uirapuru é uma índia transformada em pássaro por Tupã! Digamos que você pusesse o uirapuru na gaiola e um dia, ao levantar-se, desse com Tupã, bravo como nem sei o que.</p>
+            <p>- Não brinque! – pediu Carlinhos. Não quero mais prender o uirapuru, não! Nem sonhando!</p>
+        </div>
+        <div class="imagem" id="a16">
+            <img src="imagem/30.png" alt="Arrelia e Crianças">
+        </div>
+        <div class="rodapé" id="a17"><h3>Desenvolvido por JF</h3></div>
+    </div>
+</body>

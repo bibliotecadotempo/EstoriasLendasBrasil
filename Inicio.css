@@ -1,0 +1,106 @@
+@charset "UTF=8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100vw;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main header > h1 {
+    background-color: var(--azul-celestial);
+    padding: 15px 15px;
+    font-family: "Christmas", cursive;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(5, 28, 43, 0.733);
+    color: var(--azul-marinho);
+    border-radius: 20px;
+}
+
+header > h1 {
+    text-shadow: 2px 2px 2px rgba(226, 226, 199, 0.719);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;            /* coloca os filhos lado a lado   */
+    justify-content: center;  /* centraliza horizontalmente     */
+    align-items: center;      /* centraliza verticalmente       */
+    flex-wrap: wrap;          /* quebra linha em telas pequenas */
+    gap: 10px;                /* espaço entre itens             */
+    margin: 20px 10px;
+}
+
+.opcao a {
+    display: block; /* ocupa todo o bloco clicável */
+    padding: 8px 14px;
+    background: var(--azul-celestial);
+    color: var(--azul-marinho);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px rgba(42, 50, 172, 0.74);
+}
+
+.opcao a:hover {
+    background: var(--azul-marinho);
+    color: var(--azul-celeste);
+    transition: .3s;
+}
+
+.personagens h2{
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 3em;
+    color: var(--azul-marinho);
+    text-shadow: 2px 3px 2px rgba(236, 236, 232, 0.836);
+    background-color: var(--azul-celeste);
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px rgba(10, 32, 94, 0.74);
+    text-align: center;
+    font-family: 'unifra', arial, sans-serif;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-indent: 30px;
+    padding: 10px 10px 10px 25px;
+    text-align: justify;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagem >img {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
