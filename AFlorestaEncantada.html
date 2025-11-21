@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>A Floresta Encantada</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: repeat(25, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 2 ;}
+        #a2 {grid-area: 1 / 2 / 2 / 4 ;}
+        #a3 {grid-area: 2 / 1 / 3 / 4 ;}
+        #a4 {grid-area: 3 / 1 / 4 / 4 ;}
+        #a5 {grid-area: 4 / 1 / 5 / 2 ;}
+        #a6 {grid-area: 4 / 2 / 5 / 4 ;}
+        #a7 {grid-area: 5 / 1 / 6 / 3 ;}
+        #a8 {grid-area: 5 / 3 / 6 / 4 ;}
+        #a9 {grid-area: 6 / 1 / 7 / 2 ;}
+        #a10 {grid-area: 6 / 2  / 7 / 4 ;}
+        #a11 {grid-area: 7 / 1 / 8 / 4 ;}
+        #a12 {grid-area: 8 / 1 / 9 / 4 ;}
+        #a13 {grid-area: 9 / 1 / 10 / 2 ;}
+        #a14 {grid-area: 9 / 2 / 10 / 4 ;}
+        #a15 {grid-area: 10 / 1 / 11 / 4 ;}
+        #a16 {grid-area: 11 / 1 / 12 / 4 ;}
+        #a17 {grid-area: 12 / 1 / 13 / 4 ;}
+        #a18 {grid-area: 13 / 1 / 14 / 4 ;}
+        #a19 {grid-area: 14 / 1 / 15 / 4 ;}
+        #a20 {grid-area: 15 / 1 / 16 / 4 ;}
+        #a21 {grid-area: 16 / 1 / 17 / 2 ;}
+        #a22 {grid-area: 16 / 2 / 17 / 4 ;}
+        #a23 {grid-area: 17 / 1 / 18 / 4 ;}
+        #a24 {grid-area: 18 / 1 / 19 / 4 ;}
+        #a25 {grid-area: 19 / 1 / 20 / 4 ;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a25 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">A Floresta Encantada</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Ih! Olhem! - Exclamou Iberê. O Arrelia vem vindo com uma cara de bravo que mete medo! Que será que aconteceu?</p>
+            <p>- Sei lá – respondeu Sérgio. Mas que ele está bravo, está mesmo. Vem pisando firme! Vai ver que se sentou em cima de uma casa de formigas!</p>
+            <p>O Arrelia ouviu as últimas palavras e explodiu:</p>
+            <p>- Não sentei em cima de um formigueiro, não, mas caí sentado na lama, naquela poça perto da lagoa! Olhem o meu estado, olhem!</p>
+            <p>- Puxa vida! É só barro! Vai ver que ele foi atraído pela iara! – Sussurrou Carlinhos.</p>
+            <p>- Vocês estão achando divertido, é? Pois eu não! Olhem só como estou! Todo “molhaudo”!</p>
+            <p>- Mas nós não temos culpa! Não fizemos nada, Arrelia! – interferiu Jaci.</p>
+            <p>- Não fizeram nada? Vocês pensam que não fizeram nada, mas foram os culpados do tombo que levei!</p>
+            <p>- Se não fizemos nada como é que fomos os culpados pelo seu tombo? – quis saber a menina.</p>
+            <p>- Quem foi que jogou aquela porção de cascas de bananas lá perto da lagoa? – inquiriu o Arrelia.</p>
+            <p>- Todos nós! – esclareceu Iberê. Enquanto você estava cochilando, fomos lá comer as bananas que trouxemos.</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/2 onça.png" alt="Onça">
+        </div>
+        <div class="texto" id="a3">
+            <p>- Pois foi nas cascas dessas bananas que escorreguei e chéu... bléu... bléu... Quando percebi estava “estatelaudo” naquela poça! Eu já havia ficado de pé quando escorreguei novamente e sentei outra vez na lama! Quando olhei para cima, vi dois macacos trepados num galho, rindo do meu estado! Pensei que eles fossem os culpados mas lembrei-me que por aqui não há bananeiras. Depois só um exército de macacos podia comer tanta banana! Era casca por toda a parte!</p>
+            <p>- Sentimos muito, Arrelia! Não fizemos por mal! Se soubéssemos! – disse Marisa com cara de pena.</p>
+            <p>- É claro que não fizeram por mal! Mas é preciso ter cuidado! Se eu caísse na lagoa? Ou então vocês?!p>
+            <p>- Nós podíamos nadar! Quase todos sabemos nadar! Os que sabem salvavam os outros! – respondeu Iberê.</p>
+            <p>O Arrelia olhou para ele assustado:</p>
+            <p>- Vocês pensam que aquilo é piscina? Nadar naquelas águas não é fácil, não! Pelo menos para nós. Só o susto deixa a gente completamente sem ação!</p>
+            <p>- Da próxima vez tomaremos cuidado. Não se preocupe – disse o menino.</p>
+            <p>- Está certo. Sei que vocês são obedientes e que não fariam tal coisa de propósito. Vou tomar banho lá na “cascauta” e trocar estas roupas. O pior é que vou ter de bancar a lavanderia. Bem, volto logo. Não saiam daqui.</p>
+            <p>Resmungando, o Arrelia seguiu para lavar-se numa cascata que havia um tanto longe do acampamento. Tão logo ele se afastou, Jaci disse a Marisa:</p>
+            <p>- O Arrelia não gostou do banho de lama. Também não é para menos. Já pensou o que é cair de repente dentro do barro?</p>
+            <p>- É mesmo. Não é gostoso. – Bem, pessoal, vamos brincar de esconde-esconde enquanto esperamos o Arrelia? Mas tem de ser aqui por perto. Ele pediu para não nos afastarmos.</p>
+            <p>Carlinhos animou-se:</p>
+            <p>- Vamos! Vamos! Quem será o pegador?</p>
+            <p>- Quem chegar por último àquela árvore – informou Marisa.</p>
+            <p>Correram todos em direção à árvore apontada pela menina. Carlinhos atrapalhou-se e perdeu.</p>
+        </div>
+        <div class="imagem" id="a4">
+            <img src="imagem/4 fadaflor.png" alt="Fada Flor">
+        </div>
+        <div class="imagem" id="a5">
+            <img src="imagem/6 criança onça.png" alt="Criança onça">
+        </div>
+        <div class="texto" id="a6">
+            <p>- É, Carlinhos, você chegou por último – disse Marisa. Será o pegador. Vá para longe e cubra os olhos. Quando eu gritar “pronto”, você pode começar a procurar. Está certo? Aquele que você encontrar primeiro é o novo pegador.</p>
+            <p>- Está bem, Marisa. Vou para lá.</p>
+            <p>A menina esperou que todos se escondessem e gritou:</p>
+            <p>- Pronto! Pode vir!</p>
+            <p>Mal Carlinhos chegou ao local, parou perto de um arbusto:</p>
+            <p>- De quem é esse pé? Já sei! Acusado! Pode sair, Sérgio!</p>
+            <p>- Que azar – disse Sérgio saindo de seu esconderijo. Por causa de meu pé!</p>
+            <p>- Quem manda ter um pé tão grande? Pode sair, pessoal! O Sérgio é o novo pegador!</p>
+            <p>- Vamos começar outra vez! – disse Marisa. O Sérgio vai bater cara!</p>
+            <p>- Bater cara? Por quê, Marisa? – perguntou o menino, surpreso.</p>
+            <p>Marisa riu:</p>
+            <p>- Você não sabe? Bater cara é cobrir os olhos para não ver a gente se esconder, entendeu?</p>
+            <p>- Entendi.</p>
+            <p>- Então vá indo. Só venha quando ouvir “pronto”, hein?</p>
+            <p>Sérgio foi para o lugar indicado.</p>
+            <p>- Pronto! – gritou Marisa.</p>
+            <p>Ele seguiu direto ao lugar onde ela estava escondida:</p>
+            <p>- Que engraçado! Uma planta com cabelos! Já sei de quem são! Pode sair, Marisa!</p>
+            <p>A menina ficou surpresa:</p>
+            <p>- Puxa, como é que não percebi que a planta era menor do que eu? Não é possível! Com esta havia outra planta bem maior quando me escondi! Tenho certeza!</p>
+            <p>- Ih! Pessoal, acuda! Depressa! A Marisa ficou louca! – gritou Sérgio o mais alto que pode.</p>
+            <p>- Deixe de brincadeira, Sérgio – pediu ela. Tenho certeza de que havia outra planta bem maior do que eu! Deve ter sido arrancada por alguém!</p>
+            <p>- E as marcas? – perguntou Sérgio. As raízes teriam deixado marcas! Não tem nenhum sinal no chão!</p>
+        </div>
+        <div class="texto" id="a7">
+            <p>- Olhem! – exclamou Marisa. O Arrelia vem vindo! Vou contar-lhe o que aconteceu!</p>
+            <p>- Mas não aconteceu nada, Marisa! – insistiu Sérgio. Você pensa que viu a árvore!</p>
+            <p>- Não! Para mim havia outra planta! E bem cheia de folhas! Tenho certeza! – Arrelia!</p>
+            <p>- Olá! Onde Vocês se meteram? Que alívio! Estou sentindo uma “leveuza”!... Também, com todo aquele barro! Mas o que foi?</p>
+            <p>- Arrelia! – repetiu Marisa indo ao encontro dele.</p>
+            <p>- Não me diga que aconteceu alguma coisa, Marisa!</p>
+            <p>- Não, não aconteceu! De grave, não. Foi só um caso interessante.</p>
+            <p>- Pois conte, ué! Contato que não seja nada sobre lama e banana, está certo? Durante um bom tempo não quero ouvir falar nada, mas “nauda”, “nauda”, sobre estas coisas.</p>
+            <p>- Nós estávamos brincando de esconde-esconde e fiquei atrás de duas plantas: uma era quase do meu tamanho; a outra, porém, era bem maior e tinha muitas folhas, de modo que fiquei completamente escondida. O Sérgio me achou com facilidade e notei que a planta maior havia sumido.</p>
+            <p>- Então foi “arrancauda” por algum de vocês! De que outro modo podia ter sumido?</p>
+            <p>- Não, Arrelia! Não tem marca nenhuma! Pode ser! – disse Marisa apontando para o chão onde deveria estar a planta.</p>
+            <p>- Sabe o que talvez tenha “aconteciudo”? Você fez confusão. Você não se havia escondido outras vezes?</p>
+            <p>- Só uma vez antes!</p>
+            <p>- Então. Você viu a árvora grande na primeira vez e pensa que foi na segunda.</p>
+            <p>- Não é possível! Será que me enganei assim?</p>
+        </div>
+        <div class="imagem" id="a8">
+            <img src="imagem/8 animais.png" alt="Animais">
+        </div>
+        <div class="imagem" id="a9">
+            <img src="imagem/10 onça macaco.png" alt="Onça macaco">
+        </div>
+        <div class="texto" id="a10">
+            <p>- A floresta é enganosa. Por que vocês não ficaram brincando na clareira?</p>
+            <p>- Já estamos cansados dela! Queríamos mais novidades! – esclareceu Marisa.</p>
+            <p>- É assim mesmo – disse o Arrelia. Somos todos iguais. Sempre que podemos, trocamos nossa segurança pelas promessas de uma nova aventura. É por causa disto que o mundo progride. Este caso me fez lembrar de uma estória engraçada sobre uns bichos que estavam cansados do lugar onde moravam. Havia vários bichos e ... Esperem. Vamos sentar-nos que ainda estou com as pernas tremendo do tombo, aliás, dos tombos que levei hoje. Agora sim. Pois é. Havia uma cidade de bichos numa velha floresta, não muito rica, mas habitada por eles fazia muitos e muitos anos e não tinha lugar que não conhecessem. Era comum ouvir-se um bicho dizer:</p>
+            <p>- Meu avô sempre contava que o avô dele gostava de deitar-se sob aquela árvore...</p>
+            <p>Era assim. Conheciam todas as coisas da floresta e não havia segredo para eles.</p>
+            <p>A vida ia passando. Entre os moradores havia um macaco e uma onça que já estavam cansados de morar ali: viviam sonhando em mudar-se. Não queria, porém, arriscar-se sozinhos. Queriam que todos os outros bichos fossem com eles. Viviam sonhando com uma nova cidade onde houvesse novas árvores para derrubar, rios repletos de peixes, um lugar de fartura, enfim, pois na verdade a floresta em que moravam já estava um tanto esgotada. Não passava dia sem que a onça dissesse:</p>
+        </div>
+        <div class="texto" id="a11">
+            <p>- Pois é, amigo macaco. Está na hora de procurarmos outras paragens. Precisamos mudar nossa cidade para outra floresta. Para um lugar que não seja tão explorado como este. Já pensou? Um lugar onde você encontrasse a maior variedade de frutas e onde eu pudesse caçar à vontade. Não é possível continuarmos onde estamos. Quase não há mais nada para fazer! Conhecemos todos os lugares! Todas as árvores! Todos os rios! Os dias passam tristemente porque não temos nada para descobrir, para contar!</p>
+            <p>- Não há dúvida, amiga onça. O difícil é convencer os outros bichos. Nenhum quer sair daqui! O tatu diz que não está disposto a fazer novos buracos. A tartaruga diz que tem casa própria e portanto todo lugar é a mesma coisa. Não vê motivo para sujeitar-se a uma longa caminhada. Não adiante! Não querem progredir! Tem medo de enfrentar o desconhecido!</p>
+            <p>Os dois tentavam a todo custo convencer os outros bichos da vantagem de procurarem um novo lugar.</p>
+            <p>Diante de tantas e tão animosas palavras, todos os outros bichos começaram a pensar no assunto. Mas acima de tudo pairava o medo. E se não desse certo? Teriam de voltar derrotados e começar tudo de novo.</p>
+            <p>A tartaruga, que era muito esperta, disse:</p>
+            <p>- Bem. Se eles acham que é interessante fundarmos uma nova cidade, cabe-lhes a obrigação de indicar-nos onde deverá ser construída.</p>
+            <p>- Muito bem! Está certo! – gritaram todos.</p>
+            <p>- Pois eles que partam e descubram um lugar melhor do que este para vivermos! – finalizou a tartaruga.</p>
+            <p>Como a onça e o macaco estavam loucos para dar um passeio, nem piscaram. Cada bicho contribuiu com o que pode para ajudar os dois e estes passaram quase a noite inteira fazendo os preparativos para a viagem. Nunca ninguém tinha visto bichos tão animados. A onça não parava de cantar e o macaco de assobiar, tão contentes estavam.</p>
+            <p>- Então, amigo macaco! Chegou a nossa hora! Seremos os pioneiros! Levaremos todos os nossos companheiros para um lugar melhor, de progresso, onde não haverá tempo para ninguém ficar parado! Haverá muito que construir!</p>
+            <p>- É mesmo, amiga onça! Finalmente nosso valor foi reconhecido. Logo que amanhecer sairemos em busca de uma nova floresta. Tenho certeza de uma coisa: farão nossas estátuas na nova cidade!</p>
+            <p>Mal o dia amanhecera, a onça e o macaco estavam prontos para a partida. Todos os bichos compareceram para a despedida. Todos já estavam contaminados pelo entusiasmo dos dois e só se ouviam gritos de:</p>
+            <p>- Viva a onça! Viva o macaco! Graças a eles teremos uma nova cidade!</p>
+            <p>Os dois partiram para a importante aventura. Tão carregados estavam de malas e sacos que mal podiam andar. Todos os bichos lhes ficaram acenando até que eles sumiram na primeira curva do caminho.</p>
+            <p>- Muito bem, amiga onça. Finalmente lá vamos nós. Custou, mas conseguimos mostrar aos outros quanto é importante construirmos uma nova cidade.</p>
+            <p>- É mesmo. Está na hora de deixarmos aquele lugar mais do que explorado. Precisamos de ação, de muita ação!</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/12 passaro.png" alt="Pássaro">
+        </div>
+        <div class="texto" id="a13">
+            <p>Fazia uma semana que os dois estavam andando e não surgira nenhum lugar em que pudesse ser erguida a nova cidade. Eles já estavam “cansaudos”.</p>
+            <p>- Não é possível que não encontramos um bom lugar por aqui – disse a onça.</p>
+            <p>- Pelo jeito ... Só temos encontrado lugares mais pobres do que o nosso!</p>
+            <p>- Que diremos aos outros quando voltarmos?</p>
+            <p>- Se nada encontrarmos, não terei coragem de voltar!</p>
+            <p>- Vamos prosseguir! Havemos de encontrar alguma coisa!</p>
+            <p>Continuaram a caminhada por mais alguns dias até que não tiveram mais forças. Aí procuraram uma sombra e ficaram sentados, tristes, quase chorando.</p>
+            <p>Apareceu-lhes então uma bonita moça, flutuando no ar como se fosse feita de fumaça. A onça e o macaco quase morreram de susto:</p>
+            <p>- Amigo macaco! Estou ficando louca! Dei para ter visões! Vejo uma bonita moça flutuando!</p>
+            <p>- Então também fiquei louco! Da mesma forma vejo uma jovem flutuando no ar!</p>
+            <p>Depois os dois ficaram mudos, de boca aberta e de olhos arregalados, fitando a estranha figura.</p>
+        </div>
+        <div class="imagem" id="a14">
+            <img src="imagem/14 cachoeira.png" alt="Cachoeira">
+        </div>
+        <div class="texto" id="a15">
+            <p>- Por que estão assustados? Ainda não conheciam uma fada? – perguntou a moça.</p>
+            <p>- Uma fada! – repetiu o macaco como se fosse um eco.</p>
+            <p>- Por que tanto susto? Sou a fada Lucinha. Ia passando por aqui e vi vocês tão tristes que fiquei com pena.</p>
+            <p>Os dois contaram toda a estória. A fada ouviou-os com atenção e aconselhou-lhes:</p>
+            <p>- Acho que seria melhor vocês continuarem na mesma cidade. Por que vão trocar o certo pelo duvidoso?</p>
+            <p>O macaco percebeu que a fada podia ajuda-los a encontrar o lugar desejado e mentiu:</p>
+            <p>- Nós dois ficaríamos lá mesmo! Mas os outros não querem! Estão cansados de ficar naquele lugar. Também quase não serve mais! A terra está cansada!</p>
+            <p>- É verdade! Reforçou a onça. Os outros bichos querem mudar-se de qualquer modo! Não temos coragem de dizer-lhes que fracassamos! Coitados!</p>
+            <p>- Se é assim – disse a fada – vou ajuda-los. Perto daqui há uma floresta maravilhosa, onde moro. É a mais bonita das florestas. Só que tem uma coisa: é encantada. Não é como as outras florestas, entendem? Não sei se vocês e seus amigos gostariam de viver lá.</p>
+            <p>É claro que gostariam! – apressou-se a onça. Desde que seja uma floresta bonita, eles aceitam qualquer uma. Quanto a nós então...</p>
+        </div>
+        <div class="imagem" id="a16">
+            <img src="imagem/16 duende.png" alt="Duendes">
+        </div>
+        <div class="texto" id="a17">
+            <p>- É claro que gostariam! – apressou-se a onça. Desde que seja uma floresta bonita, eles aceitam qualquer uma. Quanto a nós então...</p>
+            <p>- Vocês tem certeza? Olhem que é uma floresta encantada! Todos vocês terão o que quiserem mas não poderão cortar as árvores, nem cavar, nem pescar, nem caçar. Bastará que pensem e pronto! Aparecerá o que desejarem.</p>
+            <p>- Nada melhor! – disse a onça. Os outros bichos não quererão outra coisa!</p>
+            <p>- Isso mesmo! – reforçou o macaco. A senhora nem faz ideia de como ficarão contentes. Coitados.... O lugar onde moramos é muito feio! Muito antigo! Queremos um lugar bonito e desconhecido no qual possamos construir uma bonita cidade!</p>
+            <p>- Então venham comigo – pediu a fada. Vou mostrar-lhes a Floresta Encantada.</p>
+            <p>Os três seguiram. A fada ia na frente, a onça e o macaco atrás, animados pela promessa. Caminharam algum tempo e encontraram uma floresta tão bonita, mas tão bonita que fez os dois pararem de surpresa.</p>
+            <p>- Como é bonita! – Que árvores! Que flores! – gritou a onça.</p>
+            <p>- Perto dela a nossa floresta desaparece! – exclamou o macaco.</p>
+            <p>- Vamos entrar – disse a fada.</p>
+            <p>Entraram. Se por fora a floresta era bonita, por dentro não havia palavras para traduzir tanta beleza. Inúmeras cascatas despencavam de morros floridos, enchendo os ares com sua música alegre e repousante. Pássaros das mais variadas cores cruzavam os ares em todas as direções. Não podia existir tanta beleza! A fada Lucinha repetiu que era uma floresta encantada onde ninguém podia cortar as árvores, nem cavar, nem pescar, nem caçar. Talvez os outros bichos não gostassem. Era só desejar alguma coisa e pronto! A coisa aparecia. A onça e o macaco convenceram de uma vez a fada de que os outros bichos ficariam muito felizes e partiram. Estavam tão animados que gastaram na volta apenas metade do tempo que haviam levado na ida.</p>
+            <p>Assim que chegaram, os bichos promoveram a maior algazarra que já haviam feito. Na verdade, eles não esperavam ver mais a onça e o macaco. Os dois explicaram o que acontecera, sem contar, porém, nada sobre a fada e que a floresta era encantada, pois os bichos, sendo supersticiosos, se soubessem não iriam para lá de jeito nenhum. A tartaruga, que era muito boba, ficou logo entusiasmada e propôs:</p>
+            <p>- Vamos partir agora mesmo!</p>
+            <p>- Arrelia! – interrompeu Carlinhos.</p>
+            <p>- O que foi, Carlinhos? Levou uma “mordiuda” de algum bicho?</p>
+            <p>Se não me engano, você disse antes que a tartaruga era esperta. Agora já é boba?</p>
+            <p>- Eu falei? Você está ruim de memória. Está fazendo confusão! Vocês se lembram se falei?</p>
+        </div>
+        <div class="imagem" id="a18">
+            <img src="imagem/18 duendes.png" alt="Duendes">
+        </div>
+        <div class="texto" id="a19">
+            <p>- Falou sim! Falou que a tartaruga era muito esperta! – confirmou Jaci.</p>
+            <p>- Bem... Se falei... Ah! Também faz tempo! Ela acabou ficando boba!</p>
+            <p>Carlinhos não aceitou a saída do Arrelia:</p>
+            <p>- Isso é desculpa, Arrelia! Isso é desculpa! Não quer dizer que se enganou, hein?</p>
+            <p>- Você é de morte, Carlinhos – exclamou ele. Que menino! Bem, com tartaruga ou sem tartaruga vamos adiante. Ora, ora.</p>
+            <p>Pois é. Ele propôs que partissem naquele mesmo instante. Alguns bichos, porém, mais calmos, preferiram esperar um pouco. Precisavam desmanchar as casas, aprontar as malas... A onça interferiu:</p>
+            <p>- Podemos derrubar as casas, mas levar só o que for muito importante, de estimação, entendem? Lá tem muita madeira e tudo é fácil.</p>
+            <p>A espertalhona mandou levar alguma coisa para não dar na vista, pois sabia que na Floresta Encantada era suficiente um desejo para obter-se o que se quisesse. O macaco entrou na conversa e logo todos estavam loucos para se mudarem.</p>
+            <p>No dia seguinte começou a devastação. Não ficou uma casa de pé para que algum bicho estranho a aproveitasse. A onça e o macaco não aguentavam mais de alegria. Quando um dos bichos hesitava em derrubar ou quebrar alguma coisa, eles gritavam:</p>
+            <p>- Não tenha medo, compadre! Mãos à obra! Isso não fará falta na nova floresta!</p>
+            <p>Dentro em pouco, a antiga cidade dos bichos estava por terra. Recolheram o que acharam melhor, deram um último olhar ao local e tomaram o caminho da nova floresta. À frente, a onça e o macaco seguiam felizes, guiando aquela procissão de bichos dobrados sob o peso das bagagens.</p>
+            <p>Caminharam dias e dias. Quando se aproximaram da floresta, estavam no último fôlego. Tão logo, porém, viram quanto era maravilhosa, animaram-se e desandaram a correr. Não podiam acreditar em tanta beleza. Estavam tão ansiosos em construir a nova cidade que não esperaram mais. A primeira coisa a fazer era limpar um pedaço da floresta para ser a praça. Aí começou o problema. Assim que o tamanduá deu um golpe de machado numa árvore, ela gritou e saiu correndo. Com o susto, o tamanduá jogou o machado para cima, o qual foi cair nas costas da tartaruga. Sorte que esta possuía a casca bem resistente. A tartaruga, pensando que era uma guerra entre os bichos, ficou dias sem por a cabeça para fora. O tatu, mal abria um buraco, este tornava a encher-se de terra. Abria outro e dava no mesmo. Foi preciso que a fada Lucinha aparecesse para acertar as coisas. Chamou a atenção da onça e do macaco. Eles disseram que se haviam esquecido de avisar os outros bichos. Logo que os outros bichos viram a fada, ficaram com medo “daqueules”. Depois criaram confiança e se alegraram quando a fada lhes disse que bastava um pensamento para conseguirem o que desejassem. Não mais precisavam trabalhar. Em poucas horas a cidade estava pronta. O mal é que sendo encantada a floresta, as árvores podiam andar quando sentiam vontade e os bichos às vezes precisavam mudar de casa, procurando a sombra de novas árvores ou daquelas que haviam fugido.</p>
+            <p>- Não é possível! – dizia uma raposa. À noite minha casa estava embaixo de várias árvores e de manhã estava completamente desabrigada!</p>
+            <p>- Pois é – respondia um sapo. Às vezes, quando vou buscar água, a fonte mudou de lugar!</p>
+            <p>Mesmo assim a vida foi continuando. Não havia muito contentamento, porém... como não era necessário trabalhar e a comida era fácil, os bichos foram engordando, engordando que não podiam andar direito. Bufavam, resmungavam ao menor esforço.</p>
+            <p>A onça e o macaco também passavam pelo mesmo. Estavam tão gordos que ficavam a maior parte do tempo sentados sob alguma árvore e só andavam quando a árvore também andava. Um dia a onça disse ao macaco:</p>
+            <p>- Assim não pode continuar. Isso de precisarmos andar não é possível! É muito sacrifício!</p>
+            <p>- De fato – respondeu o macaco. Olhe! Tive uma ideia! Vou pedir à fada Lucinha que nos arranje um cavalo! Aí sim não teríamos mais preocupações!</p>
+        </div>
+        <div class="imagem" id="a20">
+            <img src="imagem/20 passaro.png" alt="Pássaro">
+        </div>
+        <div class="texto" id="a21">
+            <p>- Cavalo? – espantou-se a onça. O que é cavalo?</p>
+            <p>- É um animal no qual a gente pode montar! Vi alguns uma vez num lugar muito longe daqui por onde andei.</p>
+            <p>- E resolverá o nosso problema?</p>
+            <p>- Claro! Você vai ver. A primeira vez que eu encontrar a fada falarei com ela.</p>
+            <p>E ficaram ali mesmo, sem coragem de irem à procura da fada. Era mais cômodo esperar que ela os encontrasse. Tal aconteceu poucos dias depois. Ao ouvir o pedido do macaco, a fada espantou-se da mesma forma que a onça:</p>
+            <p>- Cavalo? O que é cavalo?</p>
+            <p>O pobre do macaco fez o que pode para explicar o que era um cavalo. Falou, falou e a fada não conseguiu entender. Tentou desenhar na terra mas, sendo péssimo desenhista, seus rabiscos pareciam tudo menos um cavalo.</p>
+            <p>- Não adiante – disse a fada. Se eu não conhecer a coisa desejada, ela não poderá tomar forma, entende?</p>
+            <p>- Que pena! – disseram os dois a uma só voz.</p>
+            <p>A fada pensou, pensou e por fim disse ao macaco:</p>
+            <p>- Já sei. Vou dar-lhe um poder. Ouça bem. Quando você vir uma nuvem que tenha a forma de cavalo, expresse o seu desejo. Logo terá o que deseja. Mas preste atenção! Depois que tiver o cavalo, trate de guardá-lo muito bem toda a vez que chover porque, sendo ele feito de nuvem, assim que sentir a chuva voltará a ser água e poderá inundar a floresta!</p>
+            <p>O macaco concordou e a partir daquele instante não fazia outra coisa que não fosse olhar o céu. Uma nuvem com a forma de cavalo! É, não era fácil, não. Mas como ele não tinha nada mais importante para fazer, dedicou-se à busca com vontade, ajudado pela onça que também tinha seus interesses.</p>
+        </div>
+        <div class="imagem" id="a22">
+            <img src="imagem/22 flor.png" alt="Flor">
+        </div>
+        <div class="texto" id="a23">
+            <p>Passou-se algum tempo. Um dia, finalmente, surgiu no céu uma nuvem branca muito bonita, apresentando a forma exata de um cavalo. O macaco nem piscou. Imediatamente a nuvem desapareceu e surgiu um belo cavalo branco ao lado dos dois amigos. O susto que a onça levou não foi “pequeuno”. Não fossem aquelas banhas e ela não haveria esperado a explicação do macaco. Acabou criando coragem e montaram no belo animal. Como nenhum dos bichos havia visto um cavalo, é fácil imaginar-se o que aconteceu. Foi uma corrida só. Um derrubava o outro na confusão que se formou. Mas tudo foi explicado e voltou a paz. A onça e o macaco andavam de um lado para o outro cavalgando o enorme cavalo branco. Os outros bichos, cautelosamente, ficavam sempre à distância.</p>
+            <p>E nada mais aconteceu... até que um dia o céu começou a escurecer coberto por grossas nuvens. A onça e o macaco estavam andando a cavalo bem longe da cidade. A onça olhou o céu preocupadamente, depois disse:</p>
+            <p>- Acho bom irmos embora depressa pois não demora que chova.</p>
+            <p>- O que tem? – perguntou o macaco. Até que é bom tomar uma chuvinha!</p>
+            <p>- Não é isso! Já se esqueceu do aviso da fada? Nosso cavalo não pode tomar chuva!</p>
+            <p>- Na certa ela exagerou. Em todo o caso, vamos indo.</p>
+            <p>Como o macaco não estava acreditando muito nas palavras da fada, não procurou apressar-se apesar da insistência da onça. Ela tremia que nem vara verde mas o “bandiudo” não se incomodava.</p>
+            <p>- Não tem perigo! – dizia ele. Não vai acontecer nada! Você vai ver!</p>
+            <p>O tempo cada vez mais feio e a onça cada vez mais apavorada. O macaco, muito teimoso, obrigava o cavalo a andar calmamente.</p>
+            <p>Quando entraram na cidade, começou a chover. Mal a primeira gota de água bateu no cavalo, este deu um estouro que jogou longe a onça e o macaco e transformou-se em água. Mas em tanta água que inundou a floresta; e os bichos, gordos como estavam, foi com grande sacrifício que subiram nas árvores, onde passaram vários dias esperando que as águas descessem, Os que não conseguiram subir ficaram boiando em cima de tábuas das casas destruídas pela inundação.</p>
+            <p>Por fim as águas cederam e os bichos puderam por de novo os pés em terra firme. A onça e o macaco, percebendo qualquer coisa no ar contra eles, continuaram na árvore a que haviam subido. Mas foram obrigados a descer. Não encontraram outra solução. Ou desciam ou seriam tirados à força.</p>
+            <p>Escaparam por pouco de levar uma surra. Todos os bichos estavam revoltados. Queriam voltar para a cidade antiga. Aí o tamanduá perguntou:</p>
+            <p>- Voltar para que? Destruímos tudo o que tínhamos!</p>
+            <p>A tartaruga, que era muito esperta....</p>
+            <p>- Arrelia! Agora a tartaruga é esperta outra vez? – quis saber Carlinhos.</p>
+            <p>O Arrelia ficou atrapalhado:</p>
+            <p>- Hein? Ah!... É isso! Ela ficou esperta outra vez!</p>
+            <p>Pois é. A tartaruga, que era muito esperta, disse:</p>
+            <p>- Não é por causa da onça e do macaco que estamos aqui? Não foi por causa deles que destruímos nossa cidade? Vamos voltar e obrigá-los a construírem tudo de novo!</p>
+            <p>De nada valeram as súplicas dos dois. Foram obrigados a iniciar a reconstrução da cidade antiga e talvez até hoje ainda estejam trabalhando porque os outros bichos, habituados agora a comer e a dormir o dia inteiro, não querem nem pensar em trabalhar.</p>
+        </div>
+        <div class="imagem" id="a24">
+            <img src="imagem/25 fada.png" alt="Fada">
+        </div>
+        <div class="rodapé" id="a25"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
