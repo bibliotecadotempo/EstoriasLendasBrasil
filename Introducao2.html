@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>Introdução2</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 2;}
+        #a2 {grid-area: 2 / 1 / 3 / 2;}
+        
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a2 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">Introdução</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Acomodados no interior do ônibus, Arrelia e sua turminha seguiram viagem. Cansadas, as crianças estavam quietas, sonolentas, e logo adormeceram. O Arrelia arrumou-se o melhor que pode e tratou de tirar um cochilo.</p>
+            <p>Depois de algumas horas de viagem, o ônibus fez uma breve parada e subiram, entre outros novos passageiros, três homens carregando, além da bagagem, alguns instrumentos musicais.</p>
+            <p>Iberê, que se achava sentado com o Arrelia e que se acordara com o movimento das pessoas descendo e subindo, deu um cutucão no Arrelia. Dormindo como já então estava, ele despertou-se sobressaltado:</p>
+            <p>- Hein? Que aconteceu? Onde estou?</p>
+            <p>O menino ficou assustado com a reação do Arrelia e explicou:</p>
+            <p>- Não aconteceu nada! Eu só queria mostrar-lhe os homens que subiram agora. São interessantes. Veja. Usam chapéus de couro e carregam instrumentos. Será que são músicos?</p>
+            <p>O Arrelia virou-se com muito sacrifício e procurou olhar para onde Iberê indicara. Voltou-se então para o menino:</p>
+            <p>- E o que você queria que fossem? Pescadores?</p>
+            <p>- Está certo – respondeu o menino, meio encabulado por ter percebido a desnecessidade da sua pergunta. Mas você viu os chapéus deles como são esquisitos?</p>
+            <p>Outra vez o Arrelia voltou a cabeça para admirar os novos passageiros:</p>
+            <p>- É, de fato. São chapéus típicos dos vaqueiros do Nordeste. Só que em trabalho eles usam a roupa inteiramente de couro. Esses talvez não sejam vaqueiros e sim somente músicos. Músicos folclóricos</p>
+            <p>Justamente quando o Arrelia estava falando sobre eles, um começou a cantar, acompanhando-se à viola:</p>
+            <br>
+                    <p id="destaque">”Porque foges, boi malhado,</p>
+                    <p id="destaque">e te matas de cansaço?</p>
+                    <p id="destaque">A minha mão é certeira</p>
+                    <p id="destaque">e mais certeiro o meu laço.</p>
+                    <p id="destaque">Fugir de mim tu não podes;</p>
+                    <p id="destaque">por que não vens encontrar-me?</p>
+                    <p id="destaque">Tudo o que quero consigo,</p>
+                    <p id="destaque">nada consegue escapar-me.</p>
+                    <p id="destaque">Nesse dizer reconheço</p>
+                    <p id="destaque">um pouco de falsidade,</p>
+                    <p id="destaque">pois não consegue o meu laço</p>
+                    <p id="destaque">laçar a felicidade.”</p>
+                    <br>
+            <p>O Arrelia e Iberê ouviram com toda a atenção. Assim que o cantor silenciou, o Arrelia disse ao menino:</p>
+            <p>- Bonito! Êta Brasil maravilhoso! Quanta coisa linda a gente encontra!</p>
+            <p>Iberê concordou com entusiasmo. O Arrelia prosseguiu:</p>
+            <p>- Na verdade, devem ser vaqueiros. Costumam cantar assim nas longas noites das caatingas, ao redor da fogueira, sob a luz das estrelas e ao clarão nostálgico da Lua. São uns lutadores. E que artistas! Nas suas horas de solidão criam músicas, poesias e estórias pitorescas que vem enriquecer nosso folclore.</p>
+            <p>O Arrelia parou um pouco de falar a fim de ouvir o princípio da nova moda que um dos vaqueiros começara a cantar e continuou:</p>
+            <p>- Na região que agora visitaremos, vamos encontrar muita coisa interessante: cidades antigas com seus casarões coloniais... as caatingas...Muita coisa bonita que merece ser vista.</p>
+            <p>Terminada a música, o ônibus mergulhou em silêncio. O Arrelia e Iberê procuraram ajeitar-se para continuar o sono interrompido. Antes, porém, o Arrelia queixou-se:</p>
+            <p>- Do modo como este ônibus sacode, acordaremos mais cansados do que nos encontramos. Já estou todo “quebraudo”! Mas valerá o sacrifício. Você vai ver.</p>
+        </div>       
+        <div class="rodapé" id="a2"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>

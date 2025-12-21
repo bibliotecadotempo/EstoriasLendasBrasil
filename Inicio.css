@@ -98,6 +98,13 @@ div {
     margin: 0 auto;
 }
 
+#destaque{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
 .imagem >img {
     width: 80%;
     max-width: 1200px;
