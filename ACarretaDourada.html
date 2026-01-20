@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>A Carreta Dourada</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(15, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 3;}
+        #a2 {grid-area: 2 / 1 / 3 / 3;}
+        #a3 {grid-area: 3 / 1 / 4 / 3;}
+        #a4 {grid-area: 4 / 1 / 5 / 3;}
+        #a5 {grid-area: 5 / 1 / 6 / 3;}
+        #a6 {grid-area: 6 / 1 / 7 / 3;}
+        #a7 {grid-area: 7 / 1 / 8 / 3;}
+        #a8 {grid-area: 8 / 1 / 9 / 3;}
+        #a9 {grid-area: 9 / 1 / 10 / 3;}
+        #a10 {grid-area: 10 / 1 / 11 / 3;}
+        #a11 {grid-area: 11 / 1 / 12 / 3;}
+        #a12 {grid-area: 12 / 1 / 13 / 3;}
+        #a13 {grid-area: 13 / 1 / 14 / 3;}
+        #a14 {grid-area: 14 / 1 / 15 / 3;}
+        #a15 {grid-area: 15 / 1 / 16 / 3;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a15 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">XXXXXXXXXXXXXX</h2>
+    </div>
+
+    <div class="principal">
+        <div class="" id="a1"></div>
+        <div class="" id="a2"></div>
+        <div class="" id="a3"></div>
+        <div class="" id="a4"></div>
+        <div class="" id="a5"></div>
+        <div class="" id="a6"></div>
+        <div class="" id="a7"></div>
+        <div class="" id="a8"></div>
+        <div class="" id="a9"></div>
+        <div class="" id="a10"></div>
+        <div class="" id="a11"></div>
+        <div class="" id="a12"></div>
+        <div class="" id="a13"></div>
+        <div class="" id="a14"></div>
+        <div class="rodapé" id="a15"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>

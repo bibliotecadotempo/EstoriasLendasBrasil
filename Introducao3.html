@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>Introdução</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr;
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 2;}
+        
+        #a2 {grid-area: 2 / 1 / 3 / 2;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a2 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">Introdução</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Preparando-se para a viagem ao Sul, nossos amigos arrumavam decididamente as malas. Jaci e Marisa, terminando antes, vieram com sua bagagem ao quarto onde o Arrelia e os meninos se movimentavam dentro da maior confusão. Depois de socar o melhor possível a roupa na sua mala, o Arrelia tratou de puxar a correia que a envolvia a fim de afivelá-la. Vendo que seu esforço não era bastante, pediu a ajuda de Iberê. Os dois agarraram a ponta da correia e começaram a puxá-la valentemente. A correia acabou por cansar-se e entregou os pontos: arrebentou -se. Apanhados de surpresa, os dois saíram violentamente de costas, sem conseguir parar, só o fazendo ao encontrarem Sérgio e Carlinhos, que estavam, também de costas, ocupados com sua bagagem. O encontro não foi brincadeira. Rolaram os quatro por cima das malas, virando-as e esparramando as roupas que se achavam dentro. Passado o susto, Jaci e Marisa puseram-se a rir de gosto. O Arrelia, fazendo esforço paro levantar-se, exclamou:</p>
+            <p>- Cuê-puxa! Que tombo levei eu!</p>
+            <p>- Que tombo levamos nós! corrigiu Sérgio, cuja cabeça aparecera de sob um monte de roupa.</p>
+            <p>- Olhem o que vocês fizeram! – reclamou Carlinhos, sentando-se e olhando para o Arrelia e para Iberê. Não vai ser fácil separar toda essa roupa! Que confusão! Misturou tudo!</p>
+            <p>Os quatro puseram mãos à obra, assistidos pelas duas meninas, que descansavam tranquilamente sentadas cada uma em sua mala. O Arrelia não parava de falar no que acontecera. </p>
+            <p>Quando tudo voltou à ordem, Jaci perguntou ao Arrelia: </p>
+            <p>- O que significa aquilo que você disse na hora do tombo? </p>
+            <p>- Cuê-puxa? – quis saber o Arrelia depois de pensar um pouco. </p>
+            <p>- Isso mesmo! – confirmou a menina. </p>
+            <p>- É uma exclamação gaúcha. Expressa surpresa, admiração. Como estamos de partida para lá, acho que é bom eu ir praticando. </p>
+            <p>- Não vejo a hora de conhecer o Rio Grande do Sul! </p>
+            <p>- E não vai arrepender-se. É uma região muito bonita. Já estou vendo aquelas campinas sem fim, pontilhadas por grandes árvores solitárias. O gado pastando, as emas . . . Mas sabe o que tenho mesmo “vontaude” de fazer? </p>
+            <p>- Não faço ideia. </p>
+            <p>- Comer churrasco e tomar chimarrão. Até estou sentindo o gosto. </p>
+            <p> - Arre! Já está pensando em comer? Não faz uma hora que jantamos! </p>
+            <p>Ouvindo a palavra comer, Iberê aproximou-se interessado: </p>
+            <p>- O que tem para comer? </p>
+            <p>- Esse é pior do que eu - disse o Arrelia. Eu estava falando que não vejo a hora de comer churrasco e tomar chimarrão. </p>
+            <p>- Pode contar com um companheiro - afirmou o menino. </p>
+            <p>- Companheiro? Se eu não abrir os olhos, você come tudo! </p>
+            <p>- Que exagero! Imagine! - disse Iberê, fingindo estar magoado</p>
+            <p>- "Exageuro"? Sim, eu sei. "Exageuro" é o que você come. Mas vamos andando que está na hora. </p>
+            <p>E nossos amigos viajaram para o Sul, cada um pensando nas coisas de seu gosto que iria encontrar.</p>
+        </div>
+        <div class="rodapé" id="a2"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>

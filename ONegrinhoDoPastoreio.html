@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>O Negrinho do Pastoreio</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(17, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 3;}
+        #a2 {grid-area: 2 / 1 / 3 / 2;}
+        #a3 {grid-area: 2 / 2 / 3 / 3;}
+        #a4 {grid-area: 3 / 1 / 4 / 3;}
+        #a5 {grid-area: 4 / 1 / 5 / 3;}
+        #a6 {grid-area: 5 / 1 / 6 / 3;}
+        #a7 {grid-area: 6 / 1 / 7 / 2;}
+        #a8 {grid-area: 6 / 2 / 7 / 3;}
+        #a9 {grid-area: 7 / 1 / 8 / 2;}
+        #a10 {grid-area: 7 / 2 / 8 /3;}
+        #a11 {grid-area: 8 / 1 / 9 / 3;}
+        #a12 {grid-area: 9 / 1 / 10 / 3;}
+        #a13 {grid-area: 10 / 1 / 11 / 3;}
+        #a14 {grid-area: 11 / 1 / 12 / 3;}
+        #a15 {grid-area: 12 / 1 / 13 / 3;}
+        #a16 {grid-area: 13 / 1 / 14 / 3;}
+        #a17 {grid-area: 14 / 1 / 15 / 3;}
+        #a18 {grid-area: 15 / 1 / 16 / 3;}
+        #a19 {grid-area: 16 / 1 / 17 / 3;}
+        #a20 {grid-area: 17 / 1 / 18 / 3;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a20 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+
+        .texto1 {
+            background-image: url(imagem/Volume3/6.png);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .texto2 {
+            flex-direction: column;
+            text-indent: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            padding: 20px;
+        }
+
+        .texto3 {
+            background-image: url(imagem/Volume3/7.png);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .texto4 {
+            flex-direction: column;
+            text-indent: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 90%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            padding: 20px;
+        }
+
+        .texto5 {
+            background-image: url(imagem/Volume3/9.png);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .texto6 {
+            flex-direction: column;
+            text-indent: 30px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 83%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">O Negrinho do Pastoreio</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Vamos encontrar o Arrelia e seus amiguinhos já no Rio Grande do Sul, hospedados numa estância muito bonita. Estão sentados nos paus da cerca do curral, apreciando o trabalho de vários cavaleiros junto à boiada.</p>
+            <p>- Aqui no Sul há muitas tradições e bonitas estórias – disse o Arrelia. Vocês vão gostar bastante.</p>
+            <p>- Conte uma estória daqui, Arrelia! – pediu Carlinhos, tentando agarrar o chifre de um boi que estava ali perto.</p>
+            <p>- Cuidado! – advertiu o Arrelia. “Chifrauda” não é picada de alfinete! Se você cai no meio desses bois, era uma vez o Carlinhos.</p>
+            <p>- Conte uma estória, Arrelia! – tornou a pedir o menino, procurando agora acertar com o pé o traseiro de outro boi.</p>
+            <p>- Vendo o Carlinhos e esses cavaleiros – disse o Arrelia – lembrei-me do Negrinho do Pastoreio, uma estória muito conhecida. Talvez vocês já a tenham ouvido.</p>
+            <p>Jaci, Iberê e Sérgio disseram que sim. Marisa e Carlinhos não a conheciam. Mas todos queriam ouvi-la.</p>
+            <p>- Foi no tempo da escravidão – começou o Arrelia. Havia um homem muito rico que possuía uma estância sem fim. Estância aqui é o que chamamos de fazenda, vocês sabem. Tinha uma grande criação de bois e de cavalos. Ela não sabia onde terminavam suas terras nem quantos eram os seus animais. Apesar de tanta riqueza, o homem era ruim como cobra. Não gostava de ninguém a não ser de seu filho, um menino muito feio e louco para fazer maldades, e de um cavalo baio, obediente e ligeiro como ele só. /p>
+            <p>Se era para fazer favor, não se podia contar com o estancieiro. Não dava um níquel a ninguém. Se algum cavaleiro, perdido por ali, necessitava de pousada numa noite de inverno, podia preparar-se para morrer ao relento porque o homem não tinha pena de quem quer que fosse. Tão grande era a sua fama de pão-duro que custava para ele encontrar trabalhadores. Sabiam todos que pagava mal e que a comida, além de pouca, era tão ruim que não passava na garganta.</p>
+        </div>
+        <div class="texto" id="a2">
+            <p>Entre os seus escravos havia um menino, pretinho que nem carvão, muito trabalhador e obediente. Não parava o dia inteiro. O Sol, ao nascer, já o encontrava ocupado com seus afazeres e ao se pôr ainda o deixava trabalhando. Sua principal ocupação era a de pastor.</p>
+            <p>O menino não tinha nome. Ninguém se havia dado ao trabalho de achar-lhe um. Assim, ficou conhecido como Negrinho.</p>
+            <p>Depois de terminar o seu trabalhoso dia, encontrava para comer, antes de ir para os trapos que lhe serviam de cama, um mísero prato de comida, tão ruim que apesar de pouca sobrava resto. O pior, porém, era o que o filho do estanceiro lhe fazia. Judiava do pretinho até não poder mais. Beliscava-o, xingava-o, provocava-o</p>
+            <p>- E o Negrinho era obrigado a aguentar? – perguntou Jaci, indignada. Por que não lhe dava uma bofetada?</p>
+            <p>- “Bofetauda”? Coitado dele! Se o menino se queixava ao pai, o Negrinho estava perdido. Mesmo sendo útil à estância como ele era, seria castigado sem piedade. E olhem que era o melhor cavaleiro da região. Montava muito bem e era um mestre em atirar o laço.</p>
+        </div>
+        <div class="imagem" id="a3">
+            <img src="imagem/Volume3/1.png" alt="Vela">
+        </div>
+        <div class="texto" id="a4">
+            <p>Um dia, um vizinho do estanceiro tinha ido à estância para falar com ele sobre um negócio quando o Negrinho passou montado num cavalo baio, o predileto do patrão.</p>
+            <p>- Belo cavalo – disse o visitante.</p>
+            <p>- É o meu preferido – respondeu o estanceiro. É o mais veloz que existe. Não há melhor cavalo por aqui.</p>
+            <p>- Assim também não! – exclamou o primeiro. Tenho um cavalo que passeando é mais rápido que o seu correndo.</p>
+            <p>O estanceiro ficou louco da vida. Até espumou de raiva:</p>
+            <p>- Que coragem! Dizer que tem um cavalo melhor que o meu! Nunca!</p>
+            <p>- Não fique bravo que não adianta nada – pediu o visitante. Só tem um modo de provarmos qual dos dois cavalos é o melhor.</p>
+            <p>- Diga então.</p>
+            <p>É fazermos uma corrida.</p>
+            <p>- Ora, ora. Fazer uma corrida! E eu estou para cansar meu cavalo?</p>
+            <p>- Mas haverá apostas. Quem ganhar receberá um bom dinheiro.</p>
+            <p>Quando o estanceiro ouvir falar em dinheiro, tomou interesse pelo assunto:</p>
+            <p>- Podemos fazer a corrida pero da cidade e haverá muitos apostadores.</p>
+            <p>- Pois então – continuou o outro. Mas fora isso haverá a nossa aposta pessoal.</p>
+            <p>Concordaram e apostaram uma importância fabulosa. Aí o visitante propôs que o ganhador desse todo o dinheiro das apostas aos pobres, já que ambos eram ricos. Quando o senhor do Negrinho ouviu a proposta ficou de boca aberta:</p>
+            <p>- O que? Eu dar o meu dinheiro aos outros? Nunca! Nem se eu ficasse louco!</p>
+        </div>
+        <div class="imagem" id="a5">
+            <img src="imagem/Volume3/2.png" alt="Estanceiros fazendo aposta">
+        </div>
+        <div class="texto" id="a6">
+            <p>- Bem, se eu ganhar darei tudo aos pobres.</p>
+            <p>- Você diz isso porque sabe que não vai ganhar! Não existe cavalo nesta região que vença o meu baio!</p>
+            <p>- Isso somente a corrida decidirá – completou o visitante.</p>
+        </div>
+        <div class="imagem" id="a7">
+            <img src="imagem/Volume3/3.png" alt="Negrinho">
+        </div>
+        <div class="texto" id="a8">
+            <p>Uma vez combinados, marcaram a data da corrida. Assim que o povo tomou conhecimento, choveram apostas sobre os dois cavalos. Ambos eram favoritos. Os pobres que não tinham o que apostar contentavam-se em discutir defendendo o cavalo de sua preferência. Realmente os dois cavalos eram grandes corredores e não era fácil saber-se qual seria o vencedor.</p>
+            <p>O Negrinho ficou desobrigado de suas ocupações a fim de treinar o dia inteiro o famoso cavalo baio, pois o estanceiro achava não existir outro cavaleiro mais apto para montar o seu cavalo predileto.</p>
+            <p>O treino continuou durante vários dias, nos quais o menino foi tratado com um certo carinho pelo estanceiro. Mesmo o filho de seu patrão deixara de persegui-lo. Foram dias de tranquilidade.</p>
+        </div>
+        <div class="texto" id="a9">
+            <p>Finalmente chegou o dia da esperada corrida. Todos os habitantes da região estavam reunidos no local, vestidos com suas roupas domingueiras embora fosse um dia de semana. Para eles era realmente um dia de festa. Discutiam animadamente os seus palpites enquanto esperavam a hora da partida. Quando surgiu o cavalo baio, puxado pelo Negrinho e seguido pelo estanceiro e seu filho, foi um alvoroço. Gritos de “Vai ganhar!” e “Vai perder!” encheram os ares. Logo depois chegou o outro cavalo, puxado por um moço e acompanhado pelo vizinho do estanceiro. Os mesmos gritos se fizeram ouvir. Todos começaram a tomar posição ao longo da pista improvisada, correndo e empurrando para chegar primeiro aos melhores lugares. Os cavalos alinharam-se para a partida. O Negrinho nem piscava, atento para o sinal, pois sabia que sua sorte ia ser jogada naquela corrida. Pobre dele se perdesse.</p>
+        </div>
+        <div class="imagem" id="a10">
+            <img src="imagem/Volume3/4.png" alt="Cavalo Baio">
+        </div>
+        <div class="texto" id="a11">
+            <p>Um silêncio absoluto substituíra a algazarra. Todos olhavam para o homem que ia dar o tiro da partida. Ouviu-se o estampido e os cavalos partiram ruidosamente aos gritos da multidão entusiasmada. Os dois cavalos pareciam possuir o mesmo valor. Deram várias voltas emparelhados apesar dos esforços dos dois cavaleiros para conseguir a vitória. O Negrinho não conseguia deixar de pensar no que lhe aconteceria se não conseguisse vencer. E tanto esforçou-se que por fim o cavalo baio começou a adiantar-se ao outro. A diferença, insignificante no princípio, pouco a pouco foi aumentando, fazendo crescer ainda mais o clamor dos que assistiam.</p>
+            <p>Já não havia dúvida de que o baio seria o vencedor. O estanceiro jogava o chapéu para o ar e ria, ria, num contentamento em que ninguém o tinha visto até então.</p>
+            <p>- Ele gostava tanto assim do cavalo baio? – perguntou Marisa.</p>
+            <p>O Arrelia riu da inocência da menina e disse-lhe:</p>
+            <p>- Ele gostava do cavalo baio, é verdade. Mas o que o alegrava era o dinheiro que ia ganhar com as apostas. Não pensava noutra coisa.</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/Volume3/5.png" alt="A corrida">
+        </div>
+        <div class="texto1" id="a13">
+            <div class="texto2">
+            <p>Depois de várias voltas, o baio continuava na dianteira. Êta “cavalo” bom. O Negrinho sorria agora de satisfação, não que fosse ter algum lucro com a vitória de seu cavalo, mas porque já se sentia salvo da surra que levaria caso não vencesse.</p>
+            <p>A corrida já se aproximava do fim e a vitória do baio estava garantida. Aí aconteceu. O cavalo assustou-se com alguma coisa, parou, empinou-se e quase derrubou o Negrinho. Foi o suficiente para o outro cavalo vencer. Coitado do menino. Começou a tremer de medo e desespero vendo a expressão terrível de seu senhor. O estanceiro, inconformado, começou a dizer que havia sido roubo, apoiado pelos apostadores do cavalo baio. Queria que fosse realizada outra corrida. Aí o juiz do lugar interveio:</p>
+            <p>- Ninguém tem culpa de seu cavalo haver-se assustado. Ele perdeu e o senhor precisa pagar as apostas. Eu também havia apostado nele e, no entanto, não hesito em pagar.</p>
+           </div>
+        </div>
+        <div class="texto3" id="a14">
+            <div class="texto4">
+            <p>O estanceiro não teve outra saída. Precisou pagar a todas as pessoas com que havia apostado. Porém o que o deixou desesperado foi o pagamento da aposta ao dono do outro cavalo. Ficou com a bolsa vazia. Imediatamente o vencedor mandou comprar roupas, calçados, comidas e outras coisas e deu tudo aos pobres. Organizou ainda uma festa ali mesmo, com muita alegria e muita música. O dinheiro que sobrou, distribuiu-o aos que julgou mais necessitados.</p>
+            <p>O estancieiro de vez em quando enviava um olhar ao Negrinho que o fazia adivinhar o que o esperava. O pobre do menino tremia, sem coragem de levantar a cabeça, pela qual passavam as visões terríveis do próximo e inevitável castigo.</p>
+            <p>- E por que ele não fugia? - quis saber Jaci.</p>
+            <p>- Porque era um escravo. Seria caçado onde quer que fosse e castigado com mais crueldade por ter fugido.</p>
+            </div>
+        </div>
+        <div class="texto" id="a15">
+            <p>O homem não conseguiu esperar até o fim da festa e mandou que o Negrinho fosse puxando o cavalo baio. Seguiu logo atrás, juntamente com o seu filho. O menino, ruim como era, não queria deixar fugir a oportunidade de ver o Negrinho “castigaudo” e incitava o pai:</p>
+            <p>- Nós perdemos por causa desse sem-vergonha, pai. Esse ingrato que nem merece a comida que o senhor lhe dá! Precisa de um castigo para aprender! Não tenha pena, pai!</p>
+            <p>O estanceiro ficou mais enfurecido ainda e prometeu:</p>
+            <p>- Deixe estar, filho. Ele vai receber o que merece. Depois da surra que vai levar não fará mais o que fez hoje.</p>
+            <p>O Negrinho procurava andar devagar a fim de retardar o castigo que o aguardava. Mas cada vez que diminuía o passo, levava um empurrão do estanceiro:</p>
+            <p>- Mais depressa, preguiçoso! Quer que a noite pegue a gente na estrada?</p>
+            <p>Tão logo chegaram à fazenda, o Negrinho seguiu direto para a estrebaria.</p>
+            <p>- Aonde pensa que vai? – perguntou o estanceiro.</p>
+            <p>- Guardar o cavalo, sinhô – respondeu ele tremendo.</p>
+            <p>- Não vai guardar coisa nenhuma. Você vai passar trinta dias e trinta noites com ele no pasto tomando conta de mais trinta cavalos. É o castigo por ter perdido. Mas ainda tem mais.</p>
+            <p>O homem apanhou um chicote e dirigiu-se ao Negrinho:</p>
+            <p>- Vai levar uma surra para ficar esperto.</p>
+            <p>De nada adiantaram as súplicas do menino. Estimulado pelo filho que ria e pulava de contente, o estanceiro bateu no Negrinho até cansar-se.</p>
+            <p>- Pode ir agora – disse ao menino. Não quero estragar o chicote.</p>
+            <p>Lá se foi o pequeno escravo, chorando, louco de dor, levando o baio e os outros cavalos a caminho do pastoreio. Anoitecia. Chegado ao lugar, não aguentando mais de cansaço e de dor, amarrou o cavalo baio e adormeceu. As corujas ficaram curiosas e pararam no ar, em cima dele. O cavalo baio assustou-se e conseguiu fugir, sendo acompanhado pelos outros. Com o barulho, o Negrinho acordou, mas nada pode fazer por causa da cerração. O filho do estanceiro, que andava por perto, louco para pegar o Negrinho em falta para ser castigado outra vez, correu a contar ao pai:</p>
+        </div>
+        <div class="imagem" id="a16">
+            <img src="imagem/Volume3/8.png" alt="O negrinho e os cavalos">
+        </div>
+        <div class="texto" id="a17">
+            <p>- O Negrinho descuidou-se e todos os cavalos fugiram. Em vez de guardar os animais, ele estava dormindo!</p>
+            <p>O homem mandou dois escravos trazerem o Negrinho:</p>
+            <p>Então você não criou vergonha, hein? Foi pouca a surra que levou, não foi? Não se incomode que vai ficar satisfeito.</p>
+            <p>O Negrinho explicou sua inocência, chorou e implorou. Nada. Outra surra de chicote. Já pensaram o que é receber novas chicotadas na carne já dolorida? Depois de havê-lo surrado com toda a fúria possível, o estanceiro ordenou que o Negrinho fosse procurar os cavalos. Ai dele se não os encontrasse. O Negrinho seguiu outra vez para o lugar do pastoreio, desta vez gemendo e mancando, mal aguentando o sofrimento. Para tornar mais fácil a procura, levou um toco de vela. Quando chegou perto do lugar, acendeu a vela e cada pingo que caía transformava-se numa pequena luz, mas tão brilhante que ficou como se fosse dia e ele pode encontrar os cavalos com facilidade. Reuniu-os, amarrou o baio e atirou-se ao chão, vencido pelo sofrimento, e logo adormeceu. A vela apagou-se e as luzinhas também.</p>
+        </div>
+        <div class="texto5" id="a18">
+            <div class="texto6">
+                <p>O filho do estanceiro não estava satisfeito com o que fizera e queria ver o Negrinho apanhar outra vez. Assim, logo de madrugada, foi novamente ao lugar ver se pegava o menino dormindo em vez de estar procurando os animais. Quando viu todos os cavalos reunidos, resmungou de raiva e tratou de espantá-los. Soltou o cavalo baio e espantou-o, bem como a todos os outros. Feito isto, o “malvaudo” foi contar ao pai que o Negrinho encontrara os cavalos e os deixara fugir de propósito. Novamente o homem mandou buscar o infeliz, mas agora decidido a puni-lo de uma vez por todas.</p>
+                <p>O Negrinho foi entrando quase arrastado por dois escravos.</p>
+                <p>- Ah! malandro! – exclamou o seu senhor, indignado. Então não adianta ser bondoso para você, não é?</p>
+            </div>
+        </div>
+        <div class="texto" id="a19">
+            <p>Ele tentou explicar que também não tivera nenhuma culpa pela segunda fuga dos cavalos, pois tomara o cuidado de amarrar muito bem o baio e não sabia como conseguira soltar-se, levando todos os outros. O homem não quis saber de nada. Apanhou o chicote, disposto a aplicar a terceira surra no Negrinho, esta bem mais severa do que as outras. O chicote subia e descia, cortando sem pena a carne já maltratada do pequeno escravo.</p>
+            <p>- Por favor, sinhô! Não me bata mais! Não tive culpa!</p>
+            <p>- Não teve culpa? Não teve é cuidado! Dormir e deixar que os cavalos fugissem duas vezes! Mas desta vez você aprende! Tome! Veja se é bom!</p>
+            <p>Não aguentando a dor, o Negrinho caiu no chão, o que aumentou ainda mais a cólera de seu senhor.</p>
+            <p>- Tem a coragem de deitar-se para escapar ao castigo, hein? Mas não escapa, não! Desta vez a lição vai valer!</p>
+            <p>O filho do estanceiro gritava de um canto:</p>
+            <p>- Isso, pai! Esse moleque precisa aprender! Não tenha pena, não!</p>
+            <p>E o estanceiro não teve pena. Bateu tanto, mas tanto que o pequeno escravo ficou como se estivesse morto. Exausto pela violência com que surrava o menino, o estanceiro jogou-se numa cadeira, bufando e suando.</p>
+            <p>Após sentir-se descansado, mandou que os dois escravos pegassem o Negrinho e o levassem para fora. Seguiu atrás deles acompanhado pelo filho. Ainda não sabia que destino ia dar à pobre vítima que parecia estar morta. Também se não estivesse, tanto fazia. Onde jogaria o corpo? No rio? Mandaria abrir uma cova? Seria muito trabalho. Ao continuarem caminhando, o estanceiro viu um enorme formigueiro e teve uma ideia: era um ótimo lugar para o pequeno escravo. As formigas acabariam com ele em pouco tempo. Mandou que os horrorizados escravos fizessem o que ele havia pensado. Mal o corpo caiu em cima do formigueiro, as formigas, assustadas e assanhadas, começaram a atacá-lo. Feliz, o homem e seus acompanhantes deixaram o lugar. O filho do estanceiro pulava de alegria:</p>
+            <p>- Boa ideia, pai, boa ideia. Ele vai ter o fim que merecia.</p>
+            <p>Na manhã seguinte, o cruel senhor, não resistindo a impaciência de ver como estava o Negrinho, foi ao formigueiro. Levou um susto daqueles ao ver o menino em pé, todo risonho, perto do cavalo baio e rodeado pelos outros trinta animais. O Negrinho montou no baio e partiu a todo o galope, acompanhado pelos trinta cavalos. O estanceiro saiu correndo e gritando como um louco.</p>
+            <p>O povo, que “andauva” triste e revoltado com a horrível morte do Negrinho, alegrou-se com a nova notícia.</p>
+            <p>Desde aquele dia até hoje muita gente diz que já viu o Negrinho passar a todo o galope, montado no cavalo baio, seguido pelos outros trinta cavalos, e sumir entre nuvens de poeira dourada. Também todos os anos, durante três dias, o Negrinho desaparece. É quando vai visitar algum formigueiro e ver as formigas, pois elas se tornaram suas amigas.</p>
+            <p>Ah!  Tem outra coisa. Se alguém perde algum objeto, é só pedir ao Negrinho. Não há modo melhor para encontrar-se o que foi perdido.</p>
+        </div>
+        <div class="rodapé" id="a20"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
