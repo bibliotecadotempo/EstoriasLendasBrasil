@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>O Cavalo Encantado</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(13, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 3;}
+        #a2 {grid-area: 2 / 1 / 3 / 3;}
+        #a3 {grid-area: 3 / 1 / 4 / 3;}
+        #a4 {grid-area: 4 / 1 / 5 / 2;}
+        #a5 {grid-area: 4 / 2 / 5 / 3;}
+        #a6 {grid-area: 5 / 1 / 6 / 3;}
+        #a7 {grid-area: 6 / 1 / 7 / 2;}
+        #a8 {grid-area: 6 / 2 / 7 / 3;}
+        #a9 {grid-area: 7 / 1 / 8 / 3;}
+        #a10 {grid-area: 8 / 1 / 9 / 2;}
+        #a11 {grid-area: 8 / 2 / 9 / 3;}
+        #a12 {grid-area: 9 / 1 / 10 / 3;}
+        #a13 {grid-area: 10 / 1 / 11 / 3;}
+        #a14 {grid-area: 11 / 1 / 12 / 3;}
+        #a15 {grid-area: 12 / 1 / 13 / 3;}
+        #a16 {grid-area: 13 / 1 / 14 / 3;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a16 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">O Cavalo Encantado</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Montados em mansos cavalos, o Arrelia e as crianças passeavam pela redondeza.</p>
+            <p>Carlinhos mostrou-se descontente com a vagareza de sua montaria e queixou-se:</p>
+            <p>- Este cavalo está dormindo! Não anda!</p>
+            <p>O Arrelia procurou explicar ao menino:</p>
+            <p>- Você precisa conformar-se. Os nossos também são vagarosos. São todos animais velhos e mansos. Você acha que nós estamos aptos a montar cavalos novos e rápidos? Já teríamos ido ao chão há muito tempo.</p>
+            <p>- Menos eu! – disse Carlinhos com orgulho. Não é fácil eu cair de uma cavalo, não!</p>
+            <p>- Não vá pensando que todas as vezes são iguais – advertiu o Arrelia. Mesmo que você saiba andar a cavalo, o melhor para nós são “cavaulos” como estes. Estamos passeando e não apostando corrida, ué.</p>
+            <p>- Mas é muita vagareza! – insistiu o menino. É melhor a gente andar a pé.</p>
+            <p>- Mas você não é “obrigaudo” a andar nesse cavalo! Pode descer e acompanhar-nos a pé! É um bom exercício. E fique sossegado que ele não se incomodará, não.</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/Volume3/65.png" alt="Pássaro vermelho na árvore">
+        </div>
+        <div class="texto" id="a3">
+            <p>Carlinhos achou melhor continuar a cavalo.</p>
+            <p>Pouco depois, quando o menino parecia conformado, cruzaram com um gaúcho montando um cavalo negro que dava gosto olhar. Mas eles não puderam admirar muito, tal a velocidade com que passou. Carlinhos ficou olhando-o até desaparecer na distância. Depois disse com ar desanimado:</p>
+            <p>- Puxa! Que vergonha de estar montado nesta tartaruga. Ah se eu tivesse um cavalo como aquele!</p>
+            <p>- Que é bonito, é – disse o Arrelia. E como corre! Vai ver que é o cavalo encantado que dizem existir na Lagoa do Parobé.</p>
+            <p>Carlinhos olhou meio assustado para o Arrelia.</p>
+            <p>- Não se assuste – pediu ao menino. É uma lenda. Depois eu conto.</p>
+            <p>As outras crianças iam mais adiante, em silêncio, entretidas. Haviam dado uma olhada ao cavalo negro mas foi só. Estavam contentes com suas montarias.</p>
+            <p>Algum tempo depois o Arrelia gritou:</p>
+            <p>- Acho que está na hora do almoço, “criançauda”! Vamos aproveitar a sombra daquela árvore para comermos o que trouxemos.</p>
+        </div>
+        <div class="texto" id="a4">
+            <p>Eles haviam resolvido, para variar, almoçar no campo naquele dia. A merenda ia em duas cestas de taquaras. Uma arrumada na garupa do cavalo de Iberê, a outra na do cavalo de Sérgio.</p>
+            <p>Apearam-se todos perto da árvore e os dois meninos trataram de retirar as duas cestas. Uma vez colocadas sob a árvore, Jaci e Marisa encarregaram-se da arrumação. Os meninos quiseram ajudar mas o Arrelia disse-lhes:</p>
+            <p>- É melhor vocês se afastarem senão em vez de almoço teremos só confusão.</p>
+            <p>O almoço foi arrumado e todos comeram com prazer. Depois procuraram acomodar-se o melhor possível para descansar. Carlinhos espreguiçou-se e quebrou o silêncio dizendo:</p>
+            <p>- Vocês viram aquele cavalo negro que passou por nós que nem uma bala?</p>
+            <p>Todos disseram que sim.</p>
+            <p>- Pois o Arrelia falou que era encantado. Não era um cavalo de verdade, entendem?</p>
+            <p>Abrindo os olhos com esforço, pois já estava quase dormindo, o Arrelia esclareceu:</p>
+            <p>- Ora! Eu disse brincando! Por causa da rapidez dele e por ser negro. É apenas uma lenda!</p>
+        </div>
+        <div class="imagem" id="a5">
+            <img src="imagem/Volume3/66.png" alt="Menino com espingarda">
+        </div>
+        <div class="texto" id="a6">
+            <p>Adeus cochilo do Arrelia. As crianças correram para ele, e aos gritos de “Conte! Conte!” fizeram-no contar a estória. Antes, ele conseguiu enviar um olhar a Carlinhos que podia ser traduzido por “Ah! moleque! Você me paga! Eu já estava quase dormindo!”</p>
+            <p>- Isto também aconteceu no tempo em que os índios habitavam estas campinas – começou ele. Dois amigos da mesma tribo queriam namorar uma jovem de outra tribo. Sempre que podiam, davam uma chegada ao lugar onde ela morava. Cada um tinha a esperança de que a moça gostasse dele. Faziam de tudo para chamar-lhe a atenção: enfeitavam-se, falavam alto, gabando-se de seus feitos. Após muitas idas e vindas à aldeia da moça, ela começou a demonstrar preferência por um deles e começaram a namorar. O que foi desprezado encheu-se de ódio pelo companheiro e tanto fez que acabaram brigando e deixaram de ser amigos. Tão amigos tinham sido como agora eram inimigos. O que fora desprezado disse ao outro:</p>
+        </div>
+        <div class="imagem" id="a7">
+            <img src="imagem/Volume3/67.png" alt="Índios">
+        </div>
+        <div class="texto" id="a8">
+            <p>- Você vai pagar a humilhação que me causou. Não tenho mais coragem de sair de minha cabana porque todos me olham com ar de riso. Não há quem não saiba do caso.</p>
+            <p>- E eu tenho culpa? – perguntou o outro. Ela precisava escolher um de nós, não precisava?</p>
+            <p>- Ou nenhum! – respondeu o desprezado, com uma cara de ódio que dava “meudo”. Se você fosse meu amigo, não concordaria em ser seu namorado!</p>
+            <p>- Mas como? E se tivesse sido você o escolhido o que teria feito? Teria desistido?</p>
+            <p>Ele Não soube responder e passou a comentar o fato de todos saberem do caso:</p>
+            <p>- Mas por que você contou a todos que eu havia sido desprezado?</p>
+            <p>- Ora! Não contei nada! Não disse uma palavra a ninguém!</p>
+            <p>- Não? E como é que todos sabem?</p>
+            <p>- E você não conhece o povo? Embora não parecesse, todos acompanhavam o que estava acontecendo. Assim que ela resolveu, a notícia percorreu toda a sua tribo e depois passou para a nossa!</p>
+            <p>De nada adiantou a explicação do “namoraudo”. A raiva do outro era grande demais para permitir-lhe refletir. Saiu sem se despedir, bufando de ódio. Nunca mais conversaram.</p>
+        </div>
+        <div class="texto" id="a9">
+            <p>O que era “namoraudo” logo se esqueceu da discussão porque estava contente. E nem de seu rival ele se lembrou mais. O que havia sido desprezado, porém, fervia de inveja. Vivia imaginando os maiores planos de vingança. Na verdade, ele não era tão ruim e nunca chegou a realizar nenhuma de suas terríveis ideias.</p>
+            <p>O Arrelia, quando ia prosseguir com a estória, notou que os cavalos estavam-se afastando muito. Ficou assustado e dirigiu-se às crianças:</p>
+            <p>- Olhem! Os nossos cavalos estão indo para longe! É melhor alguém ir buscá-los. Quem é que se habilita?</p>
+            <p>Mas como a deusa Preguiça havia enfeitiçado a todos, foi um silêncio geral. Ninguém se manifestou. Carlinhos chegou mesmo a fechar os olhos, fingindo que estava dormindo. O Arrelia repetiu a pergunta e Iberê sugeriu:</p>
+            <p>- Não é o Carlinhos quem mais gosta e entende de cavalos? Acho que é o mais indicado de nós para o serviço.</p>
+            <p>O Arrelia procurou Carlinhos com os olhos e estranhou:</p>
+        </div>
+        <div class="texto" id="a10">
+            <p>- Ué! Como ele dormiu depressa! Deve estar doente!</p>
+            <p>- Doente nada! – retrucou Jaci. É esperteza! Esse menino é vivo como não sei o que!</p>
+            <p>O Arrelia piscou e sugeriu, levantando-se:</p>
+            <p>- Vamos dar um passeio e deixar o “coitaudo” dormindo. Depois voltaremos aqui.</p>
+            <p>Carlinhos não teve outro jeito senão abrir os olhos. Levou uma vaia daquelas. As outras crianças queriam que agora ele fosse à força buscar os animais só para deixar de ser espertinho. O Arrelia interferiu, esclarecendo que o direito do menino era igual ao de seus companheiros. Teriam de encontrar outra solução, e logo porque os cavalos estavam cada vez mais longe.</p>
+            <p>- Se não conseguirm0s pegá-los – avisou o Arrelia – não só seremos obrigados a voltar a pé como também precisaremos pagar o valor deles!</p>
+            <p>As crianças não se impressionaram. Ainda estavam encantadas pela deusa Preguiça. Nem as palavras que o Arrelia pronunciou: “Neste lugar deve ter cobra!” – conseguiram o efeito desejado.</p>
+            <p>- Bem – resolveu ele – temos de dar um jeito.</p>
+            <p>Tirou uma velha moeda de um dos bolsos:</p>
+        </div>
+        <div class="imagem" id="a11">
+            <img src="imagem/Volume3/68.png" alt="Índia">
+        </div>
+        <div class="texto" id="a12">
+            <p>- Esta moeda tem resolvido muitos de meus problemas. Sempre tenho tido sorte. Vamos ver se desta vez ela me ajuda.</p>
+            <p>O Arrelia propôs que os meninos tirassem cara ou coroa. Quem perdesse jogaria com o próximo e o último perdedor iria buscar os cavalos. Também sugeriu que as meninas não participassem. Elas, porém, não concordaram. A brincadeira parecia divertida e ninguém quis ficar de lado. Só o Arrelia. Entregou a moeda a Iberê e afastou-se. Aí o menino perguntou:</p>
+            <p>- Ei, Arrelia!!! Você não disse que o direito de Carlinhos era igual ao nosso?</p>
+            <p>- Disse. Por que?</p>
+            <p>- Então acho que também o nosso direito é igual ao de você, não é?</p>
+            <p>- Claro! – exclamou o Arrelia sem perceber a intenção do menino.</p>
+            <p>- Então por que não vem participar do jogo? Não quer ir busca os cavalos?</p>
+            <p>- Bem, eu . . . Sabe – atrapalhou-se o Arrelia e depois saiu com esta:</p>
+            <p>- Mas sou o autor da ideia! Mereço uma recompensa! Depois, funcionarei como juiz!</p>
+            <p>De nada adiantou a argumentação dele. As crianças em peso achavam que ele também precisava arriscar. E não houve jeito. Teve de participar do jogo. E estava sem sorte o coitado. Uma a uma as crianças foram ganhando e o Arrelia perdeu. Protestou, sugeriu que jogassem de novo mas não adiantou. Saiu que saiu resmungando: “Estou com vontade de dar umas “bengalaudas” naqueles cavalos sem-vergonhas!”</p>
+            <p>- Desta vez a moeda não deu muita sorte ao Arrelia – comentou Jaci.</p>
+            <p>Ele foi lá, trouxe os cavalos e voltou para baixo da árvore, enxugando o rosto com um lenço que mais parecia um lençol.</p>
+            <p>Sérgio, que havia ficado com a moeda, procurou entregá-la ao Arrelia:</p>
+            <p>- Nem quero ver essa traidora! Depois de tantos anos! Tire-a da minha frente!</p>
+            <p>Ouvia-se a voz de Carlinhos:</p>
+            <p>- Agora que tudo está em ordem, o Arrelia pode continuar com a estória do cavalo encantado.</p>
+            <p>- O que? – surpreendeu-se ele. Ainda tenho de continuar a estória?</p>
+            <p>As crianças gritaram que sim e ele não teve outro modo.</p>
+        </div>
+        <div class="imagem" id="a13">
+            <img src="imagem/Volume3/69.png" alt="Índio com lança nas ondas">
+        </div>
+        <div class="texto" id="a14">
+            <p>- Mas não sei onde é que parei! – disse ele. Estou tão “cansaudo”. . .</p>
+            <p>As crianças lembraram-lhe o trecho em que parara e ele, sentando-se, continuou:</p>
+            <p>- O tempo foi passando mas o índio desprezado não conseguia esquecer a derrota.</p>
+            <p>Um dia ele estava passeando pelas campinas, sozinho, perto de uma lagoa chamada do Parobé, quando viu um bonito cavalo. Ficou com os olhos assim grandes admirando a beleza do animal. Era um cavalo grande, de pelo negro e brilhante que parecia mentira . . . Esguio, imponente, dava gosto olhá-lo. “Tem de ser meu!” – pensou o jovem. “Montando esse cavalo, chamarei a atenção daquela moça e ela passará a gostar de mim.”</p>
+            <p>Ele foi-se aproximando bem devagar e chegou o mais perto possível do belo animal sem correr o risco de espantá-lo. Pegou as boleadeiras e começou a girá-las. Neste ponto o cavalo olhou para ele mas não se assustou e não correu. Já que era manso, o índio resolveu usar o laço, evitando assim o perigo de machucá-lo com as boleadeiras. Foi tão fácil laçá-lo que o moço ficou surpreso. Jamais tinha visto um animal tão obediente. Levou-o embora e colocou-lhe as rédeas. Enfeitou-se com penas de ema, montou e partiu em direção à aldeia onde vivia a “namorauda” de seu rival. Agora sim. Não havia ninguém mais feliz do que ele. Todos os habitantes de seua aldeia tinham saído para ver o impressionante cavalo. Só comentavam sobre sua estranha beleza.</p>
+            <p>O cavalo ia troteando tranquilamente. E assim prosseguiu até chegar nas proximidades da lagoa.</p>
+            <p>Aí foi a conta. O cavalo impacientou-se e começou a pinotear. O moço era bom cavaleiro e fez de tudo para controlá-lo. O animal, porém, parecia enlouquecido. Pulava, relinchava, dava coices. O jovem cavaleiro podia ter saltado, mas o receio de perder tão belo animal mantinha-o montado.</p>
+            <p>Depois de uns momentos daquela fúria, o cavalo deu a impressão de haver-se acalmado. O índio exclamou:</p>
+            <p>- Ah! danado! Conheceu a minha força e acalmou-se, hein? Para um cavalo ruim, um bom cavaleiro!</p>
+            <p>Foi então que aconteceu: sem dar tempo ao moço para pensar, ele disparou. Não era possível correr tanto! Uns índios que iam passando pararam boquiabertos vendo a cena. O cavaleiro puxava as rédeas com todas as forças que possuía e nada adiantava. O cavalo continuou a correr, tomando o rumo da lagoa. Cavalo e cavaleiro sumiram nas águas.</p>
+            <p>Os índios que tinham visto o sucedido correram para a lagoa. A superfície estava tranquila como se nada houvesse acontecido. Alguns mergulharam, outros arranjaram compridas taquaras e sondaram o fundo. Nada. Esperaram. Cavalo e cavaleiro não apareceram mais. Os homens ficaram amedrontados e fugiram para a aldeia. Durante muitos dias, vários índios corajosos vigiaram a lagoa. Depois concluíram que fora obra de Anhangá e desistiram.</p>
+            <p>Contam que até hoje, decorridos mais de cem anos, todos os meses, no dia exato do acontecimento, à meia-noite, eles saem da lagoa e dão uma volta por aí. O cavalo corre e relincha enlouquecido, procurando derrubar o cavaleiro que grita e puxa as rédeas furiosamente, ainda com receio de perder o belo animal. Depois de alguns minutos, voltam para as águas e esperam mais um mês.</p>
+            <p>O Arrelia olhou para Carlinhos e brincou:</p>
+            <p>- Esse cavalo é que seria bom para o Carlinhos. Ligeiro que dá gosto.</p>
+            <p>- Não – respondeu o menino. Nada de cavalo encantado comigo. Prefiro o meu cavalinho, o meu cavalinho-tartaruga. E mesmo assim não sei, não.</p>
+            <p>Levantaram-se todos, arrumaram as cestas e as colocaram nos mesmos cavalos. Montaram e partiram vagarosamente. Mas nem todos iam montados: Carlinhos seguia atrás, puxando as rédeas de sua montaria. O Arrelia percebeu e perguntou espantado:</p>
+            <p>- Más o que é isso?! Não me diga que está com medo de montar. Essa não!</p>
+            <p>- Está sim! – respondeu o menino com cara de sabido. Quem me garante que este cavalo não é encantado?</p>
+            <p>- “Encantaudo”?! – gritou o Arrelia, quase caindo de seu cavalo. Esse coitado?</p>
+            <p>Todos contemplaram o triste aspecto do velho cavalo e caíram na risada. Menos Carlinhos, que continuou sério, puxando o lerdo animal em direção à estância.</p>
+        </div>
+        <div class="imagem" id="a15">
+            <img src="imagem/Volume3/70.png" alt="Cavalo e índio atravessando rio">
+        </div>
+        <div class="rodapé" id="a16"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
