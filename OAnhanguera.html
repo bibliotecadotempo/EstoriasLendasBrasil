@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>O Anhanguera</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(16, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 4;}
+        #a2 {grid-area: 1 / 4 / 2 / 6;}
+        #a3 {grid-area: 2 / 1 / 3 / 6;}
+        #a4 {grid-area: 3 / 1 / 4 / 4;}
+        #a5 {grid-area: 3 / 4 / 4 / 6;}
+        #a6 {grid-area: 4 / 1 / 5 / 6;}
+        #a7 {grid-area: 5 / 1 / 6 / 6;}
+        #a8 {grid-area: 6 / 1 / 7 / 6;}
+        #a9 {grid-area: 7 / 1 / 8 / 3;}
+        #a10 {grid-area: 7 / 3 / 8 / 6;}
+        #a11 {grid-area: 8 / 1 / 9 / 4;}
+        #a12 {grid-area: 8 / 4 / 9 / 6;}
+        #a13 {grid-area: 9 / 1 / 10 / 6;}
+        #a14 {grid-area: 10 / 1 / 11 / 6;}
+        #a15 {grid-area: 11 / 1 / 12 / 6;}
+        #a16 {grid-area: 12 / 1 / 13 / 6;}
+        #a17 {grid-area: 13 / 1 / 14 / 6;}
+        #a18 {grid-area: 14 / 1 / 15 / 6;}
+        #a19 {grid-area: 15 / 1 / 16 / 6;}
+        #a20 {grid-area: 16 / 1 / 17 / 6;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a20 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">O Anhanguera</h2>
+    </div>
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Deixando o Rio Grande do Sul, o Arrelia e seus amiguinhos seguiram para Minas Gerais. Pretendiam visitar várias cidades antigas e históricas desse Estado, sobre as quais tanto haviam ouvido falar.</p>
+            <p>Estavam passando por uma estreita rua colonial quando Jaci comentou:</p>
+            <p>- Que diferença entre este lugar e onde estivemos, não? Até parece outro país!</p>
+            <p>- É “verdaude” – respondeu o Arrelia. Costumes diferentes, belezas diferentes . . . Você disse bem. Nossa terra é tão grande que os Estados parecem verdadeiros países. Uma das maiores felicidades é a gente poder viajar e conhecer um país tão grande e importante.</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/Volume4/1.png" alt="Chapéu e espingarda">
+        </div>
+        <div class="texto" id="a3">
+            <p>Minas Gerais ocupa um lugar de destaque em nossa História. Já calcularam quantos grandes vultos viveram aqui? Tiradentes, o Aleijadinho, Tomás Antônio Gonzaga . . . A lista não teria fim. E é a terra de Santos Dumont, o homem que inventou o avião! Homens destemidos aventuraram-se por aqui em busca de ouro e pedras preciosas, como, por exemplo, Bartolomeu Bueno da Silva.</p>
+            <p>- O Anhanguera! O que pôs fogo na água! – completou Iberê o mais rápido que pode.</p>
+            <p>O Arrelia parou tão depressa de andar que as crianças avançaram vários passos antes de pararem também. Levantou a bengala e o chapéu e gritou:</p>
+            <p>- Não é possível! Eta menino “afiaudo”! Vamos dar um viva para ele!</p>
+            <p>Todos gritaram o mais alto que puderam, deixando o menino completamente encabulado, principalmente porque várias pessoas se haviam aproximado atraídas pelos gritos do Arrelia.</p>
+            <p>- Puxa, Arrelia! – reclamou o menino com o rosto em brasa. Era preciso fazer tanto escândalo? Você hoje cismou comigo.</p>
+            <p>- Mas que é isso? – estranhou o Arrelia, colocando o chapéu e baixando a bengala. Você merece um elogio e não quer aceitá-lo?</p>
+            <p>- Elogio está certo. Mas isso é elogio?</p>
+            <p>Continuaram a caminhar.</p>
+            <p>- Pois é – prosseguiu o Arrelia. Exatamente o Anhanguera.</p>
+            <p>- O que significa Anhanguera? – quis saber Carlinhos.</p>
+            <p>- É um nome índio. Significa Diabo Velho – esclareceu o Arrelia.</p>
+            <p>- O menino arregalou os olhos:</p>
+            <p>- Diabo? Ele era um diabo?</p>
+            <p>- Não, não era! Os índios acreditavam que sim!</p>
+            <p>- Ué. E por que?</p>
+            <p>- Porque ele pôs fogo na água.</p>
+            <p>- Pôs fogo na água? Então era mesmo um diabo!</p>
+            <p>- Não, Carlinhos. Os índios pensavam que ele havia posto fogo.</p>
+            <p>- Não entendo.</p>
+            <p>- Já vai entender. Foi na época em que os bandeirantes não mediam sacrifícios para encontrar ouro e pedras preciosas. Graças à coragem daqueles homens, o Brasil teve as suas fronteiras aumentadas. Não fossem eles e o nosso País não teria hoje o tamanho que tem.</p>
+        </div>
+        <div class="imagem" id="a4">
+            <img src="imagem/Volume4/2.png" alt="O Anhanguera">
+        </div>
+        <div class="texto" id="a5">
+            <p>Era grande o número de homens que penetravam no sertão desconhecido sem saberem o que encontrariam e se voltariam ou não. Entre eles estava Bartolomeu Bueno da Silva. Era conhecido por Feio, porque sua cara era mesmo de meter medo.</p>
+            <p>Quando ele resolveu deixar São Paulo e seguir para Minas Gerais com a intenção de encontrar ouro e pedras preciosas contava setenta anos de idade!</p>
+            <p>O que?! – admirou-se Jaci. Setenta anos? Meu avô tem esta idade e sente medo até de atravessar a rua!</p>
+            <p>O Arrelia tornou-se pensativo:</p>
+            <p>- Acho que naquele tempo os homens eram feitos de ferro. E tinham de ser. As pessoas se adaptam às circunstâncias. A época exigia força e coragem. Hoje é diferente. Já não é preciso lutar como eles lutavam. Hoje, a inteligência e a cultura ocupam o primeiro lugar. É um outro tipo de luta. Um homem de setenta anos não tem mais necessidade de fazer o que os bandeirantes faziam.</p>
+        </div>
+        <div class="texto" id="a6">
+            <p>Mas voltando à estória, Bartolomeu Feio, como era “chamaudo”, chegou à Minas Gerais, e a custo de muito esforço conseguiu apossar-se de inúmeras minas de ouro. Travou-se então a Guerra dos Emboabas e ele lutou contra os portugueses e brasileiros que eram amigos daqueles. Vocês sabem o que foi a Guerra dos Emboabas?</p>
+            <p>- Eu si – respondeu Iberê.</p>
+            <p>O Arrelia olhou-o assustado:</p>
+            <p>- Mas não é possível! Está demais! Esse menino deve ter comido alguns livros hoje.</p>
+            <p>Depois pediu a Iberê que falasse aos outros sobre a Guerra dos Emboabas. O menino começou:</p>
+            <p>- Os bandeirantes paulistas achavam que as minas eram deles já que haviam sido os descobridores e exploradores delas. Os portugueses, porém, como o Brasil era colônia lusitana, achavam que o verdadeiro dono das minas era o rei de Portugal. Por causa disto surgiram diversas lutas entre os paulistas e os emboabas, que eram portugueses e alguns brasileiros de outras procedências, que os ajudavam.</p>
+            <p>- Isso mesmo – aplaudiu o Arrelia. Muito bem – e retornou a narração:</p>
+            <p>- Depois que a guerra terminou, Bartolomeu achou melhor deixar Minas Gerais porque sua presença ali poderia provocar nova luta. Muito se falava na existência de uma grande mina de ouro, chamada Mina dos Martírios, em Goiás, e ele resolveu encontrá-la. Organizou uma importante expedição e partiu para o desconhecido.</p>
+        </div>
+        <div class="imagem" id="a7">
+            <img src="imagem/Volume4/3.png" alt="Índios X Brancos">
+        </div>
+        <div class="texto" id="a8">
+            <p>Não foi “nauda” fácil chegar lá. Encontraram inúmeros rios que tiveram de atravessar e desafiantes serras que foram obrigados a transpor. E havia ainda as feras, as cobras e os mosquitos, Ele, porém, não parava diante de nada. Sua coragem animava os que o acompanhavam e assim conseguiram chegar ao sertão de Goiás, onde diziam existir a fabulosa mina de ouro.</p>
+            <p>Bartolomeu já se sentia vencedor quando deu com um grupo de índios que não o deixaram passar.</p>
+            <p>Um deles perguntou-lhe:</p>
+            <p>- O que veio fazer aqui? O que pretende?</p>
+            <p>- Estou procurando a Mina dos Martírios. Quero saber se fica nesta região.</p>
+            <p>O índio disse que havia muitas minas nas suas terras. Ele pediu que o deixassem passar mas não adiantou nada. Os selvagens não permitiam de nenhum modo a entrada de brancos nos seus domínios.</p>
+            <p>Bartolomeu acampou ali perto e ficou pensando de que forma poderia passar. Desistir de encontrar a mina é que não podia. Depois de tanto sacrifício! Teve a ideia de usar de força mas o grande número de índios, muito superior ao de sua gente, não os animou. Seriam derrotados facilmente pelos selvagens. Foi ficando por ali, na esperança de encontrar um modo de realizar o seu desejo.</p>
+        </div>
+        <div class="imagem" id="a9">
+            <img src="imagem/Volume4/4.png" alt="O Anhanguera">
+        </div>
+        <div class="texto" id="a10">
+            <p>- Olhe, Arrelia – disse Carlinhos. Se eu estivesse no lugar dele, sei o que faria!</p>
+            <p>O Arrelia ficou uns momentos piscando a olhar para o menino. Depois lhe perguntou:</p>
+            <p>- “Verdaude”? Vamos ver então qual a solução que você encontrou.</p>
+            <p>Carlinhos tomou um ar de falsa modéstia e esclareceu:</p>
+            <p>- Sem que percebessem, eu me disfarçava de índio e me misturava com eles.</p>
+            <p>O Arrelia até se entortou de tanto rir. As outras crianças logo entenderam o motivo e também caíram na gargalhada.</p>
+            <p>Carlinhos, agora de cara fechada, quis saber:</p>
+            <p>- Por que tanto barulho? Não vejo nada de engraçado na minha ideia. Posso saber por que estão rindo?</p>
+            <p>O Arrelia desejava explicar mas não o conseguia. O acesso de riso não o deixava falar. Carlinhos olhava para um e para outro e repetia a pergunta. Nenhuma resposta. Por fim, com muito sacrifício, o Arrelia explicou-lhe o motivo das risadas:</p>
+            <p>- Você é mesmo inocente! Não acha que é muito escurinho para passar por índio? Já imaginou? Seria mais fácil uma tartaruga passar por onça! – e começou a rir outra vez.</p>
+            <p>Carlinhos ficou pensativo. Após uns instantes, falou, mais para si do que para os outros:</p>
+        </div>
+        <div class="texto" id="a11">
+            <p>- É mesmo! Eu não tinha pensado nisso! Acho que eu não dava um índio muito perfeito, não.</p>
+            <p>- É claro! – confirmou o Arrelia. Você seria agarrado logo no primeiro passo! Pensando bem, talvez os índios morressem de tanto dar risada! Bom, vamos continuar a estória senão quem acaba morrendo de rir somos nós!</p>
+            <p>Bartolomeu lembrou-se do episódio acontecido com Diogo Álvares Correia, o Caramuru: dando um tiro de espingarda, que os índios não sabiam o que era, conseguiu amedrontá-los e escapar de ser morto por eles. Por causa disto recebeu o apelido de Caramuru, que quer dizer Homem do Trovão. Ah! se pudesse fazer o mesmo!</p>
+            <p>- E por que não? – perguntou Jaci. Ele não possuía espingarda?</p>
+            <p>- Possuía, mas acontece que aqueles índios já haviam tido outros encontros com brancos e conheciam a espingarda – esclareceu o Arrelia. Portanto . . .</p>
+            <p>Ele pensou, pensou e teve uma ideia. Já sabia o que fazer para amedrontar os índios. Chamou os que estavam ali e disse-lhes:</p>
+            <p>- Ou vocês me deixam passar e procurar a Mina dos Martírios ou então porei fogo em todas as águas daqui. Secarei as lagoas e os rios, e vocês morrerão de sede!</p>
+            <p>- E ele podia mesmo secar as águas? – interrogou Marisa.</p>
+            <p>- Não, Marisa – respondeu o Arrelia. Mas havia descoberto um meio de fazê-los acreditar que sim.</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/Volume4/5.png" alt="Chefe indígena">
+        </div>
+        <div class="texto" id="a13">
+            <p>- E qual era esse meio? – perguntou a menina com curiosidade.</p>
+            <p>- Espere um pouco e logo saberá – pediu o Arrelia e prosseguiu:</p>
+            <p>- Bartolomeu ameaçou os índios e deu-lhes um prazo para que resolvessem se o deixavam ou não passar:</p>
+            <p>- Se até amanhã cedo vocês não me houverem dado permissão para eu passar e indicado onde fica a mina que procuro, porei fogo na água.</p>
+            <p>Uns índios ficaram um pouco assustados. Outros tomaram um ar de riso e seguiram todos para a aldeia a fim de contar ao cacique o que haviam ouvido.</p>
+            <p>A ameaça do bandeirante causou uma confusão “daqueulas”. Alguns índios achavam que era mentira. Outros não queriam facilitar e preferiam fazer a vontade de Bartolomeu Bueno.</p>
+            <p>Um deles disse ao cacique:</p>
+            <p>- Não sabemos se o branco tem ou não tal poder. Já pensou o que será de nós se ele o tiver? Secará nossas lagoas e nossos rios! O que faremos sem água? Morreremos todos de sede!</p>
+        </div>
+        <div class="imagem" id="a14">
+            <img src="imagem/Volume4/6.png" alt="Pajé">
+        </div>
+        <div class="texto" id="a15">
+            <p>O cacique pôs a mão no queixo e ficou pensando, preocupado. Aí outro índio dirigiu-se a ele:</p>
+            <p>- O branco quer apenas amedrontar-nos! Não é possível que possua tão grande poder! Tupã não o concederia a nenhum ser humano!</p>
+            <p>O Cacique continuou quieto, pensando. O primeiro índio voltou a falar:</p>
+            <p>- O branco parece ter certeza. Acho que possui o poder que diz possuir.</p>
+            <p>Depois de algum tempo o cacique ordenou:</p>
+            <p>- Tragam o pajé. Sendo feiticeiro, ele saberá se o branco tem ou não o poder de queimar nossa água.</p>
+            <p>Alguns índios foram buscar o pajé e ele veio andando devagar, com um ar sério, como convinha a um homem com aquele cargo.</p>
+            <p>O cacique contou-lhe o que estava ocorrendo e pediu-lhe:</p>
+        </div>
+        <div class="imagem" id="a16">
+            <img src="imagem/Volume4/7.png" alt="Anhanguera fazendo água pegar fogo">
+        </div>
+        <div class="texto" id="a17">
+            <p>- Diga-me, pajé, se ele pode mesmo cumprir a ameaça. Se disser que sim, deixaremos que passe com os seus homens e lhe mostraremos onde existe ouro.</p>
+            <p>O pajé ouviu com toda a atenção e pôs-se a meditar. Não se ouvia um ruído. Todos aguardavam em silêncio. Por fim o feiticeiro da tribo falou:</p>
+            <p>- O branco está mentindo. Jamais conseguirá secar a nossa água. Tupã deu este poder a ninguém. Se ele quisesse concedê-lo a alguém, teria escolhido a mim, a quem afinal já deu tantos poderes.</p>
+            <p>O cacique sorriu e disse bem alto:</p>
+            <p>- A preocupação estava absorvendo minha alegria como a abelha suga o mel de uma flor. Mas as palavras sábias do pajé espantaram-na para longe e voltei a sentir-me feliz.</p>
+            <p>O pajé quase estourou de orgulho. O cacique dirigiu-se aos índios:</p>
+            <p>- Ouviram o que ele disse. Nada há a temer. O branco não passa de um aventureiro e não merece nossa atenção. Terá o nosso desprezo e ficará sem resposta.</p>
+            <p>Tanto os índios que não tinham acreditado como os que haviam ficado receosos começaram a dar pulos de alegria. Pois tudo o que o pajé dizia não era certo?</p>
+            <p>No acampamento, o bandeirante contava as horas ansiosamente. Nem dormiu direito de tão “preocupaudo” que estava. Mais preocupados estavam os homens de sua expedição, pois não sabiam de que modo o seu chefe ia cumprir o prometido.</p>
+            <p>Mal as primeiras luzes do Sol surgiram no horizonte, Bartolomeu levantou-se e ficou olhando o caminho que vinha da aldeia dos índios. O prazo estava-se esgotando. Os outros também se levantaram e ficaram na expectativa.</p>
+            <p>O tempo foi passando e nenhum índio apareceu. Bartolomeu viu que era mesmo necessário pôr fogo na água para assustá-los. Chamou dois dos homens que o acompanhavam e ordenou-lhes:</p>
+        </div>
+        <div class="imagem" id="a18">
+            <img src="imagem/Volume4/8.png" alt="Índios assustados com o Anhanguera">
+        </div>
+        <div class="texto" id="a19">
+            <p>- Vão até a aldeia e digam àqueles índios que o prazo se esgotou. Se eles não concordam em deixar-nos passar, serei obrigado a queimar a água. Eles que venham aqui para ver se posso ou não cumprir o que disse.</p>
+            <p>Os dois homens ficaram um pouco assustados olhando o chefe para ver se estava brincando. Mas sua cara dizia que não e eles tomaram a direção da aldeia.</p>
+            <p>Os índios lhe disseram que de nenhum modo permitiriam a passagem dos brancos. Os enviados pediram então que alguns índios os acompanhassem a fim de verem o bandeirante cumprir a promessa. O cacique achou que era a oportunidade de desmascarar Bartolomeu e mandou que alguns índios acompanhassem os mensageiros.</p>
+            <p>Bartolomeu havia enchido uma guampa com pólvora e, encostando-a à água, pôs-lhe fogo. Os índios tiveram a impressão de que o fogo vinha de dentro da água e ficaram horrorizados. Uns caíram de joelhos, alguns se esconderam no mato e os outros correram para a aldeia.</p>
+            <p>O cacique, ao saber do acontecido, veio pessoalmente pedir ao bandeirante que não secasse a água e deu-lhe permissão para passar com sua gente. Agora os índios viam nele um ser sobrenatural, digno de todo o respeito, e deram-lhe o apelido de Anhanguera que, como eu disse, significa Diabo Velho.</p>
+            <p>Diz a estória que mesmo com a ajuda dos índios ele não conseguiu achar a Mina dos Martírios. Em compensação, encontrou outras minas e ficou riquíssimo.</p>
+            <p>- E o que aconteceu ao pajé? – perguntou Sérgio.</p>
+            <p>- Isso não sei – respondeu o Arrelia. Mas coisa boa é que não foi.</p>
+        </div>
+        <div class="rodapé" id="a20"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>

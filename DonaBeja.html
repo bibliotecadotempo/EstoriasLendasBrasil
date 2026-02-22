@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>Dona Bêja</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(24, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 6;}
+        #a2 {grid-area: 2 / 1 / 3 / 6;}
+        #a3 {grid-area: 3 / 1 / 4 / 6;}
+        #a4 {grid-area: 4 / 1 / 5 / 4;}
+        #a5 {grid-area: 4 / 4 / 5 / 6;}
+        #a6 {grid-area: 5 / 1 / 6 / 6;}
+        #a7 {grid-area: 6 / 1 / 7 / 3;}
+        #a8 {grid-area: 6 / 3 / 7 / 6;}
+        #a9 {grid-area: 7 / 1 / 8 / 6;}
+        #a10 {grid-area: 8 / 1 / 9 / 6;}
+        #a11 {grid-area: 9 / 1 / 10 / 6;}
+        #a12 {grid-area: 10 / 1 / 11 / 6;}
+        #a13 {grid-area: 11 / 1 / 12 / 6;}
+        #a14 {grid-area: 12 / 1 / 13 / 4;}
+        #a15 {grid-area: 12 / 4 / 13 / 6;}
+        #a16 {grid-area: 13 / 1 / 14 / 3;}
+        #a17 {grid-area: 13 / 3 / 14 / 6;}
+        #a18 {grid-area: 14 / 1 / 15 / 6;}
+        #a19 {grid-area: 15 / 1 / 16 / 6;}
+        #a20 {grid-area: 16 / 1 / 17 / 6;}
+        #a21 {grid-area: 17 / 1 / 18 / 4;}
+        #a22 {grid-area: 17 / 4 / 18 / 6;}
+        #a23 {grid-area: 18 / 1 / 19 / 4;}
+        #a24 {grid-area: 18 / 4 / 19 / 6;}
+        #a25 {grid-area: 19 / 1 / 20 / 6;}
+        #a26 {grid-area: 20 / 1 / 21 / 6;}
+        #a27 {grid-area: 21 / 1 / 22 / 6;}
+        #a28 {grid-area: 22 / 1 / 23 / 4;}
+        #a29 {grid-area: 22 / 4 / 23 / 6;}       
+        #a30 {grid-area: 24 / 1 / 25 / 6;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a30 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">Dona Bêja</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Vamos visitar o Museu de Araxá? – propôs o Arrelia.</p>
+            <p>Todas as crianças concordaram com entusiasmo, menos Carlinhos, que nutria outras intenções. Fazendo um ar desconsolado, ele dirigiu-se ao Arrelia:</p>
+            <p>- Eu estava com vontade de brincar um pouco, de dar uma corrida!</p>
+            <p>- Puxa! – exclamou o Arrelia. Você não pensa noutra coisa? Logo mais tarde poderá brincar. Já que estamos em frente ao museu, não vamos perder a oportunidade. Esse museu é diferente. Estão vendo como o prédio é antigo? Olhem que belo sobrado colonial. Os seus móveis são originais, e a gente, entrando nele, tem a impressão de voltar ao passado. Vale a pena. Seria de grande valor para nossa cultura se houvesse outros museus iguais por todo o Brasil. Assim nossas tradições não morreriam.</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/Volume4/9.png" alt="Dona Bêja no jardim">
+        </div>
+        <div class="texto" id="a3">
+            <p>Carlinhos começou a ficar interessado. O Arrelia continuou:</p>
+            <p>- Esse sobrado pertenceu a Dona Bêja. Ela morava aí.</p>
+            <p>Marisa contemplou o prédio demoradamente e perguntou:</p>
+            <p>- Morava aí? Nesse palácio? O que ela fazia numa casa tão grande? Nunca vi tantas portas e janelas!</p>
+            <p>- Foi feita conforme o gosto da época.</p>
+            <p>- Havia muitas casas assim?</p>
+            <p>- Muitas não. Dona Bêja era rica! E também bonita!</p>
+            <p>- Mas que nome engraçado! Dona Bêja!</p>
+            <p>- Não era esse o nome “deula”.</p>
+            <p>Não? Não entendi.</p>
+            <p>Dirigindo-se às crianças, o Arrelia esclareceu:</p>
+            <p>- Bêja era o apelido carinhoso dado por seu avô.</p>
+            <p>- E o que significa? Quis saber Carlinhos.</p>
+            <p>- Vou explicar. A origem desse nome é muito sentimental e bonita. O nome verdadeiro de Dona Bêja era Ana Jacinta de São José. Quando era pequenina, gostava de colher flores. Era a brincadeira da qual mais gostava. Aliás, o seu amor pelas flores continuou por toda a vida. Quando não conseguiam encontrar a menina em casa, era só procurá-la onde houvesse flores. Não falhava. Lá estava ela correndo alegremente entre as flores, colhendo-as.</p>
+        </div>
+        <div class="texto" id="a4">
+            <p>Seu avô, que sabia observar as coisas com o devido “cuidaudo”, acabou por comparar a neta a um beija-flor. “Essa menina parece um beija-flor!” – dizia ele. Com o tempo, o nome pegou. Ficou conhecida por Beija-flor e mais tarde somente por Bêja para os íntimos e Dona Bêja para os de fora. Não havia outra moça com beleza igual por toda a redondeza. Dizem que gostava de tomar banho numa banheira cheia de leite e também na Fonte da Jumenta, que atualmente se chama Fonte de Dona Bêja. Depois iremos até lá.</p>
+            <p>Tão grande foi sua influência que conseguiu anexar um bom pedaço de terra que pertencia a Goiás ao Estado de Minas Gerais. É o hoje chamado Triângulo Mineiro. Olhem. Essa é a cama onde ela dormia. Que bela peça antiga, não?</p>
+        </div>
+        <div class="imagem" id="a5">
+            <img src="imagem/Volume4/10.png" alt="A Rosa">
+        </div>
+        <div class="texto" id="a6">
+            <p>- É mesmo bonita! – concordou Jaci com admiração.</p>
+            <p>Depois de olhar a cama por todos os lados, Carlinhos perguntou:</p>
+            <p>- Dona Bêja dormia ao ar livre?</p>
+            <p>A pergunta do menino fez o Arrelia piscar várias vezes.</p>
+            <p>- Essa não entendi – disse ele. Por que ela haveria de dormir ao ar livre?</p>
+            <p>- Ora, não está vendo essa coberta? Acho que era para proteger da chuva.</p>
+            <p>- Ah! – exclamou o Arrelia, entendendo agora por que Carlinhos lhe fizera tal pergunta. Isso chama-se dossel e não é para proteger da chuva, não.</p>
+        </div>
+        <div class="imagem" id="a7">
+            <img src="imagem/Volume4/11.png" alt="Fadas e Flores">
+        </div>
+        <div class="texto" id="a8">
+            <p>A expressão de Carlinhos demonstrava claramente o esforço mental que fazia para compreender a finalidade daquela coberta:</p>
+            <p>- Dossel? E para que serve?</p>
+            <p>- Para enfeitar. Unicamente para enfeitar. Muitos ricos de antigamente costumavam usar leitos assim.</p>
+            <p>- Que engraçado!</p>
+            <p>- Pois é. Cada época com seus costumes.</p>
+            <p>- Faz tempo que Dona Bêja viveu aqui?</p>
+            <p>- Faz. Foi no século “passaudo”. Mas vamos apreciar as outras peças deste museu.</p>
+            <p>O Arrelia e as crianças continuaram sua visita, admirando-se a cada instante com o que encontravam. Depois de um bom tempo, saíram. Pararam novamente diante do casarão para admirá-lo.</p>
+            <p>- É grande mesmo – considerou Iberê.</p>
+            <p>- Se é – respondeu o Arrelia. Dona Bêja mandou construí-lo com dois andares, dezesseis cômodos e oito sacadas de frente!</p>
+            <p>- Arre! Para que tantos cômodos.</p>
+            <p>- Ela queria uma casa digna de sua riqueza. Esse palácio era famoso pelo luxo com que sua proprietária o mobiliara. Bem, vamos conhecer a cidade. Por estas ruas Dona Bêja costumava passear a cavalo.</p>
+        </div>
+        <div class="texto" id="a9">
+            <p>- Ela andava a cavalo? – surpreendeu-se Jaci.</p>
+            <p>- Como não? Contam que ela gostava de por um lindo vestido vermelho e passear “montauda” num garboso cavalo branco.</p>
+            <p>Após umas voltas pelos arredores, o Arrelia e as crianças seguiram em direção ao lago em que Dona Bêja costumava banhar-se. Ficaram todos encantados com a beleza do lugar. Sentaram-se perto da água. Sérgio começou a arrancar algumas flores e a jogá-las ao lago. O Arrelia observava distraído os círculos que as flores faziam na superfície límpida e tranquila. Decorridos uns minutos, o Arrelia disse ao menino:</p>
+            <p>- Não vá acordar a princesa do lago, hein?</p>
+        </div>
+        <div class="imagem" id="a10">
+            <img src="imagem/Volume4/12.png" alt="Dona Bêja montando cavalo">
+        </div>
+        <div class="texto" id="a11">
+            <p>- Que princesa? – quis saber Sérgio.</p>
+            <p>- É uma estória muito antiga. Não se refere a esse lago. Lembrei-me dela ao ver você atirando flores à água.</p>
+            <p>Conta a estória que havia uma princesa muito bonita, assim como Dona Bêja e que também gostava imensamente de flores. Vivia num palácio enorme e maravilhoso. Era bastante feliz. Gostava de passear pelo jardim do palácio, onde passava horas e horas completamente esquecida.</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/Volume4/13.png" alt="Princesa banhando-se no rio">
+        </div>
+        <div class="texto" id="a13">
+            <p>Uma vez ou outra, seu pai costumava dar grandes festas em seu palácio, às quais comparecia a mais rica nobreza. Como a princesa era a mais “boniuta” das moças do lugar, todos os convidados lhe dedicavam a maior atenção. Não havia um que não quisesse dançar com ela.</p>
+            <p>Um dos maiores prazeres da moça era conversar com as flores. A todas ela conhecia. Sempre que ia ao jardim, não se esquecia de falar com elas, as quais a recebiam com satisfação. Dirigia-se a uma rosa que mal terminara de tomar seu banho de orvalho:</p>
+            <p>- Bom dia, amiga rosa. Como você está encantadora com essas gotas de orvalho! Parece toda enfeitada de brilhantes!</p>
+            <p>- Bom dia, princesa. Agradeço-lhe a gentileza. Porém mais bonita está você com esses brilhantes verdadeiros e uma rosa em cada face.</p>
+            <p>Mais além falava com uma singela violeta:</p>
+        </div>
+        <div class="texto" id="a14">
+            <p>- Bom dia, amiga violeta. Acho-a encantadora em sua delicada beleza que sempre procura esconder. Louvável simplicidade!</p>
+            <p>- Mais louvável é a sua modéstia, princesa. T	ao linda e importante como é, não se esquiva a conviver conosco, pobres e efêmeras flores.</p>
+            <p>- Ouça, minha cara violeta. De toda a Natureza, são as flores que merecem meu maior afeto e amizade. Sabe por quê? Porque as flores são flores. Uma rosa é uma rosa e uma violeta é uma violeta. A gente sabe o que esperar das flores. Se tem perfume, dão o seu perfume; se tem beleza, entregam sua beleza. Se são humildes, não disfarçam sua humildade. Um pássaro canoro pode negar-se a cantar e fugir quando menos se espera. E assim também são os outros seres. Tem sempre duas aparências: a que se vê e a que não se vê; a que nos entregam e a que guardam para si. Não se pode prever sua reação.</p>
+        </div>
+        <div class="imagem" id="a15">
+            <img src="imagem/Volume4/14.png" alt="Princesa e a Rosa">
+        </div>
+        <div class="imagem" id="a16">
+            <img src="imagem/Volume4/15.png" alt="Rosa">
+        </div>
+        <div class="texto" id="a17">
+            <p>As flores ficavam muito contentes com os elogios tributados pela princesa.</p>
+            <p>Toda vez que ela chegava ao jardim era uma festa. Não havia uma flor que não quisesse falar com ela. Os girassóis até se esqueciam de acompanhar o Sol, tão embevecidos ficavam admirando a princesa.</p>
+            <p>Agora, se havia coisa que a moça não suportava era saber que alguma flor fora “cortauda”. Seus súditos tinham ordens rigorosas para não cortar nem deixar que alguém cortasse uma flor. Mesmo assim, de vez em quando suas ordens eram desobedecidas, e ela encontrava uma haste solitária, revelando que sua vontade não havia sido cumprida. Como a princesa ficava triste ao ver que uma flor fora “cortauda”! Corria por todos os lugares a fim de ver se encontrava a flor. Se era bem sucedida, colocava a pobre vítima num copo de água para minorar-lhe o sofrimento.</p>
+        </div>
+        <div class="texto" id="a18">
+            <p>- Isso é que era gostar de flores, não, Arrelia? – comentou Marisa.</p>
+            <p>- É “verdaude”. Gostava mesmo.</p>
+            <p>Mas o tempo foi passando. Numa linda manhã ensolarada, a princesa estava passeando no jardim e conversando com as flores quando notou que a rosa mais linda havia sido “roubauda”. Como ficou triste. Por que haviam feito aquilo? Quem tivera tanta maldade? Começou a procurar a flor ansiosamente. Era a rosa mais bela e mais sábia que já conhecera! Por fim deu com ela abandonada na beira de um caminho. Apanhou-a e correu para colocá-la num copo de água mas a rosa já estava agonizante.</p>
+            <p>Antes de morrer, ela disse à princesa numa voz tão débil que obrigou a moça a encostá-la no ouvido:</p>
+            <p>- Isto foi acontecer-me justamente quando eu tinha uma coisa muito importante oara contar-lhe. Não sei se as forças que me restam darão para tanto.</p>
+            <p>Com muito esforço, a rosa começou a contar o que sabia, quase num sussurro:</p>
+            <p>- Pouco antes de eu ser cortada, seu pai estava conversando com outro homem perto de mim. As outras flores dormiam. Era um homem feio, velho e mau, porém riquíssimo, e como seu pai precisa de dinheiro, prometeu-lhe que você se casará com ele.</p>
+        </div>
+<div class="imagem" id="a19">
+    <img src="imagem/Volume4/16.png" alt="A princesa triste">
+
+</div>
+<div class="texto" id="a20">
+    <p>A princesa ficou aflita:</p>
+            <p>- O que farei? Devo fugir?</p>
+            <p>- Não adiantará – respondeu a flor. Seu pai conseguirá encontrá-la.</p>
+            <p>- O que devo fazer então?</p>
+            <p>- Já vou dizer-lhe. Deixe-me contar-lhe primeiro o que aconteceu. O homem que desejava casar-se com você resolveu, para fingir ser agradável, dar-lhe uma flor. E fui a escolhida. Arrancou-me sem piedade da minha haste e vinha-me trazendo quando seu pai se lembrou que você não permite tal coisa. Informado a respeito, seu pretendente jogou-me onde você me encontrou.</p>
+            <p>- Diga-me agora o que devo fazer! Por favor!</p>
+</div>
+<div class="imagem" id="a21">
+    <img src="imagem/Volume4/17.png" alt="O Rei">
+</div>
+<div class="texto" id="a22">
+    <p>Após descansar alguns momentos a fim de tomar fôlego, a rosa continuou:</p>
+            <p>- Só há um recurso para você escapar de um casamento assim indesejável: quando perceber que realmente ele vai ser consumado, dirija-se ao lago, pense em mim e atire-se às águas. Acautele-se porém para que ninguém a veja.</p>
+            <p>A princesa ficou “apavorauda”. Atirar-se às águas do lago? Ela não queria morrer! Ainda mais “afogauda!” A rosa tranquilizou-a:</p>
+            <p>- Não morrerá, princesa. Apenas ficará adormecida. Ficará adormecida no fundo do lago até que um dia aparecerá um príncipe. Ele se sentará à beira do lago e atirará uma flor à água. Assim que tal acontecer, você se despertará. Casar-se-á com o príncipe e serão felizes para sempre.</p>
+            <p>Pouco depois de haver falado a rosa expirou. Morreu nas mãos da princesa e ela ficou muito triste.</p>
+            <p>Uns dias mais tarde, estando a moça sentada em seu belo jardim, um criado foi procurá-la:</p>
+</div>
+<div class="texto" id="a23">
+    <p>- Com sua permissão, princesa.</p>
+            <p>- Sim? O que deseja?</p>
+            <p>- O rei, seu pai, pede-lhe para ir ter com ele imediatamente.</p>
+            <p>Ela mostrou-se contrariada e perguntou:</p>
+            <p>- O que o meu pai deseja de mim?</p>
+            <p>- De nada sei, princesa. Apenas recebi ordens para dizer-lhe que vá à sua presença sem demora.</p>
+            <p>- Está bem. Pode ir que irei em seguida.</p>
+            <p>O criado deixou-a sozinha e ela ficou uns minutos refletindo tristemente, pois sabia qual era a notícia que a esperava. Levantou-se finalmente e tomou o caminho do palácio.</p>
+            <p>Encontrou o rei com uma expressão “preocupauda”. Não devia ser pequeno o seu problema. Dirigiu-se a ele:</p>
+            <p>- Mandou-me chamar, meu pai?</p>
+</div>
+<div class="imagem" id="a24">
+    <img src="imagem/Volume4/18.png" alt="A princesa recebendo notícia do casamento">
+</div>
+<div class="texto" id="a25">
+            <p>- Sim, minha filha. Preciso falar-lhe. Trata-se de um assunto muito importante que diz respeito a nós dois.</p>
+            <p>- E do que se trata? – perguntou a princesa, estremecendo-se.</p>
+            <p>- Já vai saber. Sente-se.</p>
+            <p>A princesa sentou-se, e o rei, procurando sorrir, começou a esclarecer-lhe o motivo daquela entrevista:</p>
+            <p>- Embora não seja do conhecimento de quase ninguém, encontro-me em sérias dificuldades financeiras. Os cofres do palácio estão quase vazios. Só existe uma pessoa que poderá ajudar-me. É um rico senhor estrangeiro que pede, porém, em troca de seu favor a mão de minha filha.</p>
+            <p>- Mas meu pai! Não haverá outro modo? Nem o conheço!</p>
+            <p>- Não, minha filha. Tem de ser assim.</p>
+            <p>A moça lembrou-se das palavras da rosa e resolveu esperar até ao último instante para atirar-se ao lago.</p>
+</div>
+<div class="imagem" id="a26">
+    <img src="imagem/Volume4/19.png" alt="O Baile">
+</div>
+<div class="texto" id="a27">
+            <p>- E quando irei conhece-lo? – perguntou com ar de enfado.</p>
+            <p>- Hoje à noite. Preparei uma festa, um baile, para o grande acontecimento.</p>
+            <p>Terminada a entrevista, a moça retirou-se e fechou-se no seu quarto completamente desanimada. Ia ser a festa mais triste de sua vida. Sabia que ia ser assim.</p>
+            <p>As horas passaram rapidamente. Vocês sabem que quando a gente não quer que uma coisa chegue, o tempo passa “depreussa”, não é mesmo? A princesa arrumou-se, muito sem vontade. E seguiu para os salões que estavam esplendidamente iluminados.</p>
+            <p>O baile já havia começado. As mais belas damas e os homens mais importantes do lugar encontravam-se ali reunidos. A orquestra tocava maravilhosamente e em tudo havia alegria. Só não havia no coração da princesa. Ela estava mis triste do que um dia sem Sol. Esforçando-se para que ninguém percebesse sua desolação, ela entrou nos enormes e floridos salões, onde foi recebida com entusiasmo e admiração. A orquestra parou de tocar, os convidados de dançar . . . Ela estava tão “boniuta” que parecia mentira. Logo um criado a levou ao rei e o baile recomeçou.</p>
+            <p>Junto do rei estava um velho que dava a impressão de haver reunido em sua pessoa toda a feiura do mundo. Corcunda, vesgo, com uma brilhante careca . . .</p>
+            <p>O rei disse à princesa:</p>
+            <p>- Este será o seu futuro esposo, minha filha.</p>
+            <p>O noivo soletrou algumas palavras que mal e mal a moça conseguiu compreender. Também era gago! “Bem – pensou ela – só resta saber se é bondoso ou mau coo disse a rosa”. Logo viu que era mau. Seu pai explicou ao pretendente:</p>
+            <p>- O senhor vai estranhar no começo porque minha filha é uma grande sonhadora. Vive na fantasia. Imagine que conversa com as flores!</p>
+            <p>O homem respondeu com uma risada horrível, mas tão tétrica que até o rei ficou arrepiado, e com muito custo, por ser bastante gado, disse que aquele capricho de criança seria curado pelo tanque de lavar roupa e pelo trabalho da cozinha. O rei ficou “chocaudo” com a maldade de seu futuro genro. Como, porém, precisava dele, disfarçou sua surpresa o melhor que pode e sugeriu que fossem danças.</p>
+            <p>A princesa, fazendo esforço para não desmaiar de tanto desgosto, alegou que estava com muita sede e que ia tomar um copo de água. O rei quis chamar um criado mas a princesa argumentou que seria mais rápido ela ir pessoalmente. Que esperassem um instante. Os dois ficaram à sua espera até que o rei, estranhando a demora, mandou vários criados verificarem o motivo. Dentro em pouco o palácio estava em polvorosa. A princesa sumira! Todos os lugares do palácio foram vasculhados. Depois não escapou um palmo do reino. Procuraram em todos os lugares possíveis. Nada. A princesa desaparecera como por encanto. Nunca mais foi encontrada.</p>
+</div>
+<div class="imagem" id="a28">
+    <img src="imagem/Volume4/20.png" alt="A princesa no fundo do lago">
+</div>
+<div class="texto" id="a29">
+            <p>Ela havia feito o que aquela rosa lhe recomendara: verificando que ninguém a observava, atirou-se ao lago. Adormeceu imediatamente e, afundando com suavidade, chegou ao fundo e lá continua  até hoje, à espera do príncipe que deverá atirar uma flor à água para quebrar o encantamento. Eu disse que o lago não é esse mas não tenho muita certeza, sabem?</p>
+            <p>- Imaginem! E se a princesa aparecesse agora e o Sérgio fosse obrigado a casar com ela? – disse Carlinhos, pondo-se a rir como louco.</p>
+            <p>Todos começaram também a caçoar do menino, inclusive o Arrelia, que o chamou de “Príncipe Sérgio”. O menino ficou vermelho de raiva. Olhou para Carlinhos e disse-lhe por entre os dentes:</p>
+            <p>- Foi você quem começou, não foi? Pois tome cuidado que não me custa atirá-lo ao lago e transformá-lo numa princesa adormecida, hein?</p>
+            <p>Os outros passaram a caçoar de Carlinhos depois que o Arrelia comentou:</p>
+            <p>- Que bela princesa ele daria! Não quero nem pensar!</p>
+</div>
+<div class="rodapé" id="a30"><h3>Desenvolvido por JF</h3></div>
+</div>
+
+</body>
