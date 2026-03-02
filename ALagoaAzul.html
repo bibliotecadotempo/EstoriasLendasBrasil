@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>A Lagoa Azul</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(30, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 4;}
+        #a2 {grid-area: 1 / 4 / 2 / 6;}
+        #a3 {grid-area: 2 / 1 / 3 / 6;}
+        #a4 {grid-area: 3 / 1 / 4 / 6;}
+        #a5 {grid-area: 4 / 1 / 5 / 6;}
+        #a6 {grid-area: 5 / 1 / 6 / 6;}
+        #a7 {grid-area: 6 / 1 / 7 / 6;}
+        #a8 {grid-area: 7 / 1 / 8 / 4;}
+        #a9 {grid-area: 7 / 4 / 8 / 6;}
+        #a10 {grid-area: 8 / 1 / 9 / 6;}
+        #a11 {grid-area: 9 / 1 / 10 / 3;}
+        #a12 {grid-area: 9 / 3 / 10 / 6;}
+        #a13 {grid-area: 10 / 1 / 11 / 6;}
+        #a14 {grid-area: 11 / 1 / 12 / 6;}
+        #a15 {grid-area: 30 / 1 / 31 / 6;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a15 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">A Lagoa Azul</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Em outra pequena e antiga cidade, o Arrelia, acompanhado das crianças, lembrou-se de visitar um seu velho conhecido, Nhô Eusébio, e a esposa deste, Nhá Jana. Eram idosos mas sacudidos e habitavam, não muito perto da cidade, um modesto mas bem cuidado sítio onde, ajudados por seus quatro filhos e mais três empregados, plantavam e colhiam uma infinidade de coisas. Também possuíam algumas vacas leiteiras, que eram o orgulho de todos daquele sítio, bem como outros animais e diversas aves. O mais interessante era que Nhô Eusébio introduzira bem poucas inovações ali, conservando a maioria dos usos antigos. Assim, estavam em plena atividade o pilão, a moenda movida a burro, o forno à lenha e o tacho de fazer doces.</p>
+            <p>Uma vez em que Carlinhos estava pesquisando o lugar, ouviu umas pancadas que vinham de perto e logo ficou curioso em saber do que se tratava. Não demorou muito em encontrar o motivo: Nhô Eusébio socava energicamente farinha e carne-seca no pilão, preparando a paçoca. O menino foi chegando de mansinho e colocou-se perto do sitiante.</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/Volume4/51.png" alt="Pilão">
+        </div>
+        <div class="texto" id="a3">
+            <p>- Está gostando? – perguntou Nhô Eusébio, sem parar de bater.</p>
+            <p>- É divertido – respondeu Carlinhos, demonstrando o maior interesse.</p>
+            <p>- Divertido? – espantou-se Nhô Eusébio, sorrindo. É muito cansativo, isto sim.</p>
+            <p>- Não parece. Posso experimentar?</p>
+            <p>- Se quiser . . . Assim aproveito para ir tomar água sem atrasar o trabalho.</p>
+        </div>
+        <div class="imagem" id="a4">
+            <img src="imagem/Volume4/52.png" alt="O Arrelia e as Crianças.">
+        </div>
+        <div class="texto" id="a5">
+            <p>Carlinhos assumiu com indizível prazer a incumbência e começou a bater de gosto. Não custou, porém, a perder o entusiasmo. A falta de costume o traiu e as pancadas foram-se distanciando cada vez mais.</p>
+            <p>Quando Nhô Eusébio voltou, Carlinhos suava por todos os poros.</p>
+            <p>- Uai! O que aconteceu? Você está doente? – perguntou espantado o sitiante.</p>
+            <p>Com muito esforço, ele respondeu que não. Apenas estava cansado. Sentia muito calor. Nhô Eusébio mostrou-se apreensivo:</p>
+            <p>- Você não está costumado! Nem pensei nisso! Vá descansar, meu filho, vá.</p>
+            <p>Carlinhos saiu sem dizer palavra, esfregando os braços e fazendo caretas. Encontrou o Arrelia manejando uma comprida taquara, com a qual tentava apanhar uma laranja. Viu Carlinhos que ia passando por ele, descansou a taquara e disse-lhe:</p>
+            <p>- Que aconteceu com você? Não está bem? Que cara de poucos amigos!</p>
+            <p>Com voz arrastada, Carlinhos contou-lhe o que acontecera.</p>
+        </div>
+        <div class="imagem" id="a6">
+            <img src="imagem/Volume4/53.png" alt="A moenda movida a burro">
+        </div>
+        <div class="texto" id="a7">
+            <p>- Isso logo passa – consolou-o o Arrelia e continuou a tentativa de caçar a laranja.</p>
+            <p>A laranja acabou por render-se e caiu, passando rente da testa do menino. Arregalando os olhos, ele disse ao Arrelia:</p>
+            <p>- Puxa! Quase que me pega! Já vi que hoje não é o meu dia. A melhor coisa é eu ficar dentro da casa – e foi embora o mais depressa que pode.</p>
+            <p>Apanhando a laranja, o Arrelia começou a descascá-la cuidadosamente com um canivete. Estava chupando-a com a maior dedicação quando surgiram Sérgio e Iberê.</p>
+            <p>- Olá – saudou-os o Arrelia. Querem chupar laranja?</p>
+        </div>
+        <div class="texto" id="a8">
+            <p>Os dois meninos responderam que não sentiam vontade. Surgiu então um dos empregados trazendo ao ombro um feixe de canas. Iberê ficou curioso.</p>
+            <p>- Aonde será que vai ele? – perguntou.</p>
+            <p>- A moenda – esclareceu o Arrelia, seguindo o homem com o olhar.</p>
+            <p>Os meninos revelaram o desejo de ver a máquina em funcionamento, pois ainda não haviam tido a oportunidade, e os três seguiram o empregado, que, descansando o feixe no chão, perto da moenda, foi buscar o burro para girá-la.</p>
+            <p>Enquanto a moenda funcionava, o empregado foi explicando:</p>
+            <p>- Hoje não era dia da moenda trabalhar, mas Nhô Eusébio quer que vocês tomem uns copos de garapa.</p>
+            <p>Os dois meninos gritaram ao mesmo tempo: “Viva! Que bom!”</p>
+            <p>O Arrelia virou os olhos, passou a língua pelos lábios e exclamou, completamente extasiado:</p>
+            <p>- “Garaupa”? Que maravilha! Que grande ideia teve Nhô Eusébio!</p>
+        </div>
+        <div class="imagem" id="a9">
+            <img src="imagem/Volume4/54.png" alt="Batendo pilão.">
+        </div>
+        <div class="texto" id="a10">
+            <p>- Ele quer que vocês sejam bem tratados – disse o empregado, continuando a colocar os pedaços de cana na moenda.</p>
+            <p>- Sei quanto Nhô Eusébio é hospitaleiro – respondeu o Arrelia. Mas não quero que tenham muito “trabaulho” conosco.</p>
+            <p>O empregado afirmou que não era trabalho nenhum e, terminando o serviço, soltou o burro e saiu carregando o vasilhame com o caldo. O Arrelia e os dois meninos seguiram com ele, sem tirar os olhos da garapa.</p>
+        </div>
+        <div class="imagem" id="a11">
+            <img src="imagem/Volume4/55.png" alt="O Arrelia e sua Bengala">
+        </div>
+        <div class="texto" id="a12">
+            <p>Dentro de casa, encontraram as outras crianças. Carlinhos repousava, confortavelmente instalado numa cadeira de balanço, quase dormindo. Animou-se ao ver o caldo de cana e tratou de reunir-se aos outros, que já estavam enchendo os copos trazidos por Nhá Jana.</p>
+            <p>- Calma, pessoal! – gritou ele. Deixem um pouco para mim!</p>
+            <p>- Não tenha medo – disse o Arrelia. Aí tem garapa até para um batalhão!</p>
+            <p>Carlinhos começou a beber copo atrás de copo. Depois de admirá-lo com espanto, o Arrelia avisou-o:</p>
+            <p>- Olhe, Carlinhos. Tenha calma. Desse modo você vai afogar-se!</p>
+            <p>- Está muito gostoso! Mais um! – respondeu o menino e emborcou outro copo.</p>
+            <p>- Bom, não vá dizer que não avisei! Pode fazer-lhe mal! Advertiu o Arrelia.</p>
+            <p>Carlinhos ainda enxugou mais um copo antes de voltar a sentar-se na cadeira de balanço.</p>
+        </div>
+        <div class="texto" id="a13">
+            <p>Todos os outros também procuraram onde sentar-se. Depois de algum tempo, o Arrelia perguntou a Carlinhos:</p>
+            <p>- Você tem alguma coisa? Que cara!</p>
+            <p>- Não estou bom! – gemeu o menino, começando a esfregar a barriga.</p>
+            <p>- Eu não “diusse”? Por que foi exagerar? Aí está o resultado.</p>
+            <p>Não foi pouco o trabalho que ele deu. Felizmente, logo passou e tudo voltou à normalidade. Enquanto os meninos passeiam com o Arrelia pelo sítio, vamos encontrar jaci e Marisa visitando a cozinha onde Nhá Jana, auxiliada por outra mulher, prepara doces caseiros.</p>
+            <p>- O que a senhora está fazendo? – quis saber Jaci.</p>
+            <p>- Ué, a menina não está vendo? – surpreendeu-se Nhá Jana. Doces, minha filha, doces.</p>
+        </div>
+        <div class="imagem" id="a14"></div>
+        <div class="rodapé" id="a15"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
