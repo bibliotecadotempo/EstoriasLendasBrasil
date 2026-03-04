@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>O Casaca de Ferro</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(23, auto);
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 6;}
+        #a2 {grid-area: 2 / 1 / 3 / 6;}
+        #a3 {grid-area: 3 / 1 / 4 / 6;}
+        #a4 {grid-area: 4 / 1 / 5 / 6;}
+        #a5 {grid-area: 5 / 1 / 6 / 6;}
+        #a6 {grid-area: 6 / 1 / 7 / 3;}
+        #a7 {grid-area: 6 / 3 / 7 / 6;}
+        #a8 {grid-area: 7 / 1 / 8 / 6;}
+        #a9 {grid-area: 8 / 1 / 9 / 4;}
+        #a10 {grid-area: 8 / 4 / 9 / 6;}
+        #a11 {grid-area: 9 / 1 / 10 / 6;}
+        #a12 {grid-area: 10 / 1 / 11 / 3;}
+        #a13 {grid-area: 10 / 3 / 11 / 6;}
+        #a14 {grid-area: 11 / 1 / 12 / 6;}
+        #a15 {grid-area: 12 / 1 / 13 / 6;}
+        #a16 {grid-area: 13 / 1 / 14 / 6;}
+        #a17 {grid-area: 14 / 1 / 15 / 6;}
+        #a18 {grid-area: 15 / 1 / 16 / 6;}
+        #a19 {grid-area: 16 / 1 / 17 / 6;}
+        #a20 {grid-area: 17 / 1 / 18 / 6;}
+        #a21 {grid-area: 18 / 1 / 19 / 3;}
+        #a22 {grid-area: 18 / 3 / 19 / 6;}
+        #a23 {grid-area: 19 / 1 / 20 / 6;}
+        #a24 {grid-area: 20 / 1 / 21 / 3;}
+        #a25 {grid-area: 20 / 3 / 21 / 6;}
+        #a26 {grid-area: 21 / 1 / 22 / 6;}
+        #a27 {grid-area: 22 / 1 / 23 / 4;}
+        #a28 {grid-area: 23 / 4 / 21 / 6;}
+        #a29 {grid-area: 21 / 1 / 22 / 6;}
+        #a30 {grid-area: 22 / 1 / 23 / 6;}
+        #a31 {grid-area: 23 / 1 / 24 / 6;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a31 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">O Casaca de Ferro</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Enquanto passeavam pelo campo, o Arrelia explicava às crianças a origem de muitos tesouros enterrados:</p>
+            <p>- Vocês pensam que naqueles tempos havia segurança como hoje? Eram longos os caminhos do sertão e estavam geralmente semeados de salteadores. A lei não dispunha de forças suficientes para puni-los, e eles, sabendo disto, não hesitavam em atacar os que julgavam carregar valores.</p>
+            <p>Assim, muitas vezes um garimpeiro que gastara tempo e esforço [ara acumular uma certa quantidade de ouro via-se tão pobre como antes ao ser atacado pelos bandidos. E ainda podia considerar-se um homem de sorte se conseguia escapar com vida.</p>
+            <p>A fim de evitar tais assaltos, foram criadas escoltas especiais para acompanhar os carregamentos de ouro e garantir que chegassem às Casas de Fundição. Quando um garimpeiro achava possuir ouro suficiente para compensar o pagamento da escolta, que não era pequeno, convocava-a para a remessa.</p>
+            <p>Muitos garimpeiros levavam tempo para acumular tal quantidade e às vezes morriam antes, deixando escondido o tesouro que haviam conseguido ajuntar. É “clauro” que muitos tesouros acabaram por ser descobertos. Outros, porém, continuam ocultos até hoje.</p>
+            <p>- Bem que a gente podia dar uma espiadinha, não é mesmo? – propôs Iberê, olhando cuidadosamente em redor.</p>
+            <p>- Você quer dizer procurá-los? – perguntou o Arrelia.</p>
+            <p>- Pois então – respondeu o menino, estranhando a dúvida do Arrelia.</p>
+            <p>- E o que você pretende fazer para encontrá-los?</p>
+        </div>
+        <div class="imagem" id="a2">
+            <img src="imagem/Volume4/64.png" alt="O Casaca de Ferro sobre o baú de tesouros">
+        </div>
+        <div class="texto" id="a3">
+            <p>- Ora, a gente podia dar umas cavoucadinhas por aí.</p>
+            <p>- Muito fácil, não tem dúvida. Só que se pode passar a vida inteira cavoucando sem encontrar nada. Somente por acaso. Ou encontrando um mapa, ou pelo menos sonhando. Há pessoas que acreditam nos sonhos.</p>
+            <p>- Ouvindo você falar em sonhos, Arrelia, lembrei de uma coisa que aconteceu comigo – disse Carlinhos. Faz uns dois anos, tive um sonho sobre tesouro e deu certo.</p>
+            <p>O choque fez o Arrelia jogar a bengala no chão e exclamar:</p>
+            <p>- Não “diuga“! É “verdade”? Você sonhou com um tesouro e deu certo? Por que não contou antes?</p>
+        </div>
+        <div class="imagem" id="a4">
+            <img src="imagem/Volume4/65.png" alt="O Baú de tesouros">
+        </div>
+        <div class="texto" id="a5">
+            <p>- Bem, é que . . . No fim, sabe . . . eu . . . – hesitou o menino.</p>
+            <p>- Ora, conte como foi – pediu o Arrelia, apanhando a bengala e olhando-a com cuidado para ver se apresentava algum estrago causado pelo tombo.</p>
+            <p>Carlinhos não parecia resolvido a iniciar a narração e acabou provocando o protesto das outras crianças. Não viu outro jeito senão contar a aventura:</p>
+            <p>- Eu havia assistido a um filme de caçadores de tesouros e tinha ficado impressionado. Para dizer a verdade, não foi um sonho que tive. Foram diversos. Mas o último pareceu tão verdadeiro que em parecia um sonho. Sonhei que estava chegando a uma ilha, num navio muito antigo, igual aos dos piratas. Engraçado que só eu me encontrava nele. Não tinha mais ninguém. Ainda um pouco longe da ilha, o navio começou a correr que nem foguete e acabou parando mansamente na areia. Desci e fiquei admirando o lugar, que parecia completamente deserto. Comecei a pensar: “O que vim fazer aqui?” De repente consegui lembrar-me: “Ah! Vim procurar um tesouro! “</p>
+        </div>
+        <div class="imagem" id="a6">
+            <img src="imagem/Volume4/66.png" alt="A casaca de ferro">
+        </div>
+        <div class="texto" id="a7">
+            <p>Comecei a andar pela ilha. Só árvores e mais árvores. Aí dei com um homem. Fazia lembrar um pirata mas não dava para ver direito porque era transparente e às vezes quase chegava a desaparecer. Que senti medo nem é preciso dizer.</p>
+            <p>- Faço ideia! Até eu já estou “apavoraudo”! – exclamou o Arrelia fazendo uma expressão de terror.</p>
+            <p>- Se fosse eu, daria um jeito de fugir do sonho – comentou Jaci com um olhar de esperteza.</p>
+            <p>- Falar é fácil – respondeu Carlinhos. Acha que se eu pudesse não havia fugido?</p>
+            <p>- Deixe o Carlinhos contar o sonho! – interveio o Arrelia. Quero saber como foi que ele achou o tesouro!</p>
+        </div>
+        <div class="texto" id="a8">
+            <p>Sem disfarçar uma ponta de orgulho por ver todos os outros atentos à espera de suas palavras, Carlinhos prosseguiu:</p>
+            <p>- O tal homem que parecia um pirata perguntou-me:</p>
+            <p>- O que você quer nesta ilha?</p>
+            <p>Foi com muito custo que consegui responder:</p>
+            <p>- Não vim aqui por minha vontade. Mas estou procurando um tesouro.</p>
+            <p>- Não é qualquer um que pode fazer isso – disse ele com uma voz que dava medo. Porém estou com pena de você. Sei onde estão escondidos muitos tesouros. Tem um, por exemplo, bem perto de sua casa.</p>
+            <p>- É mesmo? – perguntei, começando a ficar animado.</p>
+            <p>- Sim. Venha comigo.</p>
+        </div>
+        <div class="texto" id="a9">
+            <p>- Resolvi ir com ele. Fomos entrando pelo mato.</p>
+            <p>Marisa não resistiu e exclamou:</p>
+            <p>- Que coragem! Sozinho numa ilha com um fantasma!</p>
+            <p>- Era apenas um sonho, Marisa – lembrou o Arrelia. Se fosse “verdade”, o Carlinhos teria atravessado o oceano andando por cima da água,</p>
+            <p>Carlinhos ficou amuado e calou-se. Todos tiveram de implorar para que ele continuasse.</p>
+            <p>- Se me interromperem outra vez, não conto mais nada, hein? – prometeu ele e continuou a falar sobre o seu sonho:</p>
+        </div>
+        <div class="imagem" id="a10">
+            <img src="imagem/Volume4/67.png" alt="Garrucha">
+        </div>
+        <div class="texto" id="a11">
+            <p>- Fomos andando. O mal era que o fantasma não precisava desviar-se do mato: passava por ele como se não existisse nada. E eu, pobre de mim! Tinha de correr para compensar as voltas que precisava dar.</p>
+            <p>Depois de algum tempo, eu não podia mais comigo. Sentia uma dor nos pés que não aguentava. Teve uma hora que não pude mais: sentei no chão mesmo. O fantasma sentiu minha falta e voltou. Olhou para mim e disse meio bravo:</p>
+            <p>- Se você não quer ver o tesouro, diga logo. Não posso perder tempo.</p>
+            <p>Mal podendo falar de cansado, respondi:</p>
+            <p>- Quere, eu quero. Só que estou quase morto. Não posso mais andar. Você passa pelo mato e eu não.</p>
+            <p>Ele ficou com dó de mim e disse:</p>
+            <p>- Está bem. Você vai ficar como eu. Venha.</p>
+            <p>Imediatamente senti uma leveza por todo o corpo e nem sombra de cansaço. Saí atrás dele. Percebi que eu também podia passar pelo mato sem me desviar</p>
+        </div>
+        <div class="imagem" id="a12">
+            <img src="imagem/Volume4/68.png" alt="Pirata"></div>
+        <div class="texto" id="a13">
+            <p>Jaci interrompeu-o assustada:</p>
+            <p>- Então você havia virado fantasma!</p>
+            <p>- Puxa “viuda”! – exclamou o Arrelia. Já estou ficando com medo do Carlinhos. E se ele é um fantasma e nós não sabemos?</p>
+            <p>Novamente o menino ficou amuado e novamente todos precisaram implorar para que ele prosseguisse.</p>
+            <p>- É a última vez que vocês me interrompem – advertiu ele. Mais uma vez e acabou-se</p>
+            <p>O Arrelia olhou para os outros com admiração. Carlinhos não estava mesmo para brincadeira.</p>
+            <p>- Depois de uma boa caminhada – continuou o menino – chegamos a uma casa. Vocês não são capazes de imaginar qual era a casa. Era a minha! Estava completa, não faltava nada. Só que estava deserta. Entramos por ela e fomos ao quintal. Vi com perfeição o pé de caqui que tem lá. O fantasma olhou por toda a parte como procurando lembrar-se do lugar onde estava escondido o tesouro. Deu uma volta pelo quintal, comigo sempre atrás dele, acabou parando perto do caquizeiro e disse:</p>
+        </div>
+        <div class="texto" id="a14">
+            <p>- O tesouro está enterrado sob essa árvore.</p>
+            <p>Imediatamente pensei em conseguir uma enxada e ele surgiu na minha mão.</p>
+            <p>Iberê não conseguiu deixar de comentar:</p>
+            <p>- Já pensaram? O Carlinhos trabalhando!</p>
+            <p>- E por que não? – perguntou o menino, já meio ofendido.</p>
+            <p>- Mas deixe o Carlinhos terminar a estória! – pediu o Arrelia.</p>
+            <p>Felizmente, Carlinhos não se lembrou de sua promessa de não continuar caso fosse interrompido outra vez:</p>
+            <p>- Quando eu ia começar a cavar, acordei.</p>
+            <p>- Essa não! – exclamou o Arrelia, decepcionado. E depois?</p>
+            <p>- Logo que foi possível – continuou Carlinhos – fui ao quintal, agora de verdade, peguei a enxada e procurei o caquizeiro. Comecei a fazer buraco por toda a parte em volta a árvore. Quando eu ia desistir, a enxada bateu em alguma coisa.</p>
+            <p>- O tesouro! – gritaram todos os outros ao mesmo tempo.</p>
+            <p>- Abem . . . Não era bem um tesouro. Era uma lata bem forte e pelo jeito muito antiga. Não foi fácil de abrir, não.</p>
+            <p>- E o que estava dentro? Fale logo! – disse ansiosamente o Arrelia.</p>
+        </div>
+        <div class="imagem" id="a15">
+            <img src="imagem/Volume4/69.png" alt="Navio Pirata">
+        </div>
+        <div class="texto" id="a16">
+            <p>- Dentro da lata havia um vidro e dentro do vidro um papel. Pensei: “Deve ser o mapa do tesouro. É sempre assim: a gente encontra um mapa que diz para dar tantos passos à direita, tantos à esquerda e uma porção de coisas mais. No fim, dá-se com o tesouro.” Depois de muito esforço, consegui abrir a garrafa. Tirei o papel e li . . . Sabem o quê?</p>
+            <p>- Ora! O que podia ser? O mapa do tesouro é lógico! Exclamou o Arrelia.</p>
+            <p>- Nada disso.</p>
+            <p>- O que era então?</p>
+            <p>- Era um bilhete! Estava escrito: “Lembrança do Joãozinho, um caçador de tesouros que jamais encontrou nada.”</p>
+            <p>Dando este final à sua narração, Carlinhos teve de enfrentar novamente os protestos de seus companheiros:</p>
+            <p>- Que “bandiudo”! – disse o Arrelia. Ficamos uma hora ouvindo a estória do tesouro para depois bancarmos os bobos!</p>
+            <p>- Que brincadeira mais sem graça! – exclamou Jaci, medindo o menino de cima a baixo.</p>
+            <p>Carlinhos defendeu-se como pode:</p>
+            <p>- Mas foi esse o sonho que tive! E foi o que aconteceu!</p>
+            <p>- Não se pode esperar mesmo nada desse menino – sentenciou Jaci. Aposto que ele inventou toda essa estória agora.</p>
+            <p>- Pois é como eu disse – afirmou o Arrelia. Não é fácil encontrar um tesouro. A gente pode estar sobre um neste momento e nem pensar nisto. Aliás, consta que nestas redondezas um tesouro foi enterrado: o tesouro do Casaca de Ferro.</p>
+            <p>- Ele usava uma casava de ferro? – espantou-se Marisa.</p>
+            <p>- Não se sabe bem de onde surgiu o apelido – esclareceu o Arrelia. Dizem uns que ele usava uma armadura a fim de proteger-se de algum ataque, e daí teria vindo o apelido.</p>
+            <p>Eu havia dito antes que os garimpeiros costumavam acumular o ouro para compensar os gastos com a escolta, não é mesmo? Pois foi por causa disto que teve origem o tesouro do Casaca de Ferro. Era um homem muito rico que possuía importante fazenda. Tinha extensas lavouras e dedicava-se também à mineração do ouro.</p>
+            <p>Gostava muito de festas, e por ocasião do batizado de seus escravos não deixava de realizar grandes festejos a que compareciam também as pessoas mais importantes do lugar. Eram festas muito “boniutas”, das quais participavam os escravos, que as animavam com suas danças e cantigas características.</p>
+        </div>
+        <div class="imagem" id="a17">
+            <img src="imagem/Volume4/70.png" alt="Espanhol e os Negros">
+        </div>
+        <div class="texto" id="a18">
+            <p>Naturalmente, o Casaca de Ferro, por ser rico e muito importante como era, possuía alguns inimigos, e não deviam ser de boa paz já que o obrigavam a andar de armadura. Não eram muitas as pessoas de sua inteira confiança e a mais leal de todas era o seu capataz.</p>
+            <p>Assim, quando num mês de junho apareceram na fazenda dois negros muito fortes e desconhecidos pedindo trabalho e foram aceitos pelo Casaca de Ferro, seu capataz procurou-o preocupado:</p>
+            <p>- Longe de mim querer contrariar suas ordens, senhor, mas não creio que seja procedimento seguro dar emprego a esses homens.</p>
+            <p>Ele virou-se surpreso para o capataz:</p>
+            <p>- E no que você se prende para suspeitar deles? Conhece-os?</p>
+            <p>- Não, isso não. Porém os modos deles, as suas expressões, não me deixam tranquilo. É bem possível que tenham sido mandados por inimigos seus.</p>
+            <p>- Não creio. Acho que apenas desejam trabalhar.</p>
+            <p>- Pois não consigo pensar assim. Continuo com a opinião de que mandá-los embora seria melhor.</p>
+            <p>- Sossegue! São dois pobres homens incapazes de fazer mal a alguém!</p>
+            <p>- O senhor é quem manda. Contudo, não vou conseguir ficar sossegado.</p>
+            <p>O Casaca de Ferro insistiu que eram homens de bem e pediu ao capataz que não pensasse mais no assunto.</p>
+            <p>Aproximava-se a véspera de São Pedro e um grande movimento se apossou da fazenda. Os escravos corriam daqui e dali, enfeitando os lugares onde os festejos iam ser realizados.</p>
+            <p>Outra vez o capataz procurou o Casaca de Ferro e falou-lhe sobre os dois estranhos:</p>
+            <p>- O senhor vai permitir que eles participem da festa?</p>
+            <p>- Claro! -Por que não? Não tem direito? Também trabalham conosco!</p>
+            <p>- Sim, é verdade. Não contesto o direito que eles têm. Porém quanto mais os observo, mais me convenço de suas más intenções.</p>
+        </div>
+        <div class="imagem" id="a19">
+            <img src="imagem/Volume4/71.png" alt="A Espingarda">
+        </div>
+        <div class="texto" id="a20">
+            <p>- Mas o que é isso? São dois coitados que só querem trabalhar!</p>
+            <p>- Não sei. Já estão conosco há vários dias e procedem de modo suspeito. Não fazem amizade com ninguém e portam-se de um jeito que dá a impressão de que só esperam o momento de realizar alguma coisa para partirem.</p>
+            <p>- Nada disso. Eles são novos aqui. Não podem mesmo ter feito amizade. Vamos dar tempo ao tempo. Você vai ver que acabarão por ficar bons camaradas.</p>
+            <p>- Receio que esperam a confusão da festa que vamos realizar para fazer alguma malvadeza.</p>
+            <p>- Tranquilize-se que nada acontecerá. Bem, vamos cuidar dos preparativos. Quero que esta festa de São Pedro seja a melhor de todas.</p>
+            <p>Os dois homens separaram-se e foram verificar os preparativos. O capataz, logo adiante, surpreendeu os dois estranhos cochichando e ficou mais alarmado ainda.</p>
+            <p>Chegou o dia da festa. Uma alegria enorme pairava por toda a parte. Danças e cantos, comes e bebes, risadas. O próprio capataz, com o divertimento nem se lembrou mais dos dois estranhos.</p>
+            <p>Na fazenda havia uma linda capelinha construída ao pé de enorme figueira. Era um lugar sombreado e acolhedor. Ali o Casaca de Ferro costumava rezar.</p>
+            <p>Na noite da festa, ele dirigiu-se à capelinha e ajoelhou-se logo na entrada. Ficou ali rezando, sem perceber a aproximação dos dois estranhos. Aproximaram-se sorrateiramente, armados de espingardas, e esconderam-se atrás de uns arbustos. Para sentir-se mais à vontade na festa, o Casaca de Ferro havia tirado sua armadura. Dois fortes estampidos chamaram a atenção dos que estavam na festa. Todos correram para ver o que acontecera. Deram com o fazendeiro já agonizante e o levaram para a casa da fazenda. Imediatamente o capataz organizou vários grupos para dar caça aos dois negros que ele tinha certeza de serem os assassinos. Procuraram por todas as partes mas não conseguiram encontrá-los. Tinham conseguido escapar.</p>
+        </div>
+        <div class="texto" id="a21">
+            <p>Algumas horas depois o fazendeiro morria. O pessoal da fazenda começou a dizer que o Casaca de Ferro deixara cinco enormes panelas cheias de ouro, enterradas num lugar que só ele sabia, pois estava preparando uma remessa à Casa de Fundição.</p>
+            <p>A notícia causou uma porção de buracos por todo o lugar, pois todos queriam por a mão naquela fortuna.</p>
+            <p>- Mas nada foi encontrado, não é verdade? – interrompeu Jaci.</p>
+            <p>- “Nauda” mesmo – afirmou o Arrelia. Agora, o pior aconteceu depois.</p>
+            <p>As crianças olharam para o Arrelia com nova curiosidade.</p>
+            <p>- Depois de algum tempo da morte do fazendeiro, alguns começaram a dizer que haviam visto o seu “fantausma”. O fazendeiro estava de volta para guardar o seu ouro. Quando era noite alta, um vulto branco perambulava pelos lugares próximos à fazenda, assustando as pessoas que encontrava. Quanta gente não correu por causa dele!</p>
+            <p>Jaci lembrou-se de brincar:</p>
+        </div>
+        <div class="imagem" id="a22">
+            <img src="imagem/Volume4/72.png" alt="O menino e o Pirata">
+        </div>
+        <div class="texto" id="a23">
+            <p>- Boa ocasião para o Carlinhos mostrar se é corajoso, hein, Arrelia? Você podia dizer-lhe onde é o lugar e ele iria lá à noite.</p>
+            <p>O Arrelia procurou Carlinhos com os olhos e perguntou-lhe:</p>
+            <p>- Você quer mesmo ver o “fantausma”? Conheço o lugar. Se você quiser ir lá à noite . . .</p>
+            <p>- O fantasma não me fez nada, ué! – respondeu Carlinhos. Não é falta de coragem, não, mas para que perder tempo?</p>
+            <p>As outras crianças começaram a caçoar do menino.</p>
+            <p>- Perder tempo, é? – disse Jaci. Você precisa é encontrar a coragem.</p>
+            <p>- Bem, “criançauda” – interveio o Arrelia. Deixem-me terminar a estória.</p>
+            <p>Custou um pouco antes que o Arrelia pudesse recomeçar:</p>
+            <p>- Alguns homens chegaram à conclusão de que se conseguissem descobrir o esconderijo do fantasma acabariam por encontrar o tesouro, pois é claro que o fantasma devia permanecer perto do ouro quando não estava assustando os outros. Foi organizado um grupo com os homens mais valentes do lugar para seguir a aparição. Uma noite, eles reuniram-se num local, no meio do mato à beira da estrada, por onde o fantasma também costumava passar.</p>
+        </div>
+        <div class="imagem" id="a24">
+            <img src="imagem/Volume4/73.png" alt="Escravos espreitando">
+        </div>
+        <div class="texto" id="a25">
+            <p>Embora fossem os mais valentes, não quer dizer que não tremessem só de pensar no que iam fazer. Seguir um fantasma!</p>
+            <p>Noite escura, sem Lua. Silêncio profundo só quebrado pelo cricri dos grilos e por um grito ou outro de alguma ave noturna. Os homens estavam ali, sem falar, os olhos postos na estrada, na expectativa da aparição.</p>
+            <p>Transcorrido algum tempo, um deles murmura numa voz que mal dá para ouvir:</p>
+            <p>- Olhem lá! Vejam! É ele!</p>
+            <p>O “fantausma” vinha vindo. Lentamente, flutuando na estrada, aproximava-se. Os homens tremiam de medo. Ele passou pelo lugar, parou por um instante perto deles e não foi só um que sentiu um desejo louco de correr. Aguentaram, porém, e foram atrás dele. Com todo o “cuidaudo”, é lógico.</p>
+        </div>
+        <div class="texto" id="a26">
+            <p>- Não seria eu! – exclamou Sérgio. Ir atrás de fantasma!</p>
+            <p>- Vocês não estão levando a sério, estão? – perguntou o Arrelia. Não vão esquecer que é estória e ficar com medo, hein?</p>
+            <p>Mas continuando, não adiantou nada o sacrifício dos “coitaudos”. Depois de uma boa caminhada, o fantasma sumiu de repente. Tentaram outras vezes, outras pessoas tentaram, porém nada conseguiram. E assim o lugar onde está o tesouro continua desconhecido até hoje.</p>
+            <p>Terminada a estória, o Arrelia e as crianças voltaram ao hotel e só tornaram a sair à noite para dar umas voltas pelos arredores. Fazia uma noite bonita, enluarada. Pegaram uma estrada ladeada de mato, suavemente iluminada pelo luar. Silêncio profundo. Apenas um ou outro grito de alguma ave noturna e o cricri dos grilos. Iberê comentou:</p>
+        </div>
+        <div class="imagem" id="a27">
+            <img src="imagem/Volume4/74.png" alt="O Casaca de Ferro rezando">
+        </div>
+        <div class="texto" id="a28">
+            <p>- Faz lembrar o lugar em que surgiu o fantasma, não faz?</p>
+            <p>O Arrelia olhou em redor e concordou:</p>
+            <p>- De fato. Só que não havia luar.</p>
+            <p>- Não seria bom nós voltarmos? – sugeriu Carlinhos.</p>
+            <p>- Não vá dizer que você está com medo do “fantausma”! – surpreendeu-se o Arrelia.</p>
+            <p>- Não é bem isso – respondeu o menino. É que este lugar é meio misterioso e parece que alguma coisa vai acontecer.</p>
+            <p>- Não tenha medo que não vai acontecer “nauda”. Fantasma não existe e não estamos mais nos tempos em que os bandidos viviam assaltando os que passavam.</p>
+            <p>- Eu si – sussurrou Carlinhos. Mas acho melhor voltarmos.</p>
+            <p>As outras crianças não resistiram e começaram a zombar do menino. Ele ficou mal-humorado e não disse mais nada.</p>
+            <p>- Olhe – continuou o Arrelia. Não se deve ter medo dessas coisas senão a própria imaginação faz a gente ver o que não quer.</p>
+            <p>- É isso mesmo – afirmou Iberê. Meu pai sempre fala isso. O Arrelia tem razão.</p>
+            <p>- Pois é! – finalizou o Arrelia, todo orgulhoso.</p>
+            <p>Marisa resolveu entrar na conversa:</p>
+            <p>- Mas, já pensaram só por brincadeira, se de fato o fantasma do fazendeiro aparecesse? O que será que faríamos?</p>
+            <p>- Eu nem prestaria atenção – respondeu o Arrelia.</p>
+        </div>
+        <div class="texto" id="a29">
+            <p>- Nem eu – disse a menina. Imaginem! Ter medo . . .</p>
+            <p>Uma a uma, as outras crianças também afirmaram a sua disposição de não ligarem para o fantasma. Até Carlinhos, agora cheio de coragem, expressou a sua firmeza de ânimo diante de uma provável aparição.</p>
+            <p>- E ainda mais – tornou o Arrelia. Sabem o que eu faria? Dava umas “bengalaudas” nele.</p>
+            <p>Foi aplaudido com entusiasmo. Prosseguiram. Aí na estrada surgiu um vulto branco. Era um caboclo, de terno de brim, que seguia para a cidade.</p>
+            <p>- O que é aquilo? – perguntou Carlinhos, agarrando-se ao Arrelia.</p>
+            <p>- O quê? Aquilo o quê? – quis saber o Arrelia.</p>
+            <p>Todos avistaram o vulto que se aproximava e gritaram ao mesmo tempo: “O fantasma!”</p>
+            <p>O Arrelia resolveu que era melhor voltarem e deram meia volta. Apressaram o passo. O homem que já estava perto, por algum motivo queria falar com eles e gritou:</p>
+            <p>- Esperem! Quero falar com vocês!</p>
+            <p>Foi o suficiente. As crianças dispararam. O Arrelia disparou atrás delas e conseguiu ultrapassá-las. Manejando a bengala como se fosse uma espada, ele comandava:</p>
+            <p>- Para a frente. “criançauda”! Vamos embora!</p>
+            <p>E lá foram eles levantando poeira e deixando o caboclo a coçar a cabeça, sem saber o que pensar.</p>
+        </div>
+        <div class="imagem" id="a30"><img src="imagem/Volume4/75.png" alt="O caipira"></div>
+        <div class="rodapé" id="a31"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
