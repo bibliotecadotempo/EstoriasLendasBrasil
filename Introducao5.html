@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fontes.css">
+    <link rel="stylesheet" href="Cores.css">
+    <link rel="stylesheet" href="Inicio.css">
+    <title>Introdução</title>
+    <style>
+        .principal {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr;
+            gap: 5px;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        #a1 {grid-area: 1 / 1 / 2 / 2;}
+        
+        #a2 {grid-area: 2 / 1 / 3 / 2;}
+
+        #a1 p:first-of-type::first-letter {
+            font-family: 'Maxini';
+            font-size: 4em;
+        }
+
+        #a2 > h3 {
+            font-family: 'EBGItalic';
+            padding: 10px;
+            color: var(--azul-claro);
+            background-color: var(--azul-violeta);
+            font-size: 1.4em;
+        }
+
+        .rodapé {
+            background-color: var(--azul-violeta);
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Estórias e Lendas do Brasil</h1>
+        </header>
+    </main>
+
+    <div id="menu"></div>
+    <script src="menu.js"></script>
+
+    <div class="personagens">
+        <h2 id="livro">Introdução</h2>
+    </div>
+
+    <div class="principal">
+        <div class="texto" id="a1">
+            <p>Nesta parte final de sua excursão pelo Brasil, o Arrelia e as crianças já se encontram no Estado de São Paulo, a caminho da Capital. Antes, porém, vão percorrer várias cidades do interior e do litoral, onde travarão conhecimentos com muitos de seus costumes tradicionais, com seus habitantes, simples e acolhedores, com bichos e aves de nossos campos e, é lógico, com suas lendas e estórias principais.</p>
+            <p>Estão hospedados numa autêntica fazenda Paulista, em que, além de outras plantações, vicejam os cafeeiros. Nossos amigos passeiam tranquilamente por entre o cafezal, parando aqui e ali para admirar o trabalho dos empregados da fazenda.</p>
+            <p>- Vocês não fazem ideia de quanta riqueza vamos encontrar! – disse o Arrelia com entusiasmo.</p>
+            <p>- Já estamos vendo uma – retrucou Iberê apontando para os cafeeiros.</p>
+            <p>- Ih! Começou! – exclamou o Arrelia. Isso é uma riqueza, nem se discute! Porém eu estava pensando em outras coisas!</p>
+            <p>- Sim? Em que? – quis saber o menino.</p>
+            <p>- Nos costumes, nas lendas bonitas do interior e do litoral de São Paulo. Olhem que tenho “viajaudo” muito por esses lugares. E no entanto sempre há o que aprender. Há estórias tão bonitas que mesmo ouvidas várias vezes não deixam de ser interessantes. E as comidas então?</p>
+            <p>Depois de ficar uns momentos em silêncio, recordando, o Arrelia prosseguiu:</p>
+            <p>- Por falar em comida, não posso esquecer-me de uma vez. Foi há alguns anos. Eu estava hospedado numa fazenda. Como eu tinha passeado muito, na hora do jantar não aguentava mais de fome. E como sou louco pelos pratos caipiras, quando puseram a “comiuda” ataquei. Havia cada coisa . . . Tinha um tatu, assado no próprio casco, que estava uma beleza. Com a fome que eu sentia, o pobre do tatu era pouco. Enquanto os outros ainda estavam tomando lugar, eu já ia adiantando no ataque. Ficaram todos me olhando espantados. Não sobrou muito, não. Um dos meus amigos me disse brincando:</p>
+            <p>- Olhe, Arrelia: o casco não se come. É um pouco duro, sabe?</p>
+            <p>- Foi bom ter-me avisado. Eu já ia atacá-lo!</p>
+            <p>Um outro homem falou baixinho ao seu companheiro de mesa, mas a sério, não por brincadeira:</p>
+            <p>- Vá comer assim noutro lugar! Não sobrou quase nada! Acho que ele estava sem comer desde a criação do mundo! Olhe, enquanto ele estiver aqui não convém preparar mais nenhum tatu!</p>
+            <p>E vocês vão sentir a mesma fome que senti, vão ver só. Sabem por quê? Porque a comida é boa de fato. Quem fica só na cidade não faz ideia das coisas gostosas que há por aqui. E quando chegarmos ao litoral, vamos comer moqueca de peixe, peixe seco com banana, mariscos, siri . . . Nem quero pensar.</p>
+            <p>- Quem não sai da cidade não sabe mesmo o que está perdendo, não é, Arrelia? – disse Jaci pensativamente.</p>
+            <p>- Pois é – respondeu o Arrelia, abaixando-se e pegando um punhado de café. Logo será hora de tomar café acompanhado de pipocas. Vocês jamais vão esquecer de gostosura que é. Sou louco para ouvir o barulho que as pipocas fazer ao rebentar, ouvir o chiado da água a ferver na chaleira de ferro, ver as labaredas que saltam . . . São estas coisas simples que realmente despertam o gosto de viver. Quando vocês forem grandes vão lembrar-se com “saudaude” das coisas boas que encontramos em nossa excursão.</p>
+
+        </div>
+        <div class="rodapé" id="a2"><h3>Desenvolvido por JF</h3></div>
+    </div>
+
+</body>
